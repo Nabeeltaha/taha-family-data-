@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-07-14",
+  "history": "لمحة تاريخية عن عائلة طه: عائلة عريقة معروفة في منطقتها منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
+  "members": [
+    {
+      "id": "1",
+      "parentId": null,
+      "name": "طه الجد الأول",
+      "birthYear": "1900",
+      "deathYear": "1975",
+      "photos": [],
+      "education": "كتاتيب القرية",
+      "currentJob": null,
+      "previousJobs": ["فلاح", "تاجر حبوب"],
+      "positions": ["مختار القرية"],
+      "bio": "الجد المؤسس للعائلة."
+    },
+    {
+      "id": "2",
+      "parentId": "1",
+      "name": "محمد طه",
+      "birthYear": "1930",
+      "deathYear": "2005",
+      "photos": [],
+      "education": "شهادة ابتدائية",
+      "previousJobs": ["معلم مدرسة"],
+      "positions": ["إمام مسجد القرية"]
+    },
+    {
+      "id": "3",
+      "parentId": "1",
+      "name": "أحمد طه",
+      "birthYear": "1933",
+      "deathYear": "2010",
+      "photos": [],
+      "previousJobs": ["تاجر"],
+      "positions": []
+    },
+    {
+      "id": "4",
+      "parentId": "2",
+      "name": "خالد محمد طه",
+      "birthYear": "1958",
+      "photos": [],
+      "education": "بكالوريوس هندسة",
+      "currentJob": "مهندس متقاعد",
+      "previousJobs": ["مهندس في شركة كهرباء"],
+      "positions": ["رئيس جمعية خيرية محلية"]
+    },
+    {
+      "id": "5",
+      "parentId": "2",
+      "name": "سامي محمد طه",
+      "birthYear": "1961",
+      "photos": [],
+      "education": "دبلوم زراعي",
+      "currentJob": "صاحب مزرعة",
+      "positions": []
+    },
+    {
+      "id": "6",
+      "parentId": "4",
+      "name": "طه خالد طه",
+      "birthYear": "1985",
+      "photos": [],
+      "education": "بكالوريوس تقنية معلومات",
+      "currentJob": "مطور برمجيات",
+      "previousJobs": ["فني صيانة أجهزة"],
+      "positions": []
+    },
+    {
+      "id": "7",
+      "parentId": "4",
+      "name": "ليلى خالد طه",
+      "birthYear": "1988",
+      "photos": [],
+      "education": "بكالوريوس صيدلة",
+      "currentJob": "صيدلانية",
+      "positions": []
+    }
+  ]
+}
