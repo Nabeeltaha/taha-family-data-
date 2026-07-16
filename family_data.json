@@ -1,25 +1,8 @@
 {
-  "version": 6,
-  "lastUpdated": "2026-07-16T16:15:39.712355",
+  "version": 9,
+  "lastUpdated": "2026-07-16T18:24:37.312359",
   "history": "لمحة تاريخية عن عائلة طه: عائلة عريقة معروفة في منطقتها منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "members": [
-    {
-      "id": "3",
-      "parentId": "1",
-      "name": "أحمد1ا طه",
-      "birthYear": "1933",
-      "deathYear": "2010",
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [
-        "تاجر"
-      ],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false
-    },
     {
       "id": "9",
       "parentId": "8",
@@ -410,6 +393,25 @@
       "bio": "نشأ في مدينة دوما و و و ...... الخ",
       "isMartyr": false,
       "isFamous": true
+    },
+    {
+      "id": "3",
+      "parentId": "1",
+      "name": "أحمد طه",
+      "birthYear": "1933",
+      "deathYear": "2010",
+      "photos": [
+        "https://raw.githubusercontent.com/Nabeeltaha/taha-family-data-/main/photos/synced_1784214051993_3.jpg"
+      ],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [
+        "تاجر"
+      ],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false
     }
   ]
 }
