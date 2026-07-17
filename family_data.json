@@ -1,14 +1,52 @@
 {
-  "version": 31,
-  "lastUpdated": "2026-07-16T22:40:58.129682",
+  "version": 48,
+  "lastUpdated": "2026-07-14T23:42:22.845525",
   "history": "لمحة تاريخية عن عائلة طه: عائلة عريقة معروفة في منطقتها منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "members": [
+    {
+      "id": "3",
+      "parentId": "1",
+      "name": "أحمد أحمد طه",
+      "birthYear": "1933",
+      "deathYear": "2010",
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [
+        "تاجر"
+      ],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false
+    },
+    {
+      "id": "8",
+      "parentId": "3",
+      "name": "الشاعر صالح طه",
+      "birthYear": "1861",
+      "deathYear": "1907",
+      "photos": [
+        "/data/user/0/com.example.taha_family_app/app_flutter/member_photos/photo_1784033769814.jpg"
+      ],
+      "education": "شاعر",
+      "currentJob": null,
+      "previousJobs": [
+        "رئيس مجمع الشعراء"
+      ],
+      "positions": [
+        "رئيس بلدية دوما"
+      ],
+      "bio": "نشأ في مدينة دوما و و و ...... الخ",
+      "isMartyr": false,
+      "isFamous": false
+    },
     {
       "id": "9",
       "parentId": "8",
       "name": "طه طه",
       "birthYear": "1899",
-      "deathYear": "1963",
+      "deathYear": "١٩٦١",
       "photos": [],
       "education": null,
       "currentJob": null,
@@ -31,6 +69,27 @@
       "positions": [],
       "bio": null,
       "isMartyr": true,
+      "isFamous": false
+    },
+    {
+      "id": "11",
+      "parentId": "10",
+      "name": "محمد نبيل طه",
+      "birthYear": "1972",
+      "deathYear": null,
+      "photos": [
+        "/data/user/0/com.example.taha_family_app/app_flutter/member_photos/photo_1784038308140.jpg"
+      ],
+      "education": "مهندس مدني",
+      "currentJob": "مكتب أعمال هندسية",
+      "previousJobs": [
+        "مدير قرى أطفال سورية SOS"
+      ],
+      "positions": [
+        "رئيس المجلس المحلي لمدينة دوما 2018-2020"
+      ],
+      "bio": null,
+      "isMartyr": false,
       "isFamous": false
     },
     {
@@ -347,67 +406,6 @@
       "education": null,
       "currentJob": null,
       "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false
-    },
-    {
-      "id": "11",
-      "parentId": "10",
-      "name": "محمد نبيل طه",
-      "birthYear": "1972",
-      "deathYear": null,
-      "photos": [
-        "https://raw.githubusercontent.com/Nabeeltaha/taha-family-data-/main/photos/synced_1784207618063_11.jpg"
-      ],
-      "education": "مهندس مدني",
-      "currentJob": "مكتب أعمال هندسية",
-      "previousJobs": [
-        "مدير قرى أطفال سورية SOS"
-      ],
-      "positions": [
-        "رئيس المجلس المحلي لمدينة دوما 2018-2020"
-      ],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": true
-    },
-    {
-      "id": "8",
-      "parentId": "3",
-      "name": "الشاعر صالح طه",
-      "birthYear": "1861",
-      "deathYear": "1907",
-      "photos": [
-        "https://raw.githubusercontent.com/Nabeeltaha/taha-family-data-/main/photos/synced_1784207619699_8.jpg"
-      ],
-      "education": "شاعر",
-      "currentJob": null,
-      "previousJobs": [
-        "رئيس مجمع الشعراء"
-      ],
-      "positions": [
-        "رئيس بلدية دوما"
-      ],
-      "bio": "نشأ في مدينة دوما و و و ...... الخ",
-      "isMartyr": false,
-      "isFamous": true
-    },
-    {
-      "id": "3",
-      "parentId": "1",
-      "name": "أحمد طه",
-      "birthYear": "1933",
-      "deathYear": "2010",
-      "photos": [
-        "https://raw.githubusercontent.com/Nabeeltaha/taha-family-data-/main/photos/synced_1784214051993_3.jpg"
-      ],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [
-        "تاجر"
-      ],
       "positions": [],
       "bio": null,
       "isMartyr": false,
