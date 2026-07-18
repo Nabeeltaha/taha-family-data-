@@ -26,9 +26,7 @@
       "name": "الشاعر صالح طه",
       "birthYear": "1861",
       "deathYear": "1907",
-      "photos": [
-        "/data/user/0/com.example.taha_family_app/app_flutter/member_photos/photo_1784033769814.jpg"
-      ],
+      "photos": ["https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207619699_8.jpg"],
       "education": "شاعر",
       "currentJob": null,
       "previousJobs": [
@@ -77,9 +75,7 @@
       "name": "محمد نبيل طه",
       "birthYear": "1972",
       "deathYear": null,
-      "photos": [
-        "/data/user/0/com.example.taha_family_app/app_flutter/member_photos/photo_1784038308140.jpg"
-      ],
+     "photos": ["https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207618063_11.jpg"],
       "education": "مهندس مدني",
       "currentJob": "مكتب أعمال هندسية",
       "previousJobs": [
