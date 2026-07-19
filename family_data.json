@@ -1,6 +1,6 @@
 {
-  "version": 61,
-  "lastUpdated": "2026-07-17T14:52:13.489526",
+  "version": 62,
+  "lastUpdated": "2026-07-19T20:10:05.092277",
   "history": "لمحة تاريخية عن عائلة طه: عائلة عريقة معروفة في منطقتها منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "members": [
     {
@@ -26,7 +26,9 @@
       "name": "الشاعر صالح طه",
       "birthYear": "1861",
       "deathYear": "1907",
-      "photos": ["https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207619699_8.jpg"],
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207619699_8.jpg"
+      ],
       "education": "شاعر",
       "currentJob": null,
       "previousJobs": [
@@ -75,7 +77,9 @@
       "name": "محمد نبيل طه",
       "birthYear": "1972",
       "deathYear": null,
-     "photos": ["https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207618063_11.jpg"],
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207618063_11.jpg"
+      ],
       "education": "مهندس مدني",
       "currentJob": "مكتب أعمال هندسية",
       "previousJobs": [
