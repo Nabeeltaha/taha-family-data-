@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-08-03T18:12:02.044214",
+  "lastUpdated": "2026-08-03T20:29:43.354240",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nعائلة عريقة معروفة في منطقتها منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -203,30 +203,6 @@
           "linkedMemberId": null
         }
       ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1784551464155069",
-      "parentId": "50",
-      "name": "لمى طه",
-      "birthYear": "1988",
-      "deathYear": null,
-      "photos": [],
-      "education": "بكالوريا",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "female",
-      "motherName": "نجاح سريول",
-      "isSingle": false,
-      "wives": [],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
@@ -492,42 +468,6 @@
       "isSingle": false,
       "wives": [],
       "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "11",
-      "parentId": "10",
-      "name": "محمد نبيل طه",
-      "birthYear": "1972",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207618063_11.jpg"
-      ],
-      "education": "مهندس مدني",
-      "currentJob": "مكتب أعمال هندسية",
-      "previousJobs": [
-        "مدير قرى أطفال سورية SOS"
-      ],
-      "positions": [
-        "رئيس المجلس المحلي لمدينة دوما 2018-2020"
-      ],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": true,
-      "gender": "male",
-      "motherName": "حياة الصلاحي",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "لينا",
-          "marriageDate": "٢٠٠٥",
-          "linkedMemberId": "51"
-        }
-      ],
-      "isCreator": true,
       "husband": null,
       "isRevolutionMartyr": false,
       "isMujahid": false,
@@ -5791,6 +5731,66 @@
           "linkedMemberId": "1785752735276955"
         }
       ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "11",
+      "parentId": "10",
+      "name": "محمد نبيل",
+      "birthYear": "1972",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207618063_11.jpg"
+      ],
+      "education": "مهندس مدني",
+      "currentJob": "مكتب أعمال هندسية",
+      "previousJobs": [
+        "مدير قرى أطفال سورية SOS"
+      ],
+      "positions": [
+        "رئيس المجلس المحلي لمدينة دوما 2018-2020"
+      ],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": "حياة الصلاحي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "لينا",
+          "marriageDate": "٢٠٠٥",
+          "linkedMemberId": "51"
+        }
+      ],
+      "isCreator": true,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1784551464155069",
+      "parentId": "50",
+      "name": "لمى",
+      "birthYear": "1988",
+      "deathYear": null,
+      "photos": [],
+      "education": "بكالوريا",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "نجاح سريول",
+      "isSingle": false,
+      "wives": [],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
