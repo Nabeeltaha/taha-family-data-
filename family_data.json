@@ -1,7 +1,7 @@
 {
   "version": 81,
-  "lastUpdated": "2026-08-03T20:29:43.354240",
-  "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nعائلة عريقة معروفة في منطقتها منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
+  "lastUpdated": "2026-08-04T00:59:00.718319",
+  "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_e9f27efb7a9c3b4fad8786d1dd563eea.jpg",
@@ -2386,32 +2386,6 @@
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1784819734052760",
-      "parentId": "1784819699625184",
-      "name": "محمد خير",
-      "birthYear": "1980",
-      "deathYear": "2011",
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_c450eaef4a71eb7561163322ca5061fb.jpg"
-      ],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": true,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": null,
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": true,
       "isMujahid": false,
       "isRevolutionMujahid": false
     },
@@ -5794,6 +5768,32 @@
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1784819734052760",
+      "parentId": "1784819699625184",
+      "name": "محمد خير",
+      "birthYear": "1980",
+      "deathYear": "2011",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_c450eaef4a71eb7561163322ca5061fb.jpg"
+      ],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": true,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": null,
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": true,
       "isMujahid": false,
       "isRevolutionMujahid": false
     }
