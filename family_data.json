@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-08-07T17:39:00.469708",
+  "lastUpdated": "2026-08-07T19:11:05.323229",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -1145,36 +1145,6 @@
       "motherName": null,
       "isSingle": false,
       "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "21",
-      "parentId": "20",
-      "name": "محمد",
-      "birthYear": "1978",
-      "deathYear": null,
-      "photos": [],
-      "education": "د مهندس  كلية  الهندسة الكهربائية جامعة دمشق",
-      "currentJob": "معاون مدير منطقة الغوطة الشرقية",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": true,
-      "gender": "male",
-      "motherName": null,
-      "isSingle": false,
-      "wives": [
-        {
-          "name": ".",
-          "marriageDate": null,
-          "linkedMemberId": null
-        }
-      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
@@ -4610,6 +4580,34 @@
       "isRevolutionMujahid": false
     },
     {
+      "id": "1784815736356929",
+      "parentId": "1784815676126690",
+      "name": "هنادي",
+      "birthYear": "1974",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": null,
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "عمر",
+        "marriageDate": null,
+        "linkedMemberId": "1784588536106910"
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
       "id": "1785440041935367",
       "parentId": "1785439932315610",
       "name": "هبة",
@@ -5818,29 +5816,31 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1784815736356929",
-      "parentId": "1784815676126690",
-      "name": "هنادي",
-      "birthYear": "1974",
+      "id": "21",
+      "parentId": "20",
+      "name": "محمد",
+      "birthYear": "1975",
       "deathYear": null,
       "photos": [],
-      "education": null,
-      "currentJob": null,
+      "education": "د مهندس  كلية  الهندسة الكهربائية جامعة دمشق",
+      "currentJob": "معاون مدير منطقة الغوطة الشرقية",
       "previousJobs": [],
       "positions": [],
       "bio": null,
       "isMartyr": false,
-      "isFamous": false,
-      "gender": "female",
-      "motherName": null,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": "د. رغداء رستم",
       "isSingle": false,
-      "wives": [],
+      "wives": [
+        {
+          "name": "هالة جحى",
+          "marriageDate": "١٩٩٨",
+          "linkedMemberId": null
+        }
+      ],
       "isCreator": false,
-      "husband": {
-        "name": "عمر",
-        "marriageDate": "1995",
-        "linkedMemberId": "1784588536106910"
-      },
+      "husband": null,
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
