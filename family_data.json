@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-08-07T19:11:37.422083",
+  "lastUpdated": "2026-08-07T20:15:24.365290",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -1142,32 +1142,6 @@
       "isMartyr": false,
       "isFamous": true,
       "gender": "male",
-      "motherName": null,
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1784817634197974",
-      "parentId": "1784817578307307",
-      "name": "الشاعر عماد الدين طه",
-      "birthYear": "1969",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_52474a5eaf3cf601480338759bc0130d.jpg"
-      ],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": true,
-      "gender": null,
       "motherName": null,
       "isSingle": false,
       "wives": [],
@@ -2539,34 +2513,6 @@
       "husband": null,
       "isRevolutionMartyr": false,
       "isMujahid": true,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1784757870815066",
-      "parentId": "12",
-      "name": "د صبحي طه",
-      "birthYear": "1918",
-      "deathYear": "2011",
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_990dcbdecfcd1a0f610ba4f061a81b7f.jpg"
-      ],
-      "education": "طبيب",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [
-        "عضو في البرلمان السوري مرتين"
-      ],
-      "bio": "عميد اطباء ريف دمشق ..  طبيب الفقراء",
-      "isMartyr": false,
-      "isFamous": true,
-      "gender": "male",
-      "motherName": null,
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
       "isRevolutionMujahid": false
     },
     {
@@ -5839,6 +5785,67 @@
           "linkedMemberId": null
         }
       ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1784817634197974",
+      "parentId": "1784817578307307",
+      "name": "الشاعر عماد الدين طه",
+      "birthYear": "1969",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_52474a5eaf3cf601480338759bc0130d.jpg"
+      ],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": null,
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "رزان مراد",
+          "marriageDate": null,
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1784757870815066",
+      "parentId": "12",
+      "name": "د صبحي طه",
+      "birthYear": "1918",
+      "deathYear": "2011",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_990dcbdecfcd1a0f610ba4f061a81b7f.jpg",
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_2e4ea1b2eb28cd60b5e72e41ac82137c.jpg"
+      ],
+      "education": "طبيب",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [
+        "عضو في البرلمان السوري مرتين"
+      ],
+      "bio": "عميد اطباء ريف دمشق ..  طبيب الفقراء",
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": null,
+      "isSingle": false,
+      "wives": [],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
