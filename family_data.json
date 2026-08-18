@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-08-18T17:06:55.078918",
+  "lastUpdated": "2026-08-18T17:14:32.040040",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -6058,6 +6058,62 @@
       "husband": {
         "name": "عصام شيخ النجار",
         "marriageDate": "2023",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1787062274970668",
+      "parentId": "1785004060762512",
+      "name": "هنادي",
+      "birthYear": "1983",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "رفيقة الدرة",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "معتز آدم",
+        "marriageDate": "2005",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1787062341093816",
+      "parentId": "1785004060762512",
+      "name": "ربا",
+      "birthYear": "1991",
+      "deathYear": null,
+      "photos": [],
+      "education": "معهد الفتح الاسلامي",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "رفيقة الدرة",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "محمود آدم",
+        "marriageDate": "2011",
         "linkedMemberId": null
       },
       "isRevolutionMartyr": false,
