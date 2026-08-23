@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-08-23T22:01:59.218854",
+  "lastUpdated": "2026-08-23T22:07:24.512593",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -201,30 +201,6 @@
       "isFamous": false,
       "gender": "male",
       "motherName": null,
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1784551955167526",
-      "parentId": "11",
-      "name": "مياس",
-      "birthYear": "2007",
-      "deathYear": null,
-      "photos": [],
-      "education": "مهندسة طالبة هندسة  عمارة",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "female",
-      "motherName": "لينا طه",
       "isSingle": false,
       "wives": [],
       "isCreator": false,
@@ -5566,42 +5542,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "11",
-      "parentId": "10",
-      "name": "محمد نبيل",
-      "birthYear": "1972",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207618063_11.jpg"
-      ],
-      "education": "مهندس مدني",
-      "currentJob": "مكتب أعمال هندسية",
-      "previousJobs": [
-        "مدير قرى أطفال سورية SOS"
-      ],
-      "positions": [
-        "رئيس المجلس المحلي لمدينة دوما 2018-2020"
-      ],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": true,
-      "gender": "male",
-      "motherName": "حياة الصلاحي",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "لينا",
-          "marriageDate": "٢٠٠٥",
-          "linkedMemberId": "51"
-        }
-      ],
-      "isCreator": true,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1784758020074469",
       "parentId": "1784757870815066",
       "name": "د محمد ياسر",
@@ -6353,6 +6293,65 @@
         }
       ],
       "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1784551955167526",
+      "parentId": "11",
+      "name": "مياس",
+      "birthYear": "2007",
+      "deathYear": null,
+      "photos": [],
+      "education": "مهندسة طالبة هندسة  عمارة",
+      "currentJob": "طالبة كلية الهندسة المعمارية",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "لينا طه",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "11",
+      "parentId": "10",
+      "name": "محمد نبيل",
+      "birthYear": "1972",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207618063_11.jpg"
+      ],
+      "education": "مهندس مدني",
+      "currentJob": "مكتب أعمال هندسية",
+      "previousJobs": [],
+      "positions": [
+        "رئيس المجلس المحلي لمدينة دوما 2018-2020",
+        "مدير قرى أطفال سورية SOS"
+      ],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": "حياة الصلاحي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "لينا",
+          "marriageDate": "٢٠٠٥",
+          "linkedMemberId": "51"
+        }
+      ],
+      "isCreator": true,
       "husband": null,
       "isRevolutionMartyr": false,
       "isMujahid": false,
