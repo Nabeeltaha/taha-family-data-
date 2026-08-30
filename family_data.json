@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-08-23T22:07:24.512593",
+  "lastUpdated": "2026-08-30T23:05:03.198849",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -4302,46 +4302,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1785439932315610",
-      "parentId": "1785439008637917",
-      "name": "سمير",
-      "birthYear": "1968",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "حسنا اديب",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "هنادي الطنطاوي",
-          "marriageDate": "١٩٩١",
-          "linkedMemberId": null
-        },
-        {
-          "name": "هند بكار",
-          "marriageDate": "١٩٩٢",
-          "linkedMemberId": null
-        },
-        {
-          "name": "سحر علي أديب",
-          "marriageDate": "١٩٩٣",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1784816585794276",
       "parentId": "1784815676126690",
       "name": "أنس",
@@ -6352,6 +6312,48 @@
         }
       ],
       "isCreator": true,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785439932315610",
+      "parentId": "1785439008637917",
+      "name": "سمير",
+      "birthYear": "1968",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_917ba0b10a5ed64f0d6515b889a8e9a3.jpg"
+      ],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "حسنا اديب",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "هنادي الطنطاوي",
+          "marriageDate": "١٩٩١",
+          "linkedMemberId": null
+        },
+        {
+          "name": "هند بكار",
+          "marriageDate": "١٩٩٢",
+          "linkedMemberId": null
+        },
+        {
+          "name": "سحر علي أديب",
+          "marriageDate": "١٩٩٣",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
       "isMujahid": false,
