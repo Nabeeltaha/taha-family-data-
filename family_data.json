@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-08-31T23:37:26.232296",
+  "lastUpdated": "2026-09-02T16:07:20.246925",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -5212,36 +5212,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1785752898533779",
-      "parentId": "1785752847907079",
-      "name": "بلال",
-      "birthYear": null,
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": null,
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "لينا",
-          "marriageDate": "٢٠١٠",
-          "linkedMemberId": "1785752735276955"
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1784551464155069",
       "parentId": "50",
       "name": "لمى",
@@ -6427,6 +6397,95 @@
       "isFamous": false,
       "gender": "male",
       "motherName": "لينا آدم",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785752898533779",
+      "parentId": "1785752847907079",
+      "name": "بلال",
+      "birthYear": "1989",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": null,
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "لينا",
+          "marriageDate": "٢٠١٠",
+          "linkedMemberId": "1785752735276955"
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1788354319969475",
+      "parentId": "1785752847907079",
+      "name": "أحمد",
+      "birthYear": "1983",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": "تاجر",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "عائشة الساعور",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "رندة التوم",
+          "marriageDate": "2013",
+          "linkedMemberId": null
+        },
+        {
+          "name": "نور حامد",
+          "marriageDate": "2014",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1788354359616242",
+      "parentId": "1788354319969475",
+      "name": "خالد",
+      "birthYear": "2013",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "رندة التوم",
       "isSingle": true,
       "wives": [],
       "isCreator": false,
