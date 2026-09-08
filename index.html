@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>استمارة إضافة بيانات - عائلة طه</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Tahoma', 'Segoe UI', sans-serif;
+    background: #FAF7F2;
+    margin: 0;
+    padding: 16px;
+    color: #3E2723;
+  }
+  .container { max-width: 480px; margin: 0 auto; }
+  h1 { font-size: 22px; text-align: center; margin-bottom: 4px; color: #5D4037; }
+  .subtitle { text-align: center; color: #888; font-size: 13px; margin-bottom: 24px; }
+  .field { margin-bottom: 16px; }
+  label { display: block; font-size: 14px; margin-bottom: 6px; font-weight: 600; }
+  input[type="text"], input[type="number"], input[type="tel"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D7CCC8;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: inherit;
+    background: white;
+  }
+  textarea { resize: vertical; min-height: 70px; }
+  .radio-group { display: flex; gap: 16px; margin-top: 6px; }
+  .radio-group label { font-weight: normal; display: flex; align-items: center; gap: 6px; margin-bottom: 0; }
+  .hint { font-size: 11px; color: #999; margin-top: 4px; }
+  button {
+    width: 100%;
+    padding: 15px;
+    background: #6D4C41;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  button:disabled { background: #BCAAA4; }
+  #status { text-align: center; margin-top: 16px; font-size: 14px; }
+  .success { color: #2E7D32; }
+  .error { color: #C62828; }
+  .death-year-field { display: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>📋 استمارة إضافة بيانات</h1>
+  <p class="subtitle">عبّي بياناتك وسيراجعها المسؤول عن الشجرة قبل إضافتها</p>
+
+  <form id="dataForm">
+    <div class="field">
+      <label>الاسم الكامل *</label>
+      <input type="text" id="name" required>
+    </div>
+
+    <div class="field">
+      <label>الجنس</label>
+      <div class="radio-group">
+        <label><input type="radio" name="gender" value="male" checked> ذكر</label>
+        <label><input type="radio" name="gender" value="female"> أنثى</label>
+      </div>
+    </div>
+
+    <div class="field">
+      <label>اسم الأب (اكتب واختر من القائمة لو ظهر)</label>
+      <input type="text" id="fatherName" list="fatherList" placeholder="ابدأ بالكتابة...">
+      <datalist id="fatherList"></datalist>
+      <p class="hint">لو ما ظهر بالقائمة، اكتب اسمه كامل يدوياً وسيتحقق المسؤول لاحقاً</p>
+    </div>
+
+    <div class="field">
+      <label>اسم الوالدة</label>
+      <input type="text" id="motherName">
+    </div>
+
+    <div class="field">
+      <label>سنة الميلاد</label>
+      <input type="number" id="birthYear" min="1800" max="2026" placeholder="مثال: 1995">
+    </div>
+
+    <div class="field">
+      <label>الحالة</label>
+      <div class="radio-group">
+        <label><input type="radio" name="alive" value="yes" checked> على قيد الحياة</label>
+        <label><input type="radio" name="alive" value="no"> متوفى/متوفاة</label>
+      </div>
+    </div>
+
+    <div class="field death-year-field" id="deathYearField">
+      <label>سنة الوفاة</label>
+      <input type="number" id="deathYear" min="1800" max="2026">
+    </div>
+
+    <div class="field">
+      <label>الدراسة</label>
+      <input type="text" id="education">
+    </div>
+
+    <div class="field">
+      <label>العمل الحالي</label>
+      <input type="text" id="currentJob">
+    </div>
+
+    <div class="field">
+      <label>نبذة (اختياري)</label>
+      <textarea id="bio"></textarea>
+    </div>
+
+    <div class="field">
+      <label>رقم هاتفك (لو احتجنا نتواصل معك للتأكد)</label>
+      <input type="tel" id="phone" placeholder="اختياري">
+    </div>
+
+    <button type="submit" id="submitBtn">إرسال البيانات</button>
+    <div id="status"></div>
+  </form>
+</div>
+
+<script>
+// ===== إعدادات خاصة بهذه العائلة — بدّلها لعائلة جديدة =====
+const PROXY_URL = 'https://taha-family-proxy.nabeeltaha-sy.workers.dev';
+const FAMILY_DATA_URL = 'https://raw.githubusercontent.com/Nabeeltaha/taha-family-data-/main/family_data.json?t=' + Date.now();
+
+// تحميل قائمة الأفراد لتعبئة اقتراحات "اسم الأب" تلقائياً
+fetch(FAMILY_DATA_URL)
+  .then(r => r.json())
+  .then(data => {
+    const list = document.getElementById('fatherList');
+    (data.members || []).forEach(m => {
+      const opt = document.createElement('option');
+      opt.value = m.name;
+      list.appendChild(opt);
+    });
+  })
+  .catch(() => { /* فشل التحميل — الحقل يضل يدوي بدون اقتراحات، بلا مشكلة */ });
+
+// إظهار/إخفاء حقل سنة الوفاة حسب الحالة
+document.querySelectorAll('input[name="alive"]').forEach(r => {
+  r.addEventListener('change', () => {
+    document.getElementById('deathYearField').style.display =
+      document.querySelector('input[name="alive"]:checked').value === 'no' ? 'block' : 'none';
+  });
+});
+
+document.getElementById('dataForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const btn = document.getElementById('submitBtn');
+  const status = document.getElementById('status');
+  btn.disabled = true;
+  btn.textContent = 'جاري الإرسال...';
+  status.textContent = '';
+
+  const payload = {
+    action: 'submitRequest',
+    name: document.getElementById('name').value.trim(),
+    gender: document.querySelector('input[name="gender"]:checked').value,
+    fatherName: document.getElementById('fatherName').value.trim(),
+    motherName: document.getElementById('motherName').value.trim(),
+    birthYear: document.getElementById('birthYear').value.trim(),
+    isAlive: document.querySelector('input[name="alive"]:checked').value === 'yes',
+    deathYear: document.getElementById('deathYear').value.trim(),
+    education: document.getElementById('education').value.trim(),
+    currentJob: document.getElementById('currentJob').value.trim(),
+    bio: document.getElementById('bio').value.trim(),
+    phone: document.getElementById('phone').value.trim(),
+    submittedAt: new Date().toISOString(),
+  };
+
+  try {
+    const res = await fetch(PROXY_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    const result = await res.json();
+    if (result.success) {
+      status.innerHTML = '<span class="success">✅ تم الإرسال بنجاح! شكراً، هيتم مراجعة بياناتك قريباً.</span>';
+      document.getElementById('dataForm').reset();
+    } else {
+      throw new Error(result.error || 'فشل غير معروف');
+    }
+  } catch (err) {
+    status.innerHTML = '<span class="error">⚠️ تعذّر الإرسال. تأكد من اتصالك بالإنترنت وحاول مرة أخرى.</span>';
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'إرسال البيانات';
+  }
+});
+</script>
+</body>
+</html>
