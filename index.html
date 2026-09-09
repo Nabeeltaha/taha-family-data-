@@ -299,10 +299,10 @@ function getSteps() {
 
   // 1) الاسم
   steps.push({
-    id: 'name', title: 'اسمك الكامل',
+    id: 'name', title: 'اسمك',
     render: () => `
-      <div class="step-question">ما هو اسمك الكامل؟</div>
-      <input class="wizard-input" id="f_name" type="text" placeholder="مثال: محمد أحمد طه" value="${formData.name}" autofocus>
+      <div class="step-question">ما هو اسمك فقط بدون الكنية؟</div>
+      <input class="wizard-input" id="f_name" type="text" placeholder="مثال: محمد" value="${formData.name}" autofocus>
       <div class="err-msg" id="err_name">الاسم مطلوب</div>`,
     collect: () => { formData.name = document.getElementById('f_name').value.trim(); },
     validate: () => {
