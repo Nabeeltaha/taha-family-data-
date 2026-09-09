@@ -48,6 +48,37 @@
   .success { color: #2E7D32; }
   .error { color: #C62828; }
   .death-year-field { display: none; }
+
+  /* بحث مخصّص لاسم الأب — بديل عن datalist العادية، يعرض تفاصيل كاملة */
+  .autocomplete-wrap { position: relative; }
+  .autocomplete-results {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background: white;
+    border: 1px solid #D7CCC8;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    max-height: 280px;
+    overflow-y: auto;
+    z-index: 50;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    display: none;
+  }
+  .autocomplete-results.show { display: block; }
+  .ac-item {
+    padding: 10px 12px;
+    border-bottom: 1px solid #EFEBE9;
+    cursor: pointer;
+  }
+  .ac-item:last-child { border-bottom: none; }
+  .ac-item:hover, .ac-item.active { background: #F5F0EA; }
+  .ac-name { font-weight: bold; font-size: 14px; }
+  .ac-details { font-size: 12px; color: #777; margin-top: 3px; line-height: 1.5; }
+  .ac-alive { color: #2E7D32; }
+  .ac-dead { color: #757575; }
+  .ac-empty { padding: 12px; text-align: center; color: #999; font-size: 13px; }
 </style>
 </head>
 <body>
@@ -69,10 +100,10 @@
       </div>
     </div>
 
-    <div class="field">
-      <label>اسم الأب (اكتب واختر من القائمة لو ظهر)</label>
-      <input type="text" id="fatherName" list="fatherList" placeholder="ابدأ بالكتابة...">
-      <datalist id="fatherList"></datalist>
+    <div class="field autocomplete-wrap">
+      <label>اسم الأب (اكتب واختر من القائمة — كل نتيجة توضّح مواليده وأمه وجده وحالته لتفادي الخلط بالأسماء المتشابهة)</label>
+      <input type="text" id="fatherName" placeholder="ابدأ بالكتابة..." autocomplete="off">
+      <div class="autocomplete-results" id="fatherResults"></div>
       <p class="hint">لو ما ظهر بالقائمة، اكتب اسمه كامل يدوياً وسيتحقق المسؤول لاحقاً</p>
     </div>
 
@@ -129,18 +160,73 @@
 const PROXY_URL = 'https://taha-family-proxy.nabeeltaha-sy.workers.dev';
 const FAMILY_DATA_URL = 'https://raw.githubusercontent.com/Nabeeltaha/taha-family-data-/main/family_data.json?t=' + Date.now();
 
-// تحميل قائمة الأفراد لتعبئة اقتراحات "اسم الأب" تلقائياً
+// تحميل قائمة الأفراد كاملة، لبناء بحث مخصّص غني بالتفاصيل لاسم الأب
+// (بدل القائمة العادية البسيطة التي لا تميّز بين الأسماء المتشابهة)
+let allMembers = [];
+let selectedFatherId = null;
+
 fetch(FAMILY_DATA_URL)
   .then(r => r.json())
-  .then(data => {
-    const list = document.getElementById('fatherList');
-    (data.members || []).forEach(m => {
-      const opt = document.createElement('option');
-      opt.value = m.name;
-      list.appendChild(opt);
-    });
-  })
+  .then(data => { allMembers = data.members || []; })
   .catch(() => { /* فشل التحميل — الحقل يضل يدوي بدون اقتراحات، بلا مشكلة */ });
+
+function memberById(id) {
+  return allMembers.find(m => m.id === id) || null;
+}
+
+// يبني سطر التفاصيل الكامل لكل مرشّح: مواليده، اسم أمه، اسم جده (أبو أبيه)، وحالته
+function buildDetailsLine(m) {
+  const parts = [];
+  parts.push(m.birthYear ? `مواليد ${m.birthYear}` : 'مواليد غير مسجّلة');
+  if (m.motherName) parts.push(`أمه: ${m.motherName}`);
+  const grandfather = m.parentId ? memberById(m.parentId) : null;
+  if (grandfather) parts.push(`جده: ${grandfather.name}`);
+  const aliveLabel = (m.deathYear && m.deathYear !== '') ? 'متوفى' : 'على قيد الحياة';
+  const aliveClass = (m.deathYear && m.deathYear !== '') ? 'ac-dead' : 'ac-alive';
+  return { text: parts.join(' • '), aliveLabel, aliveClass };
+}
+
+const fatherInput = document.getElementById('fatherName');
+const fatherResults = document.getElementById('fatherResults');
+
+fatherInput.addEventListener('input', () => {
+  selectedFatherId = null;
+  const query = fatherInput.value.trim();
+  if (query.length === 0) {
+    fatherResults.classList.remove('show');
+    fatherResults.innerHTML = '';
+    return;
+  }
+  const matches = allMembers.filter(m => m.name && m.name.includes(query)).slice(0, 15);
+  fatherResults.innerHTML = '';
+  if (matches.length === 0) {
+    fatherResults.innerHTML = '<div class="ac-empty">لا يوجد تطابق — اكتب الاسم كامل يدوياً</div>';
+  } else {
+    matches.forEach(m => {
+      const details = buildDetailsLine(m);
+      const item = document.createElement('div');
+      item.className = 'ac-item';
+      item.innerHTML = `
+        <div class="ac-name">${m.name} — <span class="${details.aliveClass}">${details.aliveLabel}</span></div>
+        <div class="ac-details">${details.text}</div>
+      `;
+      item.addEventListener('click', () => {
+        fatherInput.value = m.name;
+        selectedFatherId = m.id;
+        fatherResults.classList.remove('show');
+      });
+      fatherResults.appendChild(item);
+    });
+  }
+  fatherResults.classList.add('show');
+});
+
+// إغلاق القائمة عند الضغط خارجها
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.autocomplete-wrap')) {
+    fatherResults.classList.remove('show');
+  }
+});
 
 // إظهار/إخفاء حقل سنة الوفاة حسب الحالة
 document.querySelectorAll('input[name="alive"]').forEach(r => {
@@ -163,6 +249,7 @@ document.getElementById('dataForm').addEventListener('submit', async (e) => {
     name: document.getElementById('name').value.trim(),
     gender: document.querySelector('input[name="gender"]:checked').value,
     fatherName: document.getElementById('fatherName').value.trim(),
+    fatherId: selectedFatherId || '',
     motherName: document.getElementById('motherName').value.trim(),
     birthYear: document.getElementById('birthYear').value.trim(),
     isAlive: document.querySelector('input[name="alive"]:checked').value === 'yes',
@@ -182,7 +269,7 @@ document.getElementById('dataForm').addEventListener('submit', async (e) => {
     });
     const result = await res.json();
     if (result.success) {
-      status.innerHTML = '<span class="success">✅ تم الإرسال بنجاح! شكراً، هيتم مراجعة بياناتك قريباً.</span>';
+      status.innerHTML = '<span class="success">✅ تم الإرسال بنجاح! شكراً، سوف يتم مراجعة بياناتك قريباً.</span>';
       document.getElementById('dataForm').reset();
     } else {
       throw new Error(result.error || 'فشل غير معروف');
