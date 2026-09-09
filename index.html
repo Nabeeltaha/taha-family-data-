@@ -68,6 +68,57 @@
   .remove-btn { color: #C62828; }
   .add-btn-row { text-align: left; }
   .add-btn { color: #6D4C41; font-size: 14px; font-weight: bold; }
+
+  /* رفع الصورة الشخصية */
+  .photo-upload-box {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .photo-preview-wrap {
+    position: relative;
+    width: 84px;
+    height: 84px;
+    flex-shrink: 0;
+  }
+  .photo-preview {
+    width: 84px;
+    height: 84px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1.5px solid #D7CCC8;
+    background: #EFEBE9;
+    display: none;
+  }
+  .photo-preview.show { display: block; }
+  .photo-remove-btn {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background: #C62828;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    font-size: 13px;
+    line-height: 1;
+    cursor: pointer;
+    display: none;
+  }
+  .photo-remove-btn.show { display: block; }
+  .photo-pick-btn {
+    padding: 10px 16px;
+    background: white;
+    border: 1.5px dashed #A1887F;
+    border-radius: 8px;
+    color: #6D4C41;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  #photoStatus { font-size: 11px; color: #999; margin-top: 6px; }
+
   button.submit-btn {
     width: 100%;
     padding: 15px;
@@ -97,7 +148,6 @@
   .error { color: #C62828; }
   .death-year-field, .martyr-field, .marriage-section { display: none; }
 
-  /* بحث مخصّص لاسم الأب — بديل عن datalist العادية، يعرض تفاصيل كاملة */
   .autocomplete-wrap { position: relative; }
   .autocomplete-hint {
     font-size: 12px;
@@ -153,6 +203,21 @@
   <p class="subtitle">عبّي بياناتك وسيراجعها المسؤول عن الشجرة قبل إضافتها</p>
 
   <form id="dataForm" novalidate>
+
+    <div class="field">
+      <label>صورتك الشخصية (اختياري)</label>
+      <div class="photo-upload-box">
+        <div class="photo-preview-wrap">
+          <img id="photoPreview" class="photo-preview" alt="معاينة الصورة">
+          <button type="button" id="photoRemoveBtn" class="photo-remove-btn">✕</button>
+        </div>
+        <div>
+          <button type="button" class="photo-pick-btn" id="photoPickBtn">📷 اختيار صورة</button>
+          <div id="photoStatus"></div>
+        </div>
+      </div>
+      <input type="file" id="photoInput" accept="image/*" style="display:none;">
+    </div>
 
     <div class="field">
       <label>الاسم الكامل <span class="required-star">*</span></label>
@@ -231,7 +296,6 @@
       </div>
     </div>
 
-    <!-- زوجات (تظهر فقط: متزوج + ذكر) -->
     <div class="marriage-section" id="wivesSection">
       <div class="section-title">الزوجات</div>
       <div class="wife-block">
@@ -264,7 +328,6 @@
       </div>
     </div>
 
-    <!-- زوج (تظهر فقط: متزوجة + أنثى) -->
     <div class="marriage-section" id="husbandSection">
       <div class="section-title">الزوج</div>
       <div class="wife-block">
@@ -321,11 +384,9 @@
 </div>
 
 <script>
-// ===== إعدادات خاصة بهذه العائلة — بدّلها لعائلة جديدة =====
 const PROXY_URL = 'https://taha-family-proxy.nabeeltaha-sy.workers.dev';
 const FAMILY_DATA_URL = 'https://raw.githubusercontent.com/Nabeeltaha/taha-family-data-/main/family_data.json?t=' + Date.now();
 
-// تحميل قائمة الأفراد كاملة، لبناء بحث مخصّص غني بالتفاصيل لاسم الأب
 let allMembers = [];
 let selectedFatherId = null;
 
@@ -333,19 +394,16 @@ fetch(FAMILY_DATA_URL)
   .then(r => r.json())
   .then(data => {
     const raw = Array.isArray(data) ? data : (data.members || []);
-    // فلترة دفاعية: نتجاهل أي سجل بلا اسم صالح حتى لا يكسر البحث لاحقاً
     allMembers = raw.filter(m => m && typeof m.name === 'string' && m.name.trim() !== '');
   })
   .catch((err) => {
     console.error('تعذر تحميل بيانات الشجرة للبحث عن الأب:', err);
-    // فشل التحميل — الحقل يضل يدوي بدون اقتراحات، بلا مشكلة
   });
 
 function memberById(id) {
   return allMembers.find(m => m.id === id) || null;
 }
 
-// يبني سطر التفاصيل الكامل لكل مرشّح: مواليده، اسم أمه، اسم جده (أبو أبيه)، وحالته
 function buildDetailsLine(m) {
   const parts = [];
   parts.push(m.birthYear ? `مواليد ${m.birthYear}` : 'مواليد غير مسجّلة');
@@ -398,8 +456,6 @@ document.addEventListener('click', (e) => {
   }
 });
 
-// إظهار/إخفاء سنة الوفاة + خانة الشهيد حسب الحالة (نفس منطق الأدمن:
-// الشهادة لا تظهر إلا لو الشخص متوفى)
 document.querySelectorAll('input[name="alive"]').forEach(r => {
   r.addEventListener('change', () => {
     const isDead = document.querySelector('input[name="alive"]:checked').value === 'no';
@@ -423,7 +479,6 @@ document.getElementById('isMujahid').addEventListener('change', (e) => {
   if (!e.target.checked) document.getElementById('isRevolutionMujahid').checked = false;
 });
 
-// إظهار قسم الزوجات/الزوج حسب الجنس + الحالة الاجتماعية (نفس منطق الأدمن)
 function updateMarriageSections() {
   const isMarried = document.querySelector('input[name="marital"]:checked').value === 'married';
   const gender = document.querySelector('input[name="gender"]:checked').value;
@@ -433,7 +488,62 @@ function updateMarriageSections() {
 document.querySelectorAll('input[name="marital"]').forEach(r => r.addEventListener('change', updateMarriageSections));
 document.querySelectorAll('input[name="gender"]').forEach(r => r.addEventListener('change', updateMarriageSections));
 
-// ===== الأعمال السابقة / المناصب: قوائم ديناميكية قابلة للإضافة والحذف =====
+let selectedPhotoBase64 = null;
+const photoInput = document.getElementById('photoInput');
+const photoPreview = document.getElementById('photoPreview');
+const photoRemoveBtn = document.getElementById('photoRemoveBtn');
+const photoStatus = document.getElementById('photoStatus');
+
+document.getElementById('photoPickBtn').addEventListener('click', () => photoInput.click());
+
+photoRemoveBtn.addEventListener('click', () => {
+  selectedPhotoBase64 = null;
+  photoInput.value = '';
+  photoPreview.classList.remove('show');
+  photoRemoveBtn.classList.remove('show');
+  photoStatus.textContent = '';
+});
+
+photoInput.addEventListener('change', () => {
+  const file = photoInput.files && photoInput.files[0];
+  if (!file) return;
+  photoStatus.textContent = 'جاري تجهيز الصورة...';
+
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    const img = new Image();
+    img.onload = () => {
+      const maxDim = 800;
+      let { width, height } = img;
+      if (width > maxDim || height > maxDim) {
+        if (width > height) {
+          height = Math.round(height * (maxDim / width));
+          width = maxDim;
+        } else {
+          width = Math.round(width * (maxDim / height));
+          height = maxDim;
+        }
+      }
+      const canvas = document.createElement('canvas');
+      canvas.width = width;
+      canvas.height = height;
+      canvas.getContext('2d').drawImage(img, 0, 0, width, height);
+      const dataUrl = canvas.toDataURL('image/jpeg', 0.75);
+      selectedPhotoBase64 = dataUrl.split(',')[1];
+
+      photoPreview.src = dataUrl;
+      photoPreview.classList.add('show');
+      photoRemoveBtn.classList.add('show');
+      const sizeKb = Math.round((selectedPhotoBase64.length * 0.75) / 1024);
+      photoStatus.textContent = `✅ جاهزة (${sizeKb} كيلوبايت تقريباً)`;
+    };
+    img.onerror = () => { photoStatus.textContent = '⚠️ تعذّر قراءة الصورة، جرّب صورة أخرى.'; };
+    img.src = e.target.result;
+  };
+  reader.onerror = () => { photoStatus.textContent = '⚠️ تعذّر قراءة الملف.'; };
+  reader.readAsDataURL(file);
+});
+
 function addDynamicRow(containerId, placeholder) {
   const container = document.getElementById(containerId);
   const row = document.createElement('div');
@@ -451,7 +561,6 @@ function collectDynamicList(containerId) {
     .filter(v => v !== '');
 }
 
-// ===== التحقق من اكتمال الحقول الإلزامية قبل السماح بالإرسال =====
 function validateForm() {
   const missing = [];
   document.querySelectorAll('.field-error').forEach(el => el.classList.remove('field-error'));
@@ -558,6 +667,8 @@ document.getElementById('dataForm').addEventListener('submit', async (e) => {
     bio: document.getElementById('bio').value.trim(),
     phone: document.getElementById('phone').value.trim(),
     submittedAt: new Date().toISOString(),
+    photoBase64: selectedPhotoBase64 || undefined,
+    photoExt: selectedPhotoBase64 ? 'jpg' : undefined,
   };
 
   try {
@@ -578,6 +689,10 @@ document.getElementById('dataForm').addEventListener('submit', async (e) => {
       document.getElementById('previousJobsList').innerHTML = '';
       document.getElementById('positionsList').innerHTML = '';
       selectedFatherId = null;
+      selectedPhotoBase64 = null;
+      photoPreview.classList.remove('show');
+      photoRemoveBtn.classList.remove('show');
+      photoStatus.textContent = '';
     } else {
       throw new Error(result.error || 'فشل غير معروف');
     }
