@@ -16,8 +16,17 @@
   .container { max-width: 480px; margin: 0 auto; }
   h1 { font-size: 22px; text-align: center; margin-bottom: 4px; color: #5D4037; }
   .subtitle { text-align: center; color: #888; font-size: 13px; margin-bottom: 24px; }
+  .section-title {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 22px 0 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #D7CCC8;
+    color: #5D4037;
+  }
   .field { margin-bottom: 16px; }
   label { display: block; font-size: 14px; margin-bottom: 6px; font-weight: 600; }
+  .required-star { color: #C62828; }
   input[type="text"], input[type="number"], input[type="tel"], select, textarea {
     width: 100%;
     padding: 12px;
@@ -27,11 +36,39 @@
     font-family: inherit;
     background: white;
   }
+  input.field-error { border-color: #C62828; background: #FFF5F5; }
   textarea { resize: vertical; min-height: 70px; }
-  .radio-group { display: flex; gap: 16px; margin-top: 6px; }
+  .radio-group { display: flex; gap: 16px; margin-top: 6px; flex-wrap: wrap; }
   .radio-group label { font-weight: normal; display: flex; align-items: center; gap: 6px; margin-bottom: 0; }
+  .checkbox-row { display: flex; align-items: center; gap: 8px; padding: 10px 0; }
+  .checkbox-row label { font-weight: normal; margin-bottom: 0; }
+  .checkbox-row input[type="checkbox"] { width: 20px; height: 20px; }
+  .sub-checkbox { padding-right: 28px; }
   .hint { font-size: 11px; color: #999; margin-top: 4px; }
-  button {
+  .wife-block {
+    border: 1px solid #EFEBE9;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #FDFBF9;
+  }
+  .wife-block-title { font-size: 13px; font-weight: bold; margin-bottom: 8px; color: #6D4C41; }
+  .two-col { display: flex; gap: 8px; }
+  .two-col > div { flex: 1; }
+  .dynamic-list-item { display: flex; gap: 8px; margin-bottom: 8px; align-items: center; }
+  .dynamic-list-item input { flex: 1; }
+  .remove-btn, .add-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1;
+    padding: 4px 8px;
+  }
+  .remove-btn { color: #C62828; }
+  .add-btn-row { text-align: left; }
+  .add-btn { color: #6D4C41; font-size: 14px; font-weight: bold; }
+  button.submit-btn {
     width: 100%;
     padding: 15px;
     background: #6D4C41;
@@ -41,29 +78,58 @@
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 20px;
   }
-  button:disabled { background: #BCAAA4; }
+  button.submit-btn:disabled { background: #BCAAA4; }
   #status { text-align: center; margin-top: 16px; font-size: 14px; }
+  #missingFieldsBox {
+    background: #FFF3E0;
+    border: 1px solid #FFB74D;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 14px;
+    font-size: 13px;
+    display: none;
+  }
+  #missingFieldsBox.show { display: block; }
+  #missingFieldsBox ul { margin: 6px 0 0; padding-right: 18px; }
   .success { color: #2E7D32; }
   .error { color: #C62828; }
-  .death-year-field { display: none; }
+  .death-year-field, .martyr-field, .marriage-section { display: none; }
 
   /* بحث مخصّص لاسم الأب — بديل عن datalist العادية، يعرض تفاصيل كاملة */
   .autocomplete-wrap { position: relative; }
+  .autocomplete-hint {
+    font-size: 12px;
+    color: #8D6E63;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .autocomplete-input-wrap { position: relative; }
+  .autocomplete-chevron {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #A1887F;
+    pointer-events: none;
+    font-size: 12px;
+  }
   .autocomplete-results {
     position: absolute;
     top: 100%;
     right: 0;
     left: 0;
     background: white;
-    border: 1px solid #D7CCC8;
+    border: 2px solid #8D6E63;
     border-top: none;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 10px 10px;
     max-height: 280px;
     overflow-y: auto;
     z-index: 50;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.18);
     display: none;
   }
   .autocomplete-results.show { display: block; }
@@ -86,14 +152,15 @@
   <h1>📋 استمارة إضافة بيانات</h1>
   <p class="subtitle">عبّي بياناتك وسيراجعها المسؤول عن الشجرة قبل إضافتها</p>
 
-  <form id="dataForm">
+  <form id="dataForm" novalidate>
+
     <div class="field">
-      <label>الاسم الكامل *</label>
+      <label>الاسم الكامل <span class="required-star">*</span></label>
       <input type="text" id="name" required>
     </div>
 
     <div class="field">
-      <label>الجنس</label>
+      <label>الجنس <span class="required-star">*</span></label>
       <div class="radio-group">
         <label><input type="radio" name="gender" value="male" checked> ذكر</label>
         <label><input type="radio" name="gender" value="female"> أنثى</label>
@@ -101,10 +168,14 @@
     </div>
 
     <div class="field autocomplete-wrap">
-      <label>اسم الأب (اكتب واختر من القائمة — كل نتيجة توضّح مواليده وأمه وجده وحالته لتفادي الخلط بالأسماء المتشابهة)</label>
-      <input type="text" id="fatherName" placeholder="ابدأ بالكتابة..." autocomplete="off">
+      <label>اسم الأب</label>
+      <div class="autocomplete-hint">↓ اكتب واختر من القائمة (تظهر مواليده وأمه وجده وحالته لتفادي الخلط بالأسماء المتشابهة)</div>
+      <div class="autocomplete-input-wrap">
+        <input type="text" id="fatherName" placeholder="ابدأ بالكتابة..." autocomplete="off">
+        <span class="autocomplete-chevron">▼</span>
+      </div>
       <div class="autocomplete-results" id="fatherResults"></div>
-      <p class="hint">لو ما ظهر بالقائمة، اكتب اسمه كامل يدوياً وسيتحقق المسؤول لاحقاً</p>
+      <p class="hint">اتركه فارغاً لو هذا رأس الشجرة، أو اكتب الاسم يدوياً لو ما ظهر بالقائمة وسيتحقق المسؤول لاحقاً</p>
     </div>
 
     <div class="field">
@@ -113,12 +184,12 @@
     </div>
 
     <div class="field">
-      <label>سنة الميلاد</label>
-      <input type="number" id="birthYear" min="1800" max="2026" placeholder="مثال: 1995">
+      <label>سنة الميلاد <span class="required-star">*</span></label>
+      <input type="number" id="birthYear" min="1800" max="2026" placeholder="مثال: 1995" required>
     </div>
 
     <div class="field">
-      <label>الحالة</label>
+      <label>الحالة <span class="required-star">*</span></label>
       <div class="radio-group">
         <label><input type="radio" name="alive" value="yes" checked> على قيد الحياة</label>
         <label><input type="radio" name="alive" value="no"> متوفى/متوفاة</label>
@@ -126,9 +197,86 @@
     </div>
 
     <div class="field death-year-field" id="deathYearField">
-      <label>سنة الوفاة</label>
+      <label>سنة الوفاة <span class="required-star">*</span></label>
       <input type="number" id="deathYear" min="1800" max="2026">
     </div>
+
+    <div class="field martyr-field" id="martyrField">
+      <div class="checkbox-row">
+        <input type="checkbox" id="isMartyr">
+        <label for="isMartyr">شهيد</label>
+      </div>
+      <div class="checkbox-row sub-checkbox" id="revMartyrRow" style="display:none;">
+        <input type="checkbox" id="isRevolutionMartyr">
+        <label for="isRevolutionMartyr">شهيد ثورة</label>
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="checkbox-row">
+        <input type="checkbox" id="isMujahid">
+        <label for="isMujahid">مجاهد</label>
+      </div>
+      <div class="checkbox-row sub-checkbox" id="revMujahidRow" style="display:none;">
+        <input type="checkbox" id="isRevolutionMujahid">
+        <label for="isRevolutionMujahid">مجاهد ثورة</label>
+      </div>
+    </div>
+
+    <div class="field">
+      <label>الحالة الاجتماعية <span class="required-star">*</span></label>
+      <div class="radio-group">
+        <label><input type="radio" name="marital" value="single" checked> أعزب/عزباء</label>
+        <label><input type="radio" name="marital" value="married"> متزوج/متزوجة</label>
+      </div>
+    </div>
+
+    <!-- زوجات (تظهر فقط: متزوج + ذكر) -->
+    <div class="marriage-section" id="wivesSection">
+      <div class="section-title">الزوجات</div>
+      <div class="wife-block">
+        <div class="wife-block-title">الزوجة الأولى <span class="required-star">*</span></div>
+        <div class="two-col">
+          <div><input type="text" id="wife1Name" placeholder="الاسم"></div>
+          <div><input type="text" id="wife1Date" placeholder="تاريخ الزواج (اختياري)"></div>
+        </div>
+      </div>
+      <div class="wife-block">
+        <div class="wife-block-title">الزوجة الثانية</div>
+        <div class="two-col">
+          <div><input type="text" id="wife2Name" placeholder="الاسم"></div>
+          <div><input type="text" id="wife2Date" placeholder="تاريخ الزواج (اختياري)"></div>
+        </div>
+      </div>
+      <div class="wife-block">
+        <div class="wife-block-title">الزوجة الثالثة</div>
+        <div class="two-col">
+          <div><input type="text" id="wife3Name" placeholder="الاسم"></div>
+          <div><input type="text" id="wife3Date" placeholder="تاريخ الزواج (اختياري)"></div>
+        </div>
+      </div>
+      <div class="wife-block">
+        <div class="wife-block-title">الزوجة الرابعة</div>
+        <div class="two-col">
+          <div><input type="text" id="wife4Name" placeholder="الاسم"></div>
+          <div><input type="text" id="wife4Date" placeholder="تاريخ الزواج (اختياري)"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- زوج (تظهر فقط: متزوجة + أنثى) -->
+    <div class="marriage-section" id="husbandSection">
+      <div class="section-title">الزوج</div>
+      <div class="wife-block">
+        <div class="wife-block-title">اسم الزوج <span class="required-star">*</span></div>
+        <div class="two-col">
+          <div><input type="text" id="husbandName" placeholder="الاسم"></div>
+          <div><input type="text" id="husbandDate" placeholder="تاريخ الزواج (اختياري)"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-title">معلومات إضافية (اختياري)</div>
 
     <div class="field">
       <label>الدراسة</label>
@@ -137,11 +285,23 @@
 
     <div class="field">
       <label>العمل الحالي</label>
-      <input type="text" id="currentJob">
+      <input type="text" id="currentJob" placeholder="مثال: تاجر، مزارع، مهندس...">
     </div>
 
     <div class="field">
-      <label>نبذة (اختياري)</label>
+      <label>الأعمال السابقة</label>
+      <div id="previousJobsList"></div>
+      <div class="add-btn-row"><button type="button" class="add-btn" id="addPrevJobBtn">+ إضافة عمل سابق</button></div>
+    </div>
+
+    <div class="field">
+      <label>المناصب التي تولاها</label>
+      <div id="positionsList"></div>
+      <div class="add-btn-row"><button type="button" class="add-btn" id="addPositionBtn">+ إضافة منصب</button></div>
+    </div>
+
+    <div class="field">
+      <label>نبذة</label>
       <textarea id="bio"></textarea>
     </div>
 
@@ -150,7 +310,12 @@
       <input type="tel" id="phone" placeholder="اختياري">
     </div>
 
-    <button type="submit" id="submitBtn">إرسال البيانات</button>
+    <div id="missingFieldsBox">
+      <strong>⚠️ في حقول ناقصة لازم تكمّلها قبل الإرسال:</strong>
+      <ul id="missingFieldsListUl"></ul>
+    </div>
+
+    <button type="submit" class="submit-btn" id="submitBtn">إرسال البيانات</button>
     <div id="status"></div>
   </form>
 </div>
@@ -161,14 +326,20 @@ const PROXY_URL = 'https://taha-family-proxy.nabeeltaha-sy.workers.dev';
 const FAMILY_DATA_URL = 'https://raw.githubusercontent.com/Nabeeltaha/taha-family-data-/main/family_data.json?t=' + Date.now();
 
 // تحميل قائمة الأفراد كاملة، لبناء بحث مخصّص غني بالتفاصيل لاسم الأب
-// (بدل القائمة العادية البسيطة التي لا تميّز بين الأسماء المتشابهة)
 let allMembers = [];
 let selectedFatherId = null;
 
 fetch(FAMILY_DATA_URL)
   .then(r => r.json())
-  .then(data => { allMembers = data.members || []; })
-  .catch(() => { /* فشل التحميل — الحقل يضل يدوي بدون اقتراحات، بلا مشكلة */ });
+  .then(data => {
+    const raw = Array.isArray(data) ? data : (data.members || []);
+    // فلترة دفاعية: نتجاهل أي سجل بلا اسم صالح حتى لا يكسر البحث لاحقاً
+    allMembers = raw.filter(m => m && typeof m.name === 'string' && m.name.trim() !== '');
+  })
+  .catch((err) => {
+    console.error('تعذر تحميل بيانات الشجرة للبحث عن الأب:', err);
+    // فشل التحميل — الحقل يضل يدوي بدون اقتراحات، بلا مشكلة
+  });
 
 function memberById(id) {
   return allMembers.find(m => m.id === id) || null;
@@ -221,41 +392,169 @@ fatherInput.addEventListener('input', () => {
   fatherResults.classList.add('show');
 });
 
-// إغلاق القائمة عند الضغط خارجها
 document.addEventListener('click', (e) => {
   if (!e.target.closest('.autocomplete-wrap')) {
     fatherResults.classList.remove('show');
   }
 });
 
-// إظهار/إخفاء حقل سنة الوفاة حسب الحالة
+// إظهار/إخفاء سنة الوفاة + خانة الشهيد حسب الحالة (نفس منطق الأدمن:
+// الشهادة لا تظهر إلا لو الشخص متوفى)
 document.querySelectorAll('input[name="alive"]').forEach(r => {
   r.addEventListener('change', () => {
-    document.getElementById('deathYearField').style.display =
-      document.querySelector('input[name="alive"]:checked').value === 'no' ? 'block' : 'none';
+    const isDead = document.querySelector('input[name="alive"]:checked').value === 'no';
+    document.getElementById('deathYearField').style.display = isDead ? 'block' : 'none';
+    document.getElementById('martyrField').style.display = isDead ? 'block' : 'none';
+    if (!isDead) {
+      document.getElementById('isMartyr').checked = false;
+      document.getElementById('isRevolutionMartyr').checked = false;
+      document.getElementById('revMartyrRow').style.display = 'none';
+    }
   });
 });
 
+document.getElementById('isMartyr').addEventListener('change', (e) => {
+  document.getElementById('revMartyrRow').style.display = e.target.checked ? 'flex' : 'none';
+  if (!e.target.checked) document.getElementById('isRevolutionMartyr').checked = false;
+});
+
+document.getElementById('isMujahid').addEventListener('change', (e) => {
+  document.getElementById('revMujahidRow').style.display = e.target.checked ? 'flex' : 'none';
+  if (!e.target.checked) document.getElementById('isRevolutionMujahid').checked = false;
+});
+
+// إظهار قسم الزوجات/الزوج حسب الجنس + الحالة الاجتماعية (نفس منطق الأدمن)
+function updateMarriageSections() {
+  const isMarried = document.querySelector('input[name="marital"]:checked').value === 'married';
+  const gender = document.querySelector('input[name="gender"]:checked').value;
+  document.getElementById('wivesSection').style.display = (isMarried && gender === 'male') ? 'block' : 'none';
+  document.getElementById('husbandSection').style.display = (isMarried && gender === 'female') ? 'block' : 'none';
+}
+document.querySelectorAll('input[name="marital"]').forEach(r => r.addEventListener('change', updateMarriageSections));
+document.querySelectorAll('input[name="gender"]').forEach(r => r.addEventListener('change', updateMarriageSections));
+
+// ===== الأعمال السابقة / المناصب: قوائم ديناميكية قابلة للإضافة والحذف =====
+function addDynamicRow(containerId, placeholder) {
+  const container = document.getElementById(containerId);
+  const row = document.createElement('div');
+  row.className = 'dynamic-list-item';
+  row.innerHTML = `<input type="text" placeholder="${placeholder}"><button type="button" class="remove-btn">✕</button>`;
+  row.querySelector('.remove-btn').addEventListener('click', () => row.remove());
+  container.appendChild(row);
+}
+document.getElementById('addPrevJobBtn').addEventListener('click', () => addDynamicRow('previousJobsList', 'مثال: معلم مدرسة'));
+document.getElementById('addPositionBtn').addEventListener('click', () => addDynamicRow('positionsList', 'مثال: رئيس جمعية خيرية'));
+
+function collectDynamicList(containerId) {
+  return Array.from(document.querySelectorAll(`#${containerId} input`))
+    .map(i => i.value.trim())
+    .filter(v => v !== '');
+}
+
+// ===== التحقق من اكتمال الحقول الإلزامية قبل السماح بالإرسال =====
+function validateForm() {
+  const missing = [];
+  document.querySelectorAll('.field-error').forEach(el => el.classList.remove('field-error'));
+
+  const nameEl = document.getElementById('name');
+  if (!nameEl.value.trim()) { missing.push('الاسم الكامل'); nameEl.classList.add('field-error'); }
+
+  const birthYearEl = document.getElementById('birthYear');
+  if (!birthYearEl.value.trim()) { missing.push('سنة الميلاد'); birthYearEl.classList.add('field-error'); }
+
+  const isDead = document.querySelector('input[name="alive"]:checked').value === 'no';
+  if (isDead) {
+    const deathYearEl = document.getElementById('deathYear');
+    if (!deathYearEl.value.trim()) { missing.push('سنة الوفاة'); deathYearEl.classList.add('field-error'); }
+  }
+
+  const isMarried = document.querySelector('input[name="marital"]:checked').value === 'married';
+  const gender = document.querySelector('input[name="gender"]:checked').value;
+  if (isMarried && gender === 'male') {
+    const wife1 = document.getElementById('wife1Name');
+    if (!wife1.value.trim()) { missing.push('اسم الزوجة الأولى'); wife1.classList.add('field-error'); }
+  }
+  if (isMarried && gender === 'female') {
+    const husband = document.getElementById('husbandName');
+    if (!husband.value.trim()) { missing.push('اسم الزوج'); husband.classList.add('field-error'); }
+  }
+
+  return missing;
+}
+
+function showMissingFields(missing) {
+  const box = document.getElementById('missingFieldsBox');
+  const ul = document.getElementById('missingFieldsListUl');
+  if (missing.length === 0) {
+    box.classList.remove('show');
+    ul.innerHTML = '';
+    return;
+  }
+  ul.innerHTML = missing.map(m => `<li>${m}</li>`).join('');
+  box.classList.add('show');
+  box.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
 document.getElementById('dataForm').addEventListener('submit', async (e) => {
   e.preventDefault();
-  const btn = document.getElementById('submitBtn');
   const status = document.getElementById('status');
+  status.textContent = '';
+
+  const missing = validateForm();
+  if (missing.length > 0) {
+    showMissingFields(missing);
+    return;
+  }
+  showMissingFields([]);
+
+  const btn = document.getElementById('submitBtn');
   btn.disabled = true;
   btn.textContent = 'جاري الإرسال...';
-  status.textContent = '';
+
+  const isMarried = document.querySelector('input[name="marital"]:checked').value === 'married';
+  const gender = document.querySelector('input[name="gender"]:checked').value;
+  const isAlive = document.querySelector('input[name="alive"]:checked').value === 'yes';
+  const isMartyr = document.getElementById('isMartyr').checked;
+  const isMujahid = document.getElementById('isMujahid').checked;
+
+  const wives = [];
+  if (isMarried && gender === 'male') {
+    for (let i = 1; i <= 4; i++) {
+      const name = document.getElementById(`wife${i}Name`).value.trim();
+      if (!name) continue;
+      wives.push({ name, marriageDate: document.getElementById(`wife${i}Date`).value.trim() || null });
+    }
+  }
+
+  let husband = null;
+  if (isMarried && gender === 'female') {
+    const hName = document.getElementById('husbandName').value.trim();
+    if (hName) {
+      husband = { name: hName, marriageDate: document.getElementById('husbandDate').value.trim() || null };
+    }
+  }
 
   const payload = {
     action: 'submitRequest',
     name: document.getElementById('name').value.trim(),
-    gender: document.querySelector('input[name="gender"]:checked').value,
+    gender,
     fatherName: document.getElementById('fatherName').value.trim(),
     fatherId: selectedFatherId || '',
     motherName: document.getElementById('motherName').value.trim(),
     birthYear: document.getElementById('birthYear').value.trim(),
-    isAlive: document.querySelector('input[name="alive"]:checked').value === 'yes',
-    deathYear: document.getElementById('deathYear').value.trim(),
+    isAlive,
+    deathYear: isAlive ? '' : document.getElementById('deathYear').value.trim(),
+    isMartyr: isAlive ? false : isMartyr,
+    isRevolutionMartyr: (!isAlive && isMartyr) ? document.getElementById('isRevolutionMartyr').checked : false,
+    isMujahid,
+    isRevolutionMujahid: isMujahid ? document.getElementById('isRevolutionMujahid').checked : false,
+    isSingle: !isMarried,
+    wives,
+    husband,
     education: document.getElementById('education').value.trim(),
     currentJob: document.getElementById('currentJob').value.trim(),
+    previousJobs: collectDynamicList('previousJobsList'),
+    positions: collectDynamicList('positionsList'),
     bio: document.getElementById('bio').value.trim(),
     phone: document.getElementById('phone').value.trim(),
     submittedAt: new Date().toISOString(),
@@ -271,6 +570,14 @@ document.getElementById('dataForm').addEventListener('submit', async (e) => {
     if (result.success) {
       status.innerHTML = '<span class="success">✅ تم الإرسال بنجاح! شكراً، سوف يتم مراجعة بياناتك قريباً.</span>';
       document.getElementById('dataForm').reset();
+      updateMarriageSections();
+      document.getElementById('deathYearField').style.display = 'none';
+      document.getElementById('martyrField').style.display = 'none';
+      document.getElementById('revMartyrRow').style.display = 'none';
+      document.getElementById('revMujahidRow').style.display = 'none';
+      document.getElementById('previousJobsList').innerHTML = '';
+      document.getElementById('positionsList').innerHTML = '';
+      selectedFatherId = null;
     } else {
       throw new Error(result.error || 'فشل غير معروف');
     }
