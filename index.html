@@ -5,383 +5,252 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>استمارة إضافة بيانات - عائلة طه</title>
 <style>
-  * { box-sizing: border-box; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: 'Tahoma', 'Segoe UI', sans-serif;
     background: #FAF7F2;
-    margin: 0;
-    padding: 16px;
+    min-height: 100vh;
     color: #3E2723;
   }
-  .container { max-width: 480px; margin: 0 auto; }
-  h1 { font-size: 22px; text-align: center; margin-bottom: 4px; color: #5D4037; }
-  .subtitle { text-align: center; color: #888; font-size: 13px; margin-bottom: 24px; }
-  .section-title {
-    font-weight: bold;
-    font-size: 15px;
-    margin: 22px 0 10px;
-    padding-bottom: 6px;
-    border-bottom: 2px solid #D7CCC8;
-    color: #5D4037;
+
+  /* ===== شاشة الترحيب ===== */
+  #welcomeScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 32px 24px;
+    text-align: center;
   }
-  .field { margin-bottom: 16px; }
-  label { display: block; font-size: 14px; margin-bottom: 6px; font-weight: 600; }
-  .required-star { color: #C62828; }
-  input[type="text"], input[type="number"], input[type="tel"], select, textarea {
+  .welcome-icon { font-size: 64px; margin-bottom: 16px; }
+  .welcome-title { font-size: 26px; font-weight: bold; color: #5D4037; margin-bottom: 8px; }
+  .welcome-sub { font-size: 15px; color: #888; margin-bottom: 32px; line-height: 1.7; }
+  .start-btn {
+    padding: 16px 48px;
+    background: #6D4C41;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(109,76,65,0.3);
+  }
+
+  /* ===== شاشة الويزارد ===== */
+  #wizardScreen { display: none; min-height: 100vh; }
+
+  .wizard-header {
+    background: #6D4C41;
+    color: white;
+    padding: 16px 20px 12px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .wizard-step-label { font-size: 13px; opacity: 0.8; margin-bottom: 4px; }
+  .wizard-step-title { font-size: 18px; font-weight: bold; }
+  .progress-bar-wrap { margin-top: 10px; background: rgba(255,255,255,0.25); border-radius: 4px; height: 5px; }
+  .progress-bar-fill { height: 5px; background: white; border-radius: 4px; transition: width 0.3s; }
+
+  .wizard-body { padding: 24px 20px; max-width: 480px; margin: 0 auto; }
+
+  .step-question {
+    font-size: 17px;
+    font-weight: bold;
+    color: #3E2723;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  .step-hint { font-size: 12px; color: #999; margin-top: -14px; margin-bottom: 18px; }
+
+  /* حقول الإدخال */
+  .wizard-input {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #D7CCC8;
-    border-radius: 8px;
-    font-size: 15px;
+    padding: 14px;
+    border: 2px solid #D7CCC8;
+    border-radius: 10px;
+    font-size: 16px;
     font-family: inherit;
     background: white;
+    outline: none;
+    transition: border-color 0.2s;
   }
-  input.field-error { border-color: #C62828; background: #FFF5F5; }
-  textarea { resize: vertical; min-height: 70px; }
-  .radio-group { display: flex; gap: 16px; margin-top: 6px; flex-wrap: wrap; }
-  .radio-group label { font-weight: normal; display: flex; align-items: center; gap: 6px; margin-bottom: 0; }
-  .checkbox-row { display: flex; align-items: center; gap: 8px; padding: 10px 0; }
-  .checkbox-row label { font-weight: normal; margin-bottom: 0; }
-  .checkbox-row input[type="checkbox"] { width: 20px; height: 20px; }
-  .sub-checkbox { padding-right: 28px; }
-  .hint { font-size: 11px; color: #999; margin-top: 4px; }
-  .wife-block {
-    border: 1px solid #EFEBE9;
-    border-radius: 8px;
-    padding: 10px;
-    margin-bottom: 10px;
-    background: #FDFBF9;
-  }
-  .wife-block-title { font-size: 13px; font-weight: bold; margin-bottom: 8px; color: #6D4C41; }
-  .two-col { display: flex; gap: 8px; }
-  .two-col > div { flex: 1; }
-  .dynamic-list-item { display: flex; gap: 8px; margin-bottom: 8px; align-items: center; }
-  .dynamic-list-item input { flex: 1; }
-  .remove-btn, .add-btn {
-    border: none;
-    background: none;
-    cursor: pointer;
-    font-size: 20px;
-    line-height: 1;
-    padding: 4px 8px;
-  }
-  .remove-btn { color: #C62828; }
-  .add-btn-row { text-align: left; }
-  .add-btn { color: #6D4C41; font-size: 14px; font-weight: bold; }
+  .wizard-input:focus { border-color: #6D4C41; }
+  .wizard-input.err { border-color: #C62828; background: #FFF5F5; }
 
-  /* رفع الصورة الشخصية */
-  .photo-upload-box {
+  /* خيارات الراديو كبطاقات */
+  .card-options { display: flex; flex-direction: column; gap: 10px; }
+  .card-option {
     display: flex;
     align-items: center;
     gap: 14px;
-  }
-  .photo-preview-wrap {
-    position: relative;
-    width: 84px;
-    height: 84px;
-    flex-shrink: 0;
-  }
-  .photo-preview {
-    width: 84px;
-    height: 84px;
+    padding: 14px 16px;
+    border: 2px solid #D7CCC8;
     border-radius: 10px;
-    object-fit: cover;
-    border: 1.5px solid #D7CCC8;
-    background: #EFEBE9;
-    display: none;
-  }
-  .photo-preview.show { display: block; }
-  .photo-remove-btn {
-    position: absolute;
-    top: -6px;
-    left: -6px;
-    background: #C62828;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 22px;
-    height: 22px;
-    font-size: 13px;
-    line-height: 1;
-    cursor: pointer;
-    display: none;
-  }
-  .photo-remove-btn.show { display: block; }
-  .photo-pick-btn {
-    padding: 10px 16px;
     background: white;
-    border: 1.5px dashed #A1887F;
-    border-radius: 8px;
-    color: #6D4C41;
-    font-size: 13px;
-    font-weight: 600;
     cursor: pointer;
+    font-size: 16px;
+    transition: all 0.15s;
   }
-  #photoStatus { font-size: 11px; color: #999; margin-top: 6px; }
+  .card-option:hover { border-color: #A1887F; }
+  .card-option.selected { border-color: #6D4C41; background: #F5EFE9; font-weight: bold; }
+  .card-option-icon { font-size: 24px; }
 
-  button.submit-btn {
-    width: 100%;
+  /* أزرار التنقل */
+  .wizard-nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 28px;
+    padding-bottom: 32px;
+  }
+  .btn-next {
+    flex: 1;
     padding: 15px;
     background: #6D4C41;
     color: white;
     border: none;
     border-radius: 10px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    margin-top: 20px;
   }
-  button.submit-btn:disabled { background: #BCAAA4; }
-  #status { text-align: center; margin-top: 16px; font-size: 14px; }
-  #missingFieldsBox {
-    background: #FFF3E0;
-    border: 1px solid #FFB74D;
-    border-radius: 8px;
-    padding: 12px;
-    margin-top: 14px;
-    font-size: 13px;
-    display: none;
+  .btn-next:disabled { background: #BCAAA4; }
+  .btn-back {
+    padding: 15px 20px;
+    background: white;
+    border: 2px solid #D7CCC8;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #6D4C41;
   }
-  #missingFieldsBox.show { display: block; }
-  #missingFieldsBox ul { margin: 6px 0 0; padding-right: 18px; }
-  .success { color: #2E7D32; }
-  .error { color: #C62828; }
-  .death-year-field, .martyr-field, .marriage-section { display: none; }
-
-  .autocomplete-wrap { position: relative; }
-  .autocomplete-hint {
-    font-size: 12px;
-    color: #8D6E63;
-    margin-bottom: 6px;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-  }
-  .autocomplete-input-wrap { position: relative; }
-  .autocomplete-chevron {
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
+  .btn-skip {
+    padding: 15px 16px;
+    background: none;
+    border: none;
+    font-size: 14px;
     color: #A1887F;
-    pointer-events: none;
-    font-size: 12px;
+    cursor: pointer;
+    text-decoration: underline;
   }
+  .err-msg { color: #C62828; font-size: 13px; margin-top: 8px; display: none; }
+  .err-msg.show { display: block; }
+
+  /* بحث الأب */
+  .autocomplete-wrap { position: relative; }
   .autocomplete-results {
     position: absolute;
     top: 100%;
-    right: 0;
-    left: 0;
+    right: 0; left: 0;
     background: white;
     border: 2px solid #8D6E63;
     border-top: none;
     border-radius: 0 0 10px 10px;
-    max-height: 280px;
+    max-height: 260px;
     overflow-y: auto;
     z-index: 50;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
     display: none;
   }
   .autocomplete-results.show { display: block; }
-  .ac-item {
-    padding: 10px 12px;
-    border-bottom: 1px solid #EFEBE9;
-    cursor: pointer;
-  }
-  .ac-item:last-child { border-bottom: none; }
-  .ac-item:hover, .ac-item.active { background: #F5F0EA; }
+  .ac-item { padding: 10px 12px; border-bottom: 1px solid #EFEBE9; cursor: pointer; }
+  .ac-item:hover { background: #F5F0EA; }
   .ac-name { font-weight: bold; font-size: 14px; }
-  .ac-details { font-size: 12px; color: #777; margin-top: 3px; line-height: 1.5; }
+  .ac-details { font-size: 12px; color: #777; margin-top: 2px; line-height: 1.5; }
   .ac-alive { color: #2E7D32; }
   .ac-dead { color: #757575; }
   .ac-empty { padding: 12px; text-align: center; color: #999; font-size: 13px; }
+
+  /* الزوجات */
+  .wife-row { display: flex; gap: 8px; margin-bottom: 10px; }
+  .wife-row input { flex: 1; }
+  .wife-label { font-size: 13px; color: #6D4C41; font-weight: bold; margin-bottom: 6px; }
+
+  /* الصورة */
+  .photo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 24px;
+    border: 2px dashed #A1887F;
+    border-radius: 12px;
+    background: white;
+    cursor: pointer;
+  }
+  .photo-box.has-photo { border-style: solid; border-color: #6D4C41; }
+  .photo-preview {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: cover;
+    display: none;
+  }
+  .photo-preview.show { display: block; }
+  .photo-box-icon { font-size: 48px; }
+  .photo-box-text { font-size: 14px; color: #6D4C41; font-weight: 600; }
+  .photo-size-note { font-size: 11px; color: #999; }
+
+  /* قائمة ديناميكية */
+  .dynamic-item { display: flex; gap: 8px; margin-bottom: 8px; }
+  .dynamic-item input { flex: 1; }
+  .btn-remove-row { background: none; border: none; color: #C62828; font-size: 20px; cursor: pointer; padding: 0 6px; }
+  .btn-add-row { background: none; border: 1.5px dashed #A1887F; border-radius: 8px; padding: 8px 14px; color: #6D4C41; font-size: 13px; font-weight: bold; cursor: pointer; margin-top: 4px; }
+
+  /* ===== شاشة النجاح ===== */
+  #successScreen {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 32px 24px;
+    text-align: center;
+    background: #F1F8E9;
+  }
+  .success-icon { font-size: 80px; margin-bottom: 20px; animation: pop 0.4s ease; }
+  @keyframes pop { 0%{transform:scale(0.5);opacity:0} 100%{transform:scale(1);opacity:1} }
+  .success-title { font-size: 26px; font-weight: bold; color: #2E7D32; margin-bottom: 12px; }
+  .success-sub { font-size: 15px; color: #555; line-height: 1.7; }
+
+  textarea.wizard-input { resize: vertical; min-height: 80px; }
 </style>
 </head>
 <body>
-<div class="container">
-  <h1>📋 استمارة إضافة بيانات</h1>
-  <p class="subtitle">عبّي بياناتك وسيراجعها المسؤول عن الشجرة قبل إضافتها</p>
 
-  <form id="dataForm" novalidate>
-
-    <div class="field">
-      <label>صورتك الشخصية (اختياري)</label>
-      <div class="photo-upload-box">
-        <div class="photo-preview-wrap">
-          <img id="photoPreview" class="photo-preview" alt="معاينة الصورة">
-          <button type="button" id="photoRemoveBtn" class="photo-remove-btn">✕</button>
-        </div>
-        <div>
-          <button type="button" class="photo-pick-btn" id="photoPickBtn">📷 اختيار صورة</button>
-          <div id="photoStatus"></div>
-        </div>
-      </div>
-      <input type="file" id="photoInput" accept="image/*" style="display:none;">
-    </div>
-
-    <div class="field">
-      <label>الاسم الكامل <span class="required-star">*</span></label>
-      <input type="text" id="name" required>
-    </div>
-
-    <div class="field">
-      <label>الجنس <span class="required-star">*</span></label>
-      <div class="radio-group">
-        <label><input type="radio" name="gender" value="male" checked> ذكر</label>
-        <label><input type="radio" name="gender" value="female"> أنثى</label>
-      </div>
-    </div>
-
-    <div class="field autocomplete-wrap">
-      <label>اسم الأب</label>
-      <div class="autocomplete-hint">↓ اكتب واختر من القائمة (تظهر مواليده وأمه وجده وحالته لتفادي الخلط بالأسماء المتشابهة)</div>
-      <div class="autocomplete-input-wrap">
-        <input type="text" id="fatherName" placeholder="ابدأ بالكتابة..." autocomplete="off">
-        <span class="autocomplete-chevron">▼</span>
-      </div>
-      <div class="autocomplete-results" id="fatherResults"></div>
-      <p class="hint">اتركه فارغاً لو هذا رأس الشجرة، أو اكتب الاسم يدوياً لو ما ظهر بالقائمة وسيتحقق المسؤول لاحقاً</p>
-    </div>
-
-    <div class="field">
-      <label>اسم الوالدة</label>
-      <input type="text" id="motherName">
-    </div>
-
-    <div class="field">
-      <label>سنة الميلاد <span class="required-star">*</span></label>
-      <input type="number" id="birthYear" min="1800" max="2026" placeholder="مثال: 1995" required>
-    </div>
-
-    <div class="field">
-      <label>الحالة <span class="required-star">*</span></label>
-      <div class="radio-group">
-        <label><input type="radio" name="alive" value="yes" checked> على قيد الحياة</label>
-        <label><input type="radio" name="alive" value="no"> متوفى/متوفاة</label>
-      </div>
-    </div>
-
-    <div class="field death-year-field" id="deathYearField">
-      <label>سنة الوفاة <span class="required-star">*</span></label>
-      <input type="number" id="deathYear" min="1800" max="2026">
-    </div>
-
-    <div class="field martyr-field" id="martyrField">
-      <div class="checkbox-row">
-        <input type="checkbox" id="isMartyr">
-        <label for="isMartyr">شهيد</label>
-      </div>
-      <div class="checkbox-row sub-checkbox" id="revMartyrRow" style="display:none;">
-        <input type="checkbox" id="isRevolutionMartyr">
-        <label for="isRevolutionMartyr">شهيد ثورة</label>
-      </div>
-    </div>
-
-    <div class="field">
-      <div class="checkbox-row">
-        <input type="checkbox" id="isMujahid">
-        <label for="isMujahid">مجاهد</label>
-      </div>
-      <div class="checkbox-row sub-checkbox" id="revMujahidRow" style="display:none;">
-        <input type="checkbox" id="isRevolutionMujahid">
-        <label for="isRevolutionMujahid">مجاهد ثورة</label>
-      </div>
-    </div>
-
-    <div class="field">
-      <label>الحالة الاجتماعية <span class="required-star">*</span></label>
-      <div class="radio-group">
-        <label><input type="radio" name="marital" value="single" checked> أعزب/عزباء</label>
-        <label><input type="radio" name="marital" value="married"> متزوج/متزوجة</label>
-      </div>
-    </div>
-
-    <div class="marriage-section" id="wivesSection">
-      <div class="section-title">الزوجات</div>
-      <div class="wife-block">
-        <div class="wife-block-title">الزوجة الأولى <span class="required-star">*</span></div>
-        <div class="two-col">
-          <div><input type="text" id="wife1Name" placeholder="الاسم"></div>
-          <div><input type="text" id="wife1Date" placeholder="تاريخ الزواج (اختياري)"></div>
-        </div>
-      </div>
-      <div class="wife-block">
-        <div class="wife-block-title">الزوجة الثانية</div>
-        <div class="two-col">
-          <div><input type="text" id="wife2Name" placeholder="الاسم"></div>
-          <div><input type="text" id="wife2Date" placeholder="تاريخ الزواج (اختياري)"></div>
-        </div>
-      </div>
-      <div class="wife-block">
-        <div class="wife-block-title">الزوجة الثالثة</div>
-        <div class="two-col">
-          <div><input type="text" id="wife3Name" placeholder="الاسم"></div>
-          <div><input type="text" id="wife3Date" placeholder="تاريخ الزواج (اختياري)"></div>
-        </div>
-      </div>
-      <div class="wife-block">
-        <div class="wife-block-title">الزوجة الرابعة</div>
-        <div class="two-col">
-          <div><input type="text" id="wife4Name" placeholder="الاسم"></div>
-          <div><input type="text" id="wife4Date" placeholder="تاريخ الزواج (اختياري)"></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="marriage-section" id="husbandSection">
-      <div class="section-title">الزوج</div>
-      <div class="wife-block">
-        <div class="wife-block-title">اسم الزوج <span class="required-star">*</span></div>
-        <div class="two-col">
-          <div><input type="text" id="husbandName" placeholder="الاسم"></div>
-          <div><input type="text" id="husbandDate" placeholder="تاريخ الزواج (اختياري)"></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section-title">معلومات إضافية (اختياري)</div>
-
-    <div class="field">
-      <label>الدراسة</label>
-      <input type="text" id="education">
-    </div>
-
-    <div class="field">
-      <label>العمل الحالي</label>
-      <input type="text" id="currentJob" placeholder="مثال: تاجر، مزارع، مهندس...">
-    </div>
-
-    <div class="field">
-      <label>الأعمال السابقة</label>
-      <div id="previousJobsList"></div>
-      <div class="add-btn-row"><button type="button" class="add-btn" id="addPrevJobBtn">+ إضافة عمل سابق</button></div>
-    </div>
-
-    <div class="field">
-      <label>المناصب التي تولاها</label>
-      <div id="positionsList"></div>
-      <div class="add-btn-row"><button type="button" class="add-btn" id="addPositionBtn">+ إضافة منصب</button></div>
-    </div>
-
-    <div class="field">
-      <label>نبذة</label>
-      <textarea id="bio"></textarea>
-    </div>
-
-    <div class="field">
-      <label>رقم هاتفك (لو احتجنا نتواصل معك للتأكد)</label>
-      <input type="tel" id="phone" placeholder="اختياري">
-    </div>
-
-    <div id="missingFieldsBox">
-      <strong>⚠️ في حقول ناقصة لازم تكمّلها قبل الإرسال:</strong>
-      <ul id="missingFieldsListUl"></ul>
-    </div>
-
-    <button type="submit" class="submit-btn" id="submitBtn">إرسال البيانات</button>
-    <div id="status"></div>
-  </form>
+<!-- ===== شاشة الترحيب ===== -->
+<div id="welcomeScreen">
+  <div class="welcome-icon">🌳</div>
+  <div class="welcome-title">أهلاً بك في شجرة عائلة طه</div>
+  <div class="welcome-sub">
+    هذه الاستمارة تساعدنا على إضافة بياناتك لشجرة العائلة.<br>
+    ستستغرق دقيقتين فقط، والأسئلة بسيطة خطوة بخطوة.
+  </div>
+  <button class="start-btn" onclick="startWizard()">ابدأ الآن ←</button>
 </div>
+
+<!-- ===== شاشة الويزارد ===== -->
+<div id="wizardScreen">
+  <div class="wizard-header">
+    <div class="wizard-step-label" id="stepLabel">الخطوة 1 من 9</div>
+    <div class="wizard-step-title" id="stepTitle">اسمك الكامل</div>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar-fill" id="progressBar" style="width:11%"></div>
+    </div>
+  </div>
+  <div class="wizard-body" id="wizardBody"></div>
+</div>
+
+<!-- ===== شاشة النجاح ===== -->
+<div id="successScreen">
+  <div class="success-icon">✅</div>
+  <div class="success-title">تم الإرسال بنجاح!</div>
+  <div class="success-sub">شكراً لك، سيتم مراجعة بياناتك من قِبل المسؤول عن الشجرة وإضافتها قريباً.</div>
+</div>
+
+<input type="file" id="photoInput" accept="image/*" style="display:none;">
 
 <script>
 const PROXY_URL = 'https://taha-family-proxy.nabeeltaha-sy.workers.dev';
@@ -389,126 +258,459 @@ const FAMILY_DATA_URL = 'https://raw.githubusercontent.com/Nabeeltaha/taha-famil
 
 let allMembers = [];
 let selectedFatherId = null;
+let selectedPhotoBase64 = null;
+
+// بيانات مجمّعة من كل الخطوات
+const formData = {
+  name: '', gender: '', birthYear: '', isAlive: true, deathYear: '',
+  isMartyr: false, isRevolutionMartyr: false, isMujahid: false, isRevolutionMujahid: false,
+  fatherName: '', fatherId: '', motherName: '',
+  isSingle: true, wives: [], husband: null,
+  education: '', currentJob: '', previousJobs: [], positions: [], bio: '', phone: '',
+};
 
 fetch(FAMILY_DATA_URL)
   .then(r => r.json())
   .then(data => {
     const raw = Array.isArray(data) ? data : (data.members || []);
     allMembers = raw.filter(m => m && typeof m.name === 'string' && m.name.trim() !== '');
-  })
-  .catch((err) => {
-    console.error('تعذر تحميل بيانات الشجرة للبحث عن الأب:', err);
-  });
+  }).catch(() => {});
 
-function memberById(id) {
-  return allMembers.find(m => m.id === id) || null;
-}
+function memberById(id) { return allMembers.find(m => m.id === id) || null; }
 
 function buildDetailsLine(m) {
   const parts = [];
   parts.push(m.birthYear ? `مواليد ${m.birthYear}` : 'مواليد غير مسجّلة');
   if (m.motherName) parts.push(`أمه: ${m.motherName}`);
-  const grandfather = m.parentId ? memberById(m.parentId) : null;
-  if (grandfather) parts.push(`جده: ${grandfather.name}`);
-  const aliveLabel = (m.deathYear && m.deathYear !== '') ? 'متوفى' : 'على قيد الحياة';
-  const aliveClass = (m.deathYear && m.deathYear !== '') ? 'ac-dead' : 'ac-alive';
-  return { text: parts.join(' • '), aliveLabel, aliveClass };
+  const gf = m.parentId ? memberById(m.parentId) : null;
+  if (gf) parts.push(`جده: ${gf.name}`);
+  const dead = m.deathYear && m.deathYear !== '';
+  return {
+    text: parts.join(' • '),
+    aliveLabel: dead ? 'متوفى' : 'على قيد الحياة',
+    aliveClass: dead ? 'ac-dead' : 'ac-alive'
+  };
 }
 
-const fatherInput = document.getElementById('fatherName');
-const fatherResults = document.getElementById('fatherResults');
+// ===== تعريف الخطوات =====
+// كل خطوة: { id, title, required, skip?, render(), collect(), validate() }
+function getSteps() {
+  const steps = [];
 
-fatherInput.addEventListener('input', () => {
-  selectedFatherId = null;
-  const query = fatherInput.value.trim();
-  if (query.length === 0) {
-    fatherResults.classList.remove('show');
-    fatherResults.innerHTML = '';
-    return;
-  }
-  const matches = allMembers.filter(m => m.name && m.name.includes(query)).slice(0, 15);
-  fatherResults.innerHTML = '';
-  if (matches.length === 0) {
-    fatherResults.innerHTML = '<div class="ac-empty">لا يوجد تطابق — اكتب الاسم كامل يدوياً</div>';
-  } else {
-    matches.forEach(m => {
-      const details = buildDetailsLine(m);
-      const item = document.createElement('div');
-      item.className = 'ac-item';
-      item.innerHTML = `
-        <div class="ac-name">${m.name} — <span class="${details.aliveClass}">${details.aliveLabel}</span></div>
-        <div class="ac-details">${details.text}</div>
-      `;
-      item.addEventListener('click', () => {
-        fatherInput.value = m.name;
-        selectedFatherId = m.id;
-        fatherResults.classList.remove('show');
-      });
-      fatherResults.appendChild(item);
-    });
-  }
-  fatherResults.classList.add('show');
-});
-
-document.addEventListener('click', (e) => {
-  if (!e.target.closest('.autocomplete-wrap')) {
-    fatherResults.classList.remove('show');
-  }
-});
-
-document.querySelectorAll('input[name="alive"]').forEach(r => {
-  r.addEventListener('change', () => {
-    const isDead = document.querySelector('input[name="alive"]:checked').value === 'no';
-    document.getElementById('deathYearField').style.display = isDead ? 'block' : 'none';
-    document.getElementById('martyrField').style.display = isDead ? 'block' : 'none';
-    if (!isDead) {
-      document.getElementById('isMartyr').checked = false;
-      document.getElementById('isRevolutionMartyr').checked = false;
-      document.getElementById('revMartyrRow').style.display = 'none';
+  // 1) الاسم
+  steps.push({
+    id: 'name', title: 'اسمك الكامل',
+    render: () => `
+      <div class="step-question">ما هو اسمك الكامل؟</div>
+      <input class="wizard-input" id="f_name" type="text" placeholder="مثال: محمد أحمد طه" value="${formData.name}" autofocus>
+      <div class="err-msg" id="err_name">الاسم مطلوب</div>`,
+    collect: () => { formData.name = document.getElementById('f_name').value.trim(); },
+    validate: () => {
+      const v = document.getElementById('f_name').value.trim();
+      if (!v) { showErr('f_name','err_name'); return false; }
+      return true;
     }
   });
-});
 
-document.getElementById('isMartyr').addEventListener('change', (e) => {
-  document.getElementById('revMartyrRow').style.display = e.target.checked ? 'flex' : 'none';
-  if (!e.target.checked) document.getElementById('isRevolutionMartyr').checked = false;
-});
+  // 2) الجنس
+  steps.push({
+    id: 'gender', title: 'الجنس',
+    render: () => `
+      <div class="step-question">ذكر أم أنثى؟</div>
+      <div class="card-options">
+        <div class="card-option ${formData.gender==='male'?'selected':''}" onclick="selectCard(this,'gender','male')">
+          <span class="card-option-icon">👨</span> ذكر
+        </div>
+        <div class="card-option ${formData.gender==='female'?'selected':''}" onclick="selectCard(this,'gender','female')">
+          <span class="card-option-icon">👩</span> أنثى
+        </div>
+      </div>
+      <div class="err-msg" id="err_gender">يرجى الاختيار</div>`,
+    collect: () => {},
+    validate: () => { if (!formData.gender) { showErrEl('err_gender'); return false; } return true; }
+  });
 
-document.getElementById('isMujahid').addEventListener('change', (e) => {
-  document.getElementById('revMujahidRow').style.display = e.target.checked ? 'flex' : 'none';
-  if (!e.target.checked) document.getElementById('isRevolutionMujahid').checked = false;
-});
+  // 3) سنة الميلاد
+  steps.push({
+    id: 'birth', title: 'سنة الميلاد',
+    render: () => `
+      <div class="step-question">في أي سنة وُلدت؟</div>
+      <input class="wizard-input" id="f_birth" type="number" placeholder="مثال: 1990" min="1800" max="2026" value="${formData.birthYear}">
+      <div class="err-msg" id="err_birth">يرجى إدخال سنة ميلاد صحيحة</div>`,
+    collect: () => { formData.birthYear = document.getElementById('f_birth').value.trim(); },
+    validate: () => {
+      const v = document.getElementById('f_birth').value.trim();
+      const n = parseInt(v);
+      if (!v || isNaN(n) || n < 1800 || n > 2026) { showErr('f_birth','err_birth'); return false; }
+      return true;
+    }
+  });
 
-function updateMarriageSections() {
-  const isMarried = document.querySelector('input[name="marital"]:checked').value === 'married';
-  const gender = document.querySelector('input[name="gender"]:checked').value;
-  document.getElementById('wivesSection').style.display = (isMarried && gender === 'male') ? 'block' : 'none';
-  document.getElementById('husbandSection').style.display = (isMarried && gender === 'female') ? 'block' : 'none';
+  // 4) الحالة (حي/متوفى + شهيد/مجاهد)
+  steps.push({
+    id: 'status', title: 'الحالة',
+    render: () => `
+      <div class="step-question">هل أنت على قيد الحياة؟</div>
+      <div class="card-options">
+        <div class="card-option ${formData.isAlive?'selected':''}" onclick="selectAlive(this,true)">
+          <span class="card-option-icon">💚</span> على قيد الحياة
+        </div>
+        <div class="card-option ${!formData.isAlive?'selected':''}" onclick="selectAlive(this,false)">
+          <span class="card-option-icon">🕊️</span> متوفى / متوفاة
+        </div>
+      </div>
+      <div id="deathExtra" style="display:${!formData.isAlive?'block':'none'}; margin-top:16px;">
+        <input class="wizard-input" id="f_death" type="number" placeholder="سنة الوفاة" min="1800" max="2026" value="${formData.deathYear}" style="margin-bottom:12px;">
+        <div class="card-options">
+          <div class="card-option ${formData.isMartyr?'selected':''}" onclick="toggleCheck(this,'isMartyr')">
+            <span class="card-option-icon">🔴</span> شهيد
+          </div>
+          <div class="card-option ${formData.isRevolutionMartyr?'selected':''}" id="revMartyrCard" style="display:${formData.isMartyr?'flex':'none'}" onclick="toggleCheck(this,'isRevolutionMartyr')">
+            <span class="card-option-icon">🟢</span> شهيد ثورة
+          </div>
+          <div class="card-option ${formData.isMujahid?'selected':''}" onclick="toggleCheck(this,'isMujahid')">
+            <span class="card-option-icon">⚔️</span> مجاهد
+          </div>
+          <div class="card-option ${formData.isRevolutionMujahid?'selected':''}" id="revMujahidCard" style="display:${formData.isMujahid?'flex':'none'}" onclick="toggleCheck(this,'isRevolutionMujahid')">
+            <span class="card-option-icon">🟢</span> مجاهد ثورة
+          </div>
+        </div>
+      </div>
+      <div class="err-msg" id="err_status">يرجى الاختيار</div>`,
+    collect: () => {
+      if (!formData.isAlive) {
+        formData.deathYear = (document.getElementById('f_death') || {}).value || '';
+      }
+    },
+    validate: () => {
+      if (formData.isAlive === null || formData.isAlive === undefined) {
+        showErrEl('err_status'); return false;
+      }
+      return true;
+    }
+  });
+
+  // 5) اسم الأب
+  steps.push({
+    id: 'father', title: 'اسم الأب',
+    render: () => `
+      <div class="step-question">ما اسم والدك؟</div>
+      <div class="step-hint">اكتب واختر من القائمة لو ظهر اسمه، أو اكتبه يدوياً</div>
+      <div class="autocomplete-wrap">
+        <input class="wizard-input" id="f_father" type="text" placeholder="ابدأ بالكتابة..." autocomplete="off" value="${formData.fatherName}">
+        <div class="autocomplete-results" id="fatherResults"></div>
+      </div>
+      <div class="err-msg" id="err_father">اسم الأب مطلوب</div>`,
+    collect: () => {
+      formData.fatherName = (document.getElementById('f_father') || {}).value || '';
+      formData.fatherId = selectedFatherId || '';
+    },
+    validate: () => {
+      const v = (document.getElementById('f_father') || {}).value.trim();
+      if (!v) { showErr('f_father','err_father'); return false; }
+      return true;
+    }
+  });
+
+  // 6) اسم الأم
+  steps.push({
+    id: 'mother', title: 'اسم الأم',
+    render: () => `
+      <div class="step-question">ما اسم والدتك؟</div>
+      <input class="wizard-input" id="f_mother" type="text" placeholder="مثال: فاطمة محمود" value="${formData.motherName}">
+      <div class="err-msg" id="err_mother">اسم الأم مطلوب</div>`,
+    collect: () => { formData.motherName = document.getElementById('f_mother').value.trim(); },
+    validate: () => {
+      const v = document.getElementById('f_mother').value.trim();
+      if (!v) { showErr('f_mother','err_mother'); return false; }
+      return true;
+    }
+  });
+
+  // 7) الحالة الاجتماعية
+  steps.push({
+    id: 'marital', title: 'الحالة الاجتماعية',
+    render: () => {
+      const isFemale = formData.gender === 'female';
+      return `
+        <div class="step-question">${isFemale ? 'هل أنتِ متزوجة؟' : 'هل أنت متزوج؟'}</div>
+        <div class="card-options">
+          <div class="card-option ${formData.isSingle?'selected':''}" onclick="selectMarital(this,true)">
+            <span class="card-option-icon">🧑</span> ${isFemale ? 'عزباء' : 'أعزب'}
+          </div>
+          <div class="card-option ${!formData.isSingle?'selected':''}" onclick="selectMarital(this,false)">
+            <span class="card-option-icon">💍</span> متزوج${isFemale?'ة':''}
+          </div>
+        </div>
+        <div id="marriageExtra" style="display:${!formData.isSingle?'block':'none'}; margin-top:16px;">
+          ${isFemale ? `
+            <div class="wife-label">اسم الزوج *</div>
+            <div class="wife-row">
+              <input class="wizard-input" id="f_hname" type="text" placeholder="اسم الزوج" value="${formData.husband?.name||''}">
+              <input class="wizard-input" id="f_hdate" type="text" placeholder="تاريخ الزواج (اختياري)" value="${formData.husband?.marriageDate||''}">
+            </div>
+          ` : `
+            <div class="wife-label">الزوجة الأولى *</div>
+            <div class="wife-row">
+              <input class="wizard-input" id="f_w1name" type="text" placeholder="الاسم" value="${formData.wives[0]?.name||''}">
+              <input class="wizard-input" id="f_w1date" type="text" placeholder="تاريخ الزواج (اختياري)" value="${formData.wives[0]?.marriageDate||''}">
+            </div>
+            <div class="wife-label" style="margin-top:8px;">الزوجة الثانية (اختياري)</div>
+            <div class="wife-row">
+              <input class="wizard-input" id="f_w2name" type="text" placeholder="الاسم" value="${formData.wives[1]?.name||''}">
+              <input class="wizard-input" id="f_w2date" type="text" placeholder="تاريخ الزواج (اختياري)" value="${formData.wives[1]?.marriageDate||''}">
+            </div>
+            <div class="wife-label" style="margin-top:8px;">الزوجة الثالثة (اختياري)</div>
+            <div class="wife-row">
+              <input class="wizard-input" id="f_w3name" type="text" placeholder="الاسم" value="${formData.wives[2]?.name||''}">
+              <input class="wizard-input" id="f_w3date" type="text" placeholder="تاريخ الزواج (اختياري)" value="${formData.wives[2]?.marriageDate||''}">
+            </div>
+            <div class="wife-label" style="margin-top:8px;">الزوجة الرابعة (اختياري)</div>
+            <div class="wife-row">
+              <input class="wizard-input" id="f_w4name" type="text" placeholder="الاسم" value="${formData.wives[3]?.name||''}">
+              <input class="wizard-input" id="f_w4date" type="text" placeholder="تاريخ الزواج (اختياري)" value="${formData.wives[3]?.marriageDate||''}">
+            </div>
+          `}
+        </div>
+        <div class="err-msg" id="err_marital">يرجى إدخال اسم الزوج${formData.gender==='female'?'':'ة الأولى'}</div>`;
+    },
+    collect: () => {
+      if (formData.isSingle) { formData.wives = []; formData.husband = null; return; }
+      if (formData.gender === 'female') {
+        const n = (document.getElementById('f_hname')||{}).value?.trim();
+        formData.husband = n ? { name: n, marriageDate: (document.getElementById('f_hdate')||{}).value?.trim()||null } : null;
+      } else {
+        formData.wives = [];
+        for (let i = 1; i <= 4; i++) {
+          const n = (document.getElementById(`f_w${i}name`)||{}).value?.trim();
+          if (n) formData.wives.push({ name: n, marriageDate: (document.getElementById(`f_w${i}date`)||{}).value?.trim()||null });
+        }
+      }
+    },
+    validate: () => {
+      if (formData.isSingle) return true;
+      if (formData.gender === 'female') {
+        const n = (document.getElementById('f_hname')||{}).value?.trim();
+        if (!n) { showErrEl('err_marital'); return false; }
+      } else {
+        const n = (document.getElementById('f_w1name')||{}).value?.trim();
+        if (!n) { showErrEl('err_marital'); return false; }
+      }
+      return true;
+    }
+  });
+
+  // 8) معلومات إضافية (اختيارية كلها — فيها زر تخطي)
+  steps.push({
+    id: 'extra', title: 'معلومات إضافية',
+    skippable: true,
+    render: () => `
+      <div class="step-question">معلومات إضافية (اختيارية)</div>
+      <div class="step-hint">يمكنك تخطي هذه الخطوة لو ما تريد تعبئتها الآن</div>
+      <input class="wizard-input" id="f_edu" type="text" placeholder="الدراسة (مثال: بكالوريوس هندسة)" value="${formData.education}" style="margin-bottom:10px;">
+      <input class="wizard-input" id="f_job" type="text" placeholder="العمل الحالي (مثال: تاجر، مزارع...)" value="${formData.currentJob}" style="margin-bottom:10px;">
+      <textarea class="wizard-input" id="f_bio" placeholder="نبذة مختصرة عنك (اختياري)">${formData.bio}</textarea>
+      <input class="wizard-input" id="f_phone" type="tel" placeholder="رقم هاتفك للتواصل (اختياري)" value="${formData.phone}" style="margin-top:10px;">`,
+    collect: () => {
+      formData.education = (document.getElementById('f_edu')||{}).value?.trim()||'';
+      formData.currentJob = (document.getElementById('f_job')||{}).value?.trim()||'';
+      formData.bio = (document.getElementById('f_bio')||{}).value?.trim()||'';
+      formData.phone = (document.getElementById('f_phone')||{}).value?.trim()||'';
+    },
+    validate: () => true
+  });
+
+  // 9) الصورة (اختيارية — فيها زر تخطي)
+  steps.push({
+    id: 'photo', title: 'صورتك الشخصية',
+    skippable: true,
+    render: () => `
+      <div class="step-question">أضف صورتك الشخصية (اختياري)</div>
+      <div class="step-hint">الصورة تساعد على التعرف عليك بالشجرة، ويمكن تخطيها</div>
+      <div class="photo-box ${selectedPhotoBase64?'has-photo':''}" onclick="document.getElementById('photoInput').click()">
+        <img id="photoPreview" class="photo-preview ${selectedPhotoBase64?'show':''}" src="" alt="">
+        <div class="photo-box-icon" ${selectedPhotoBase64?'style="display:none"':''}>📷</div>
+        <div class="photo-box-text">${selectedPhotoBase64 ? 'تم اختيار الصورة — اضغط لتغييرها' : 'اضغط لاختيار صورة'}</div>
+        <div class="photo-size-note" id="photoSizeNote"></div>
+      </div>`,
+    collect: () => {},
+    validate: () => true
+  });
+
+  return steps;
 }
-document.querySelectorAll('input[name="marital"]').forEach(r => r.addEventListener('change', updateMarriageSections));
-document.querySelectorAll('input[name="gender"]').forEach(r => r.addEventListener('change', updateMarriageSections));
 
-let selectedPhotoBase64 = null;
-const photoInput = document.getElementById('photoInput');
-const photoPreview = document.getElementById('photoPreview');
-const photoRemoveBtn = document.getElementById('photoRemoveBtn');
-const photoStatus = document.getElementById('photoStatus');
+let steps = [];
+let currentStep = 0;
 
-document.getElementById('photoPickBtn').addEventListener('click', () => photoInput.click());
+function startWizard() {
+  steps = getSteps();
+  currentStep = 0;
+  document.getElementById('welcomeScreen').style.display = 'none';
+  document.getElementById('wizardScreen').style.display = 'block';
+  renderStep();
+}
 
-photoRemoveBtn.addEventListener('click', () => {
-  selectedPhotoBase64 = null;
-  photoInput.value = '';
-  photoPreview.classList.remove('show');
-  photoRemoveBtn.classList.remove('show');
-  photoStatus.textContent = '';
-});
+function renderStep() {
+  const step = steps[currentStep];
+  const total = steps.length;
+  const num = currentStep + 1;
 
-photoInput.addEventListener('change', () => {
-  const file = photoInput.files && photoInput.files[0];
+  document.getElementById('stepLabel').textContent = `الخطوة ${num} من ${total}`;
+  document.getElementById('stepTitle').textContent = step.title;
+  document.getElementById('progressBar').style.width = `${Math.round((num / total) * 100)}%`;
+
+  const isLast = currentStep === total - 1;
+  const body = document.getElementById('wizardBody');
+  body.innerHTML = `
+    ${step.render()}
+    <div class="wizard-nav">
+      ${currentStep > 0 ? '<button class="btn-back" onclick="goBack()">→ رجوع</button>' : ''}
+      <button class="btn-next" id="btnNext" onclick="goNext()">${isLast ? 'إرسال البيانات ✓' : 'التالي ←'}</button>
+      ${step.skippable ? '<button class="btn-skip" onclick="skipStep()">تخطي</button>' : ''}
+    </div>
+  `;
+
+  // إعادة ربط بحث الأب
+  if (step.id === 'father') setupFatherSearch();
+
+  // إعادة عرض معاينة الصورة لو موجودة
+  if (step.id === 'photo' && selectedPhotoBase64) {
+    const preview = document.getElementById('photoPreview');
+    if (preview) {
+      preview.src = 'data:image/jpeg;base64,' + selectedPhotoBase64;
+      preview.classList.add('show');
+    }
+  }
+
+  // تركيز تلقائي على أول حقل نص
+  setTimeout(() => {
+    const first = body.querySelector('input[type="text"], input[type="number"], input[type="tel"], textarea');
+    if (first) first.focus();
+  }, 100);
+}
+
+function goNext() {
+  const step = steps[currentStep];
+  step.collect();
+  if (!step.validate()) return;
+  if (currentStep === steps.length - 1) { submitForm(); return; }
+  currentStep++;
+  renderStep();
+  window.scrollTo(0, 0);
+}
+
+function goBack() {
+  const step = steps[currentStep];
+  step.collect();
+  currentStep--;
+  renderStep();
+  window.scrollTo(0, 0);
+}
+
+function skipStep() {
+  const step = steps[currentStep];
+  step.collect();
+  if (currentStep === steps.length - 1) { submitForm(); return; }
+  currentStep++;
+  renderStep();
+  window.scrollTo(0, 0);
+}
+
+// ===== مساعدات UI =====
+function showErr(inputId, errId) {
+  const el = document.getElementById(inputId);
+  if (el) el.classList.add('err');
+  showErrEl(errId);
+}
+function showErrEl(errId) {
+  const el = document.getElementById(errId);
+  if (el) el.classList.add('show');
+}
+function clearErrs() {
+  document.querySelectorAll('.err').forEach(e => e.classList.remove('err'));
+  document.querySelectorAll('.err-msg.show').forEach(e => e.classList.remove('show'));
+}
+
+function selectCard(el, field, value) {
+  formData[field] = value;
+  el.closest('.card-options').querySelectorAll('.card-option').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  clearErrs();
+}
+
+function selectAlive(el, val) {
+  formData.isAlive = val;
+  el.closest('.card-options').querySelectorAll('.card-option').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  document.getElementById('deathExtra').style.display = val ? 'none' : 'block';
+  clearErrs();
+}
+
+function selectMarital(el, isSingle) {
+  formData.isSingle = isSingle;
+  el.closest('.card-options').querySelectorAll('.card-option').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  document.getElementById('marriageExtra').style.display = isSingle ? 'none' : 'block';
+  clearErrs();
+}
+
+function toggleCheck(el, field) {
+  formData[field] = !formData[field];
+  el.classList.toggle('selected', formData[field]);
+  if (field === 'isMartyr') {
+    const card = document.getElementById('revMartyrCard');
+    if (card) card.style.display = formData.isMartyr ? 'flex' : 'none';
+    if (!formData.isMartyr) { formData.isRevolutionMartyr = false; const rc = document.getElementById('revMartyrCard'); if(rc) rc.classList.remove('selected'); }
+  }
+  if (field === 'isMujahid') {
+    const card = document.getElementById('revMujahidCard');
+    if (card) card.style.display = formData.isMujahid ? 'flex' : 'none';
+    if (!formData.isMujahid) { formData.isRevolutionMujahid = false; const rc = document.getElementById('revMujahidCard'); if(rc) rc.classList.remove('selected'); }
+  }
+}
+
+// ===== بحث الأب =====
+function setupFatherSearch() {
+  const input = document.getElementById('f_father');
+  const results = document.getElementById('fatherResults');
+  if (!input || !results) return;
+
+  input.addEventListener('input', () => {
+    selectedFatherId = null;
+    const q = input.value.trim();
+    if (!q) { results.classList.remove('show'); results.innerHTML = ''; return; }
+    const matches = allMembers.filter(m => m.name && m.name.includes(q)).slice(0, 15);
+    results.innerHTML = '';
+    if (matches.length === 0) {
+      results.innerHTML = '<div class="ac-empty">لا يوجد تطابق — اكتب الاسم كامل يدوياً</div>';
+    } else {
+      matches.forEach(m => {
+        const d = buildDetailsLine(m);
+        const item = document.createElement('div');
+        item.className = 'ac-item';
+        item.innerHTML = `<div class="ac-name">${m.name} — <span class="${d.aliveClass}">${d.aliveLabel}</span></div><div class="ac-details">${d.text}</div>`;
+        item.addEventListener('click', () => {
+          input.value = m.name;
+          selectedFatherId = m.id;
+          results.classList.remove('show');
+          clearErrs();
+        });
+        results.appendChild(item);
+      });
+    }
+    results.classList.add('show');
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.autocomplete-wrap')) results.classList.remove('show');
+  }, { once: false });
+}
+
+// ===== الصورة =====
+document.getElementById('photoInput').addEventListener('change', () => {
+  const file = document.getElementById('photoInput').files[0];
   if (!file) return;
-  photoStatus.textContent = 'جاري تجهيز الصورة...';
-
   const reader = new FileReader();
   reader.onload = (e) => {
     const img = new Image();
@@ -516,156 +718,35 @@ photoInput.addEventListener('change', () => {
       const maxDim = 800;
       let { width, height } = img;
       if (width > maxDim || height > maxDim) {
-        if (width > height) {
-          height = Math.round(height * (maxDim / width));
-          width = maxDim;
-        } else {
-          width = Math.round(width * (maxDim / height));
-          height = maxDim;
-        }
+        if (width > height) { height = Math.round(height * maxDim / width); width = maxDim; }
+        else { width = Math.round(width * maxDim / height); height = maxDim; }
       }
       const canvas = document.createElement('canvas');
-      canvas.width = width;
-      canvas.height = height;
+      canvas.width = width; canvas.height = height;
       canvas.getContext('2d').drawImage(img, 0, 0, width, height);
       const dataUrl = canvas.toDataURL('image/jpeg', 0.75);
       selectedPhotoBase64 = dataUrl.split(',')[1];
 
-      photoPreview.src = dataUrl;
-      photoPreview.classList.add('show');
-      photoRemoveBtn.classList.add('show');
-      const sizeKb = Math.round((selectedPhotoBase64.length * 0.75) / 1024);
-      photoStatus.textContent = `✅ جاهزة (${sizeKb} كيلوبايت تقريباً)`;
+      const preview = document.getElementById('photoPreview');
+      if (preview) { preview.src = dataUrl; preview.classList.add('show'); }
+      const box = preview?.closest('.photo-box');
+      if (box) { box.classList.add('has-photo'); box.querySelector('.photo-box-icon').style.display = 'none'; box.querySelector('.photo-box-text').textContent = 'تم اختيار الصورة — اضغط لتغييرها'; }
+      const note = document.getElementById('photoSizeNote');
+      if (note) note.textContent = `✅ ${Math.round((selectedPhotoBase64.length * 0.75) / 1024)} كيلوبايت تقريباً`;
     };
-    img.onerror = () => { photoStatus.textContent = '⚠️ تعذّر قراءة الصورة، جرّب صورة أخرى.'; };
     img.src = e.target.result;
   };
-  reader.onerror = () => { photoStatus.textContent = '⚠️ تعذّر قراءة الملف.'; };
   reader.readAsDataURL(file);
 });
 
-function addDynamicRow(containerId, placeholder) {
-  const container = document.getElementById(containerId);
-  const row = document.createElement('div');
-  row.className = 'dynamic-list-item';
-  row.innerHTML = `<input type="text" placeholder="${placeholder}"><button type="button" class="remove-btn">✕</button>`;
-  row.querySelector('.remove-btn').addEventListener('click', () => row.remove());
-  container.appendChild(row);
-}
-document.getElementById('addPrevJobBtn').addEventListener('click', () => addDynamicRow('previousJobsList', 'مثال: معلم مدرسة'));
-document.getElementById('addPositionBtn').addEventListener('click', () => addDynamicRow('positionsList', 'مثال: رئيس جمعية خيرية'));
-
-function collectDynamicList(containerId) {
-  return Array.from(document.querySelectorAll(`#${containerId} input`))
-    .map(i => i.value.trim())
-    .filter(v => v !== '');
-}
-
-function validateForm() {
-  const missing = [];
-  document.querySelectorAll('.field-error').forEach(el => el.classList.remove('field-error'));
-
-  const nameEl = document.getElementById('name');
-  if (!nameEl.value.trim()) { missing.push('الاسم الكامل'); nameEl.classList.add('field-error'); }
-
-  const birthYearEl = document.getElementById('birthYear');
-  if (!birthYearEl.value.trim()) { missing.push('سنة الميلاد'); birthYearEl.classList.add('field-error'); }
-
-  const isDead = document.querySelector('input[name="alive"]:checked').value === 'no';
-  if (isDead) {
-    const deathYearEl = document.getElementById('deathYear');
-    if (!deathYearEl.value.trim()) { missing.push('سنة الوفاة'); deathYearEl.classList.add('field-error'); }
-  }
-
-  const isMarried = document.querySelector('input[name="marital"]:checked').value === 'married';
-  const gender = document.querySelector('input[name="gender"]:checked').value;
-  if (isMarried && gender === 'male') {
-    const wife1 = document.getElementById('wife1Name');
-    if (!wife1.value.trim()) { missing.push('اسم الزوجة الأولى'); wife1.classList.add('field-error'); }
-  }
-  if (isMarried && gender === 'female') {
-    const husband = document.getElementById('husbandName');
-    if (!husband.value.trim()) { missing.push('اسم الزوج'); husband.classList.add('field-error'); }
-  }
-
-  return missing;
-}
-
-function showMissingFields(missing) {
-  const box = document.getElementById('missingFieldsBox');
-  const ul = document.getElementById('missingFieldsListUl');
-  if (missing.length === 0) {
-    box.classList.remove('show');
-    ul.innerHTML = '';
-    return;
-  }
-  ul.innerHTML = missing.map(m => `<li>${m}</li>`).join('');
-  box.classList.add('show');
-  box.scrollIntoView({ behavior: 'smooth', block: 'center' });
-}
-
-document.getElementById('dataForm').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const status = document.getElementById('status');
-  status.textContent = '';
-
-  const missing = validateForm();
-  if (missing.length > 0) {
-    showMissingFields(missing);
-    return;
-  }
-  showMissingFields([]);
-
-  const btn = document.getElementById('submitBtn');
-  btn.disabled = true;
-  btn.textContent = 'جاري الإرسال...';
-
-  const isMarried = document.querySelector('input[name="marital"]:checked').value === 'married';
-  const gender = document.querySelector('input[name="gender"]:checked').value;
-  const isAlive = document.querySelector('input[name="alive"]:checked').value === 'yes';
-  const isMartyr = document.getElementById('isMartyr').checked;
-  const isMujahid = document.getElementById('isMujahid').checked;
-
-  const wives = [];
-  if (isMarried && gender === 'male') {
-    for (let i = 1; i <= 4; i++) {
-      const name = document.getElementById(`wife${i}Name`).value.trim();
-      if (!name) continue;
-      wives.push({ name, marriageDate: document.getElementById(`wife${i}Date`).value.trim() || null });
-    }
-  }
-
-  let husband = null;
-  if (isMarried && gender === 'female') {
-    const hName = document.getElementById('husbandName').value.trim();
-    if (hName) {
-      husband = { name: hName, marriageDate: document.getElementById('husbandDate').value.trim() || null };
-    }
-  }
+// ===== الإرسال =====
+async function submitForm() {
+  const btn = document.getElementById('btnNext');
+  if (btn) { btn.disabled = true; btn.textContent = 'جاري الإرسال...'; }
 
   const payload = {
     action: 'submitRequest',
-    name: document.getElementById('name').value.trim(),
-    gender,
-    fatherName: document.getElementById('fatherName').value.trim(),
-    fatherId: selectedFatherId || '',
-    motherName: document.getElementById('motherName').value.trim(),
-    birthYear: document.getElementById('birthYear').value.trim(),
-    isAlive,
-    deathYear: isAlive ? '' : document.getElementById('deathYear').value.trim(),
-    isMartyr: isAlive ? false : isMartyr,
-    isRevolutionMartyr: (!isAlive && isMartyr) ? document.getElementById('isRevolutionMartyr').checked : false,
-    isMujahid,
-    isRevolutionMujahid: isMujahid ? document.getElementById('isRevolutionMujahid').checked : false,
-    isSingle: !isMarried,
-    wives,
-    husband,
-    education: document.getElementById('education').value.trim(),
-    currentJob: document.getElementById('currentJob').value.trim(),
-    previousJobs: collectDynamicList('previousJobsList'),
-    positions: collectDynamicList('positionsList'),
-    bio: document.getElementById('bio').value.trim(),
-    phone: document.getElementById('phone').value.trim(),
+    ...formData,
     submittedAt: new Date().toISOString(),
     photoBase64: selectedPhotoBase64 || undefined,
     photoExt: selectedPhotoBase64 ? 'jpg' : undefined,
@@ -679,30 +760,16 @@ document.getElementById('dataForm').addEventListener('submit', async (e) => {
     });
     const result = await res.json();
     if (result.success) {
-      status.innerHTML = '<span class="success">✅ تم الإرسال بنجاح! شكراً، سوف يتم مراجعة بياناتك قريباً.</span>';
-      document.getElementById('dataForm').reset();
-      updateMarriageSections();
-      document.getElementById('deathYearField').style.display = 'none';
-      document.getElementById('martyrField').style.display = 'none';
-      document.getElementById('revMartyrRow').style.display = 'none';
-      document.getElementById('revMujahidRow').style.display = 'none';
-      document.getElementById('previousJobsList').innerHTML = '';
-      document.getElementById('positionsList').innerHTML = '';
-      selectedFatherId = null;
-      selectedPhotoBase64 = null;
-      photoPreview.classList.remove('show');
-      photoRemoveBtn.classList.remove('show');
-      photoStatus.textContent = '';
+      document.getElementById('wizardScreen').style.display = 'none';
+      document.getElementById('successScreen').style.display = 'flex';
     } else {
-      throw new Error(result.error || 'فشل غير معروف');
+      throw new Error(result.error || 'فشل');
     }
   } catch (err) {
-    status.innerHTML = '<span class="error">⚠️ تعذّر الإرسال. تأكد من اتصالك بالإنترنت وحاول مرة أخرى.</span>';
-  } finally {
-    btn.disabled = false;
-    btn.textContent = 'إرسال البيانات';
+    if (btn) { btn.disabled = false; btn.textContent = 'إرسال البيانات ✓'; }
+    alert('⚠️ تعذّر الإرسال. تأكد من اتصالك بالإنترنت وحاول مرة أخرى.');
   }
-});
+}
 </script>
 </body>
 </html>
