@@ -1,0 +1,31 @@
+{
+  "name": "أحمد",
+  "gender": "male",
+  "birthYear": "2011",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد نبيل",
+  "fatherId": "11",
+  "motherName": "لينا",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "صقف",
+      "marriageDate": "2025"
+    }
+  ],
+  "husband": null,
+  "education": "طبيب",
+  "currentJob": "مهندس",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "عاطل",
+  "phone": "",
+  "submittedAt": "2026-09-09T22:46:51.506Z",
+  "requestId": "1788994012310-54513",
+  "photoPath": "pending_photos/1788994012310-54513.jpg"
+}
