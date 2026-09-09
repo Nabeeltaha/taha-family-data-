@@ -1,0 +1,31 @@
+{
+  "name": "عماد الدين",
+  "gender": "male",
+  "birthYear": "1982",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "مصطفى طه طه",
+  "fatherId": "",
+  "motherName": "سناء صلاح الدين طه",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "سماح حامد",
+      "marriageDate": "٩/٩ ٢٠١٣"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0932285013",
+  "submittedAt": "2026-09-09T23:33:06.201Z",
+  "requestId": "1788996787542-86416",
+  "photoPath": "pending_photos/1788996787542-86416.jpg"
+}
