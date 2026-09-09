@@ -1,1 +1,17 @@
-   []
+[
+  {
+    "name": "أحمد",
+    "gender": "male",
+    "fatherName": "محمد نبيل",
+    "motherName": "لينا",
+    "birthYear": "2026",
+    "isAlive": true,
+    "deathYear": "",
+    "education": "",
+    "currentJob": "",
+    "bio": "",
+    "phone": "",
+    "submittedAt": "2026-09-09T15:21:30.886Z",
+    "requestId": "1788967291857-28132"
+  }
+]
