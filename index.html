@@ -13,7 +13,6 @@
     color: #3E2723;
   }
 
-  /* ===== شاشة الترحيب ===== */
   #welcomeScreen {
     display: flex;
     flex-direction: column;
@@ -38,7 +37,6 @@
     box-shadow: 0 4px 12px rgba(109,76,65,0.3);
   }
 
-  /* ===== شاشة الويزارد ===== */
   #wizardScreen { display: none; min-height: 100vh; }
 
   .wizard-header {
@@ -56,16 +54,9 @@
 
   .wizard-body { padding: 24px 20px; max-width: 480px; margin: 0 auto; }
 
-  .step-question {
-    font-size: 17px;
-    font-weight: bold;
-    color: #3E2723;
-    margin-bottom: 20px;
-    line-height: 1.5;
-  }
+  .step-question { font-size: 17px; font-weight: bold; color: #3E2723; margin-bottom: 20px; line-height: 1.5; }
   .step-hint { font-size: 12px; color: #999; margin-top: -14px; margin-bottom: 18px; }
 
-  /* حقول الإدخال */
   .wizard-input {
     width: 100%;
     padding: 14px;
@@ -80,7 +71,6 @@
   .wizard-input:focus { border-color: #6D4C41; }
   .wizard-input.err { border-color: #C62828; background: #FFF5F5; }
 
-  /* خيارات الراديو كبطاقات */
   .card-options { display: flex; flex-direction: column; gap: 10px; }
   .card-option {
     display: flex;
@@ -98,42 +88,22 @@
   .card-option.selected { border-color: #6D4C41; background: #F5EFE9; font-weight: bold; }
   .card-option-icon { font-size: 24px; }
 
-  /* أزرار التنقل */
-  .wizard-nav {
-    display: flex;
-    gap: 10px;
-    margin-top: 28px;
-    padding-bottom: 32px;
-  }
+  .wizard-nav { display: flex; gap: 10px; margin-top: 28px; padding-bottom: 32px; }
   .btn-next {
-    flex: 1;
-    padding: 15px;
-    background: #6D4C41;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
+    flex: 1; padding: 15px;
+    background: #6D4C41; color: white;
+    border: none; border-radius: 10px;
+    font-size: 16px; font-weight: bold; cursor: pointer;
   }
   .btn-next:disabled { background: #BCAAA4; }
   .btn-back {
-    padding: 15px 20px;
-    background: white;
-    border: 2px solid #D7CCC8;
-    border-radius: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    color: #6D4C41;
+    padding: 15px 20px; background: white;
+    border: 2px solid #D7CCC8; border-radius: 10px;
+    font-size: 16px; cursor: pointer; color: #6D4C41;
   }
   .btn-skip {
-    padding: 15px 16px;
-    background: none;
-    border: none;
-    font-size: 14px;
-    color: #A1887F;
-    cursor: pointer;
-    text-decoration: underline;
+    padding: 15px 16px; background: none; border: none;
+    font-size: 14px; color: #A1887F; cursor: pointer; text-decoration: underline;
   }
   .err-msg { color: #C62828; font-size: 13px; margin-top: 8px; display: none; }
   .err-msg.show { display: block; }
@@ -141,18 +111,10 @@
   /* بحث الأب */
   .autocomplete-wrap { position: relative; }
   .autocomplete-results {
-    position: absolute;
-    top: 100%;
-    right: 0; left: 0;
-    background: white;
-    border: 2px solid #8D6E63;
-    border-top: none;
-    border-radius: 0 0 10px 10px;
-    max-height: 260px;
-    overflow-y: auto;
-    z-index: 50;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-    display: none;
+    position: absolute; top: 100%; right: 0; left: 0;
+    background: white; border: 2px solid #8D6E63; border-top: none;
+    border-radius: 0 0 10px 10px; max-height: 260px; overflow-y: auto;
+    z-index: 50; box-shadow: 0 6px 16px rgba(0,0,0,0.15); display: none;
   }
   .autocomplete-results.show { display: block; }
   .ac-item { padding: 10px 12px; border-bottom: 1px solid #EFEBE9; cursor: pointer; }
@@ -162,53 +124,41 @@
   .ac-alive { color: #2E7D32; }
   .ac-dead { color: #757575; }
   .ac-empty { padding: 12px; text-align: center; color: #999; font-size: 13px; }
+  .ac-selected-box {
+    background: #F0FFF4; border: 2px solid #2E7D32; border-radius: 10px;
+    padding: 12px 14px; margin-top: 10px; display: none;
+  }
+  .ac-selected-box.show { display: block; }
+  .ac-selected-name { font-weight: bold; font-size: 15px; color: #2E7D32; }
+  .ac-selected-detail { font-size: 12px; color: #555; margin-top: 3px; }
+  .ac-change-btn {
+    margin-top: 8px; background: none; border: 1px solid #A1887F;
+    border-radius: 6px; padding: 4px 10px; font-size: 12px; color: #6D4C41; cursor: pointer;
+  }
 
   /* الزوجات */
-  .wife-row { display: flex; gap: 8px; margin-bottom: 10px; }
-  .wife-row input { flex: 1; }
-  .wife-label { font-size: 13px; color: #6D4C41; font-weight: bold; margin-bottom: 6px; }
+  .wife-block { border: 1px solid #EFEBE9; border-radius: 8px; padding: 10px; margin-bottom: 10px; background: #FDFBF9; }
+  .wife-block-title { font-size: 13px; font-weight: bold; margin-bottom: 8px; color: #6D4C41; }
+  .two-col { display: flex; gap: 8px; }
+  .two-col > div { flex: 1; }
 
   /* الصورة */
   .photo-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 14px;
-    padding: 24px;
-    border: 2px dashed #A1887F;
-    border-radius: 12px;
-    background: white;
-    cursor: pointer;
+    display: flex; flex-direction: column; align-items: center;
+    gap: 14px; padding: 24px; border: 2px dashed #A1887F;
+    border-radius: 12px; background: white; cursor: pointer;
   }
   .photo-box.has-photo { border-style: solid; border-color: #6D4C41; }
-  .photo-preview {
-    width: 120px;
-    height: 120px;
-    border-radius: 12px;
-    object-fit: cover;
-    display: none;
-  }
+  .photo-preview { width: 120px; height: 120px; border-radius: 12px; object-fit: cover; display: none; }
   .photo-preview.show { display: block; }
   .photo-box-icon { font-size: 48px; }
   .photo-box-text { font-size: 14px; color: #6D4C41; font-weight: 600; }
   .photo-size-note { font-size: 11px; color: #999; }
 
-  /* قائمة ديناميكية */
-  .dynamic-item { display: flex; gap: 8px; margin-bottom: 8px; }
-  .dynamic-item input { flex: 1; }
-  .btn-remove-row { background: none; border: none; color: #C62828; font-size: 20px; cursor: pointer; padding: 0 6px; }
-  .btn-add-row { background: none; border: 1.5px dashed #A1887F; border-radius: 8px; padding: 8px 14px; color: #6D4C41; font-size: 13px; font-weight: bold; cursor: pointer; margin-top: 4px; }
-
-  /* ===== شاشة النجاح ===== */
   #successScreen {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 32px 24px;
-    text-align: center;
-    background: #F1F8E9;
+    display: none; flex-direction: column; align-items: center;
+    justify-content: center; min-height: 100vh; padding: 32px 24px;
+    text-align: center; background: #F1F8E9;
   }
   .success-icon { font-size: 80px; margin-bottom: 20px; animation: pop 0.4s ease; }
   @keyframes pop { 0%{transform:scale(0.5);opacity:0} 100%{transform:scale(1);opacity:1} }
@@ -220,7 +170,6 @@
 </head>
 <body>
 
-<!-- ===== شاشة الترحيب ===== -->
 <div id="welcomeScreen">
   <div class="welcome-icon">🌳</div>
   <div class="welcome-title">أهلاً بك في شجرة عائلة طه</div>
@@ -231,11 +180,10 @@
   <button class="start-btn" onclick="startWizard()">ابدأ الآن ←</button>
 </div>
 
-<!-- ===== شاشة الويزارد ===== -->
 <div id="wizardScreen">
   <div class="wizard-header">
     <div class="wizard-step-label" id="stepLabel">الخطوة 1 من 9</div>
-    <div class="wizard-step-title" id="stepTitle">اسمك فقط بدو الكنية</div>
+    <div class="wizard-step-title" id="stepTitle"></div>
     <div class="progress-bar-wrap">
       <div class="progress-bar-fill" id="progressBar" style="width:11%"></div>
     </div>
@@ -243,7 +191,6 @@
   <div class="wizard-body" id="wizardBody"></div>
 </div>
 
-<!-- ===== شاشة النجاح ===== -->
 <div id="successScreen">
   <div class="success-icon">✅</div>
   <div class="success-title">تم الإرسال بنجاح!</div>
@@ -258,9 +205,10 @@ const FAMILY_DATA_URL = 'https://raw.githubusercontent.com/Nabeeltaha/taha-famil
 
 let allMembers = [];
 let selectedFatherId = null;
+let selectedFatherName = '';
+let selectedFatherDetail = '';
 let selectedPhotoBase64 = null;
 
-// بيانات مجمّعة من كل الخطوات
 const formData = {
   name: '', gender: '', birthYear: '', isAlive: true, deathYear: '',
   isMartyr: false, isRevolutionMartyr: false, isMujahid: false, isRevolutionMujahid: false,
@@ -292,16 +240,42 @@ function buildDetailsLine(m) {
   };
 }
 
-// ===== تعريف الخطوات =====
-// كل خطوة: { id, title, required, skip?, render(), collect(), validate() }
 function getSteps() {
   const steps = [];
 
-  // 1) الاسم
+  // 1) اختيار الأب من الشجرة (إلزامي — لازم يختار من القائمة)
+  steps.push({
+    id: 'father', title: 'ابحث عن اسم والدك',
+    render: () => `
+      <div class="step-question">ابحث عن اسم والدك في قائمة أفراد العائلة</div>
+      <div class="step-hint">اكتب اسم والدك واختره من القائمة — لو ما ظهر اسمه تواصل مع المسؤول</div>
+      <div class="autocomplete-wrap">
+        <input class="wizard-input" id="f_father" type="text" placeholder="ابدأ بالكتابة..." autocomplete="off">
+        <div class="autocomplete-results" id="fatherResults"></div>
+      </div>
+      <div class="ac-selected-box ${selectedFatherId ? 'show' : ''}" id="fatherSelectedBox">
+        <div class="ac-selected-name" id="fatherSelectedName">${selectedFatherName}</div>
+        <div class="ac-selected-detail" id="fatherSelectedDetail">${selectedFatherDetail}</div>
+        <button class="ac-change-btn" onclick="clearFatherSelection()">تغيير</button>
+      </div>
+      <div class="err-msg" id="err_father">يجب اختيار اسم الأب من القائمة — لو ما ظهر تواصل مع المسؤول</div>`,
+    collect: () => {
+      formData.fatherName = selectedFatherName;
+      formData.fatherId = selectedFatherId || '';
+    },
+    validate: () => {
+      // إلزامي: لازم يختار من القائمة، ما يكفي الكتابة اليدوية
+      if (!selectedFatherId) { showErrEl('err_father'); return false; }
+      return true;
+    }
+  });
+
+  // 2) الاسم (بعد اختيار الأب)
   steps.push({
     id: 'name', title: 'اسمك',
     render: () => `
-      <div class="step-question">ما هو اسمك فقط بدون الكنية؟</div>
+      <div class="step-question">اكتب اسمك فقط بدون الكنية</div>
+      ${selectedFatherName ? `<div class="step-hint">ابن/بنت: ${selectedFatherName}</div>` : ''}
       <input class="wizard-input" id="f_name" type="text" placeholder="مثال: محمد" value="${formData.name}" autofocus>
       <div class="err-msg" id="err_name">الاسم مطلوب</div>`,
     collect: () => { formData.name = document.getElementById('f_name').value.trim(); },
@@ -312,7 +286,7 @@ function getSteps() {
     }
   });
 
-  // 2) الجنس
+  // 3) الجنس
   steps.push({
     id: 'gender', title: 'الجنس',
     render: () => `
@@ -330,7 +304,7 @@ function getSteps() {
     validate: () => { if (!formData.gender) { showErrEl('err_gender'); return false; } return true; }
   });
 
-  // 3) سنة الميلاد
+  // 4) سنة الميلاد
   steps.push({
     id: 'birth', title: 'سنة الميلاد',
     render: () => `
@@ -346,7 +320,7 @@ function getSteps() {
     }
   });
 
-  // 4) الحالة (حي/متوفى + شهيد/مجاهد)
+  // 5) الحالة (حي/متوفى + شهيد/مجاهد)
   steps.push({
     id: 'status', title: 'الحالة',
     render: () => `
@@ -382,34 +356,7 @@ function getSteps() {
         formData.deathYear = (document.getElementById('f_death') || {}).value || '';
       }
     },
-    validate: () => {
-      if (formData.isAlive === null || formData.isAlive === undefined) {
-        showErrEl('err_status'); return false;
-      }
-      return true;
-    }
-  });
-
-  // 5) اسم الأب
-  steps.push({
-    id: 'father', title: 'اسم الأب',
-    render: () => `
-      <div class="step-question">ما اسم والدك؟</div>
-      <div class="step-hint">اكتب واختر من القائمة لو ظهر اسمه، أو اكتبه يدوياً</div>
-      <div class="autocomplete-wrap">
-        <input class="wizard-input" id="f_father" type="text" placeholder="ابدأ بالكتابة..." autocomplete="off" value="${formData.fatherName}">
-        <div class="autocomplete-results" id="fatherResults"></div>
-      </div>
-      <div class="err-msg" id="err_father">اسم الأب مطلوب</div>`,
-    collect: () => {
-      formData.fatherName = (document.getElementById('f_father') || {}).value || '';
-      formData.fatherId = selectedFatherId || '';
-    },
-    validate: () => {
-      const v = (document.getElementById('f_father') || {}).value.trim();
-      if (!v) { showErr('f_father','err_father'); return false; }
-      return true;
-    }
+    validate: () => true
   });
 
   // 6) اسم الأم
@@ -444,69 +391,84 @@ function getSteps() {
         </div>
         <div id="marriageExtra" style="display:${!formData.isSingle?'block':'none'}; margin-top:16px;">
           ${isFemale ? `
-            <div class="wife-label">اسم الزوج *</div>
-            <div class="wife-row">
-              <input class="wizard-input" id="f_hname" type="text" placeholder="اسم الزوج" value="${formData.husband?.name||''}">
-              <input class="wizard-input" id="f_hdate" type="text" placeholder="تاريخ الزواج (اختياري)" value="${formData.husband?.marriageDate||''}">
+            <div class="wife-block">
+              <div class="wife-block-title">اسم الزوج <span style="color:#C62828">*</span></div>
+              <input class="wizard-input" id="f_hname" type="text" placeholder="اسم الزوج" value="${formData.husband?.name||''}" style="margin-bottom:8px;">
+              <input class="wizard-input" id="f_hdate" type="text" placeholder="تاريخ الزواج (مثال: 2010) *" value="${formData.husband?.marriageDate||''}">
             </div>
           ` : `
-            <div class="wife-label">الزوجة الأولى *</div>
-            <div class="wife-row">
-              <input class="wizard-input" id="f_w1name" type="text" placeholder="الاسم" value="${formData.wives[0]?.name||''}">
-              <input class="wizard-input" id="f_w1date" type="text" placeholder="تاريخ الزواج (اختياري)" value="${formData.wives[0]?.marriageDate||''}">
+            <div class="wife-block">
+              <div class="wife-block-title">الزوجة الأولى <span style="color:#C62828">*</span></div>
+              <div class="two-col">
+                <div><input class="wizard-input" id="f_w1name" type="text" placeholder="الاسم" value="${formData.wives[0]?.name||''}"></div>
+                <div><input class="wizard-input" id="f_w1date" type="text" placeholder="تاريخ الزواج *" value="${formData.wives[0]?.marriageDate||''}"></div>
+              </div>
             </div>
-            <div class="wife-label" style="margin-top:8px;">الزوجة الثانية (اختياري)</div>
-            <div class="wife-row">
-              <input class="wizard-input" id="f_w2name" type="text" placeholder="الاسم" value="${formData.wives[1]?.name||''}">
-              <input class="wizard-input" id="f_w2date" type="text" placeholder="تاريخ الزواج (اختياري)" value="${formData.wives[1]?.marriageDate||''}">
+            <div class="wife-block">
+              <div class="wife-block-title">الزوجة الثانية (اختياري)</div>
+              <div class="two-col">
+                <div><input class="wizard-input" id="f_w2name" type="text" placeholder="الاسم" value="${formData.wives[1]?.name||''}"></div>
+                <div><input class="wizard-input" id="f_w2date" type="text" placeholder="تاريخ الزواج" value="${formData.wives[1]?.marriageDate||''}"></div>
+              </div>
             </div>
-            <div class="wife-label" style="margin-top:8px;">الزوجة الثالثة (اختياري)</div>
-            <div class="wife-row">
-              <input class="wizard-input" id="f_w3name" type="text" placeholder="الاسم" value="${formData.wives[2]?.name||''}">
-              <input class="wizard-input" id="f_w3date" type="text" placeholder="تاريخ الزواج (اختياري)" value="${formData.wives[2]?.marriageDate||''}">
+            <div class="wife-block">
+              <div class="wife-block-title">الزوجة الثالثة (اختياري)</div>
+              <div class="two-col">
+                <div><input class="wizard-input" id="f_w3name" type="text" placeholder="الاسم" value="${formData.wives[2]?.name||''}"></div>
+                <div><input class="wizard-input" id="f_w3date" type="text" placeholder="تاريخ الزواج" value="${formData.wives[2]?.marriageDate||''}"></div>
+              </div>
             </div>
-            <div class="wife-label" style="margin-top:8px;">الزوجة الرابعة (اختياري)</div>
-            <div class="wife-row">
-              <input class="wizard-input" id="f_w4name" type="text" placeholder="الاسم" value="${formData.wives[3]?.name||''}">
-              <input class="wizard-input" id="f_w4date" type="text" placeholder="تاريخ الزواج (اختياري)" value="${formData.wives[3]?.marriageDate||''}">
+            <div class="wife-block">
+              <div class="wife-block-title">الزوجة الرابعة (اختياري)</div>
+              <div class="two-col">
+                <div><input class="wizard-input" id="f_w4name" type="text" placeholder="الاسم" value="${formData.wives[3]?.name||''}"></div>
+                <div><input class="wizard-input" id="f_w4date" type="text" placeholder="تاريخ الزواج" value="${formData.wives[3]?.marriageDate||''}"></div>
+              </div>
             </div>
           `}
         </div>
-        <div class="err-msg" id="err_marital">يرجى إدخال اسم الزوج${formData.gender==='female'?'':'ة الأولى'}</div>`;
+        <div class="err-msg" id="err_marital"></div>`;
     },
     collect: () => {
       if (formData.isSingle) { formData.wives = []; formData.husband = null; return; }
       if (formData.gender === 'female') {
         const n = (document.getElementById('f_hname')||{}).value?.trim();
-        formData.husband = n ? { name: n, marriageDate: (document.getElementById('f_hdate')||{}).value?.trim()||null } : null;
+        const d = (document.getElementById('f_hdate')||{}).value?.trim();
+        formData.husband = n ? { name: n, marriageDate: d || null } : null;
       } else {
         formData.wives = [];
         for (let i = 1; i <= 4; i++) {
           const n = (document.getElementById(`f_w${i}name`)||{}).value?.trim();
-          if (n) formData.wives.push({ name: n, marriageDate: (document.getElementById(`f_w${i}date`)||{}).value?.trim()||null });
+          const d = (document.getElementById(`f_w${i}date`)||{}).value?.trim();
+          if (n) formData.wives.push({ name: n, marriageDate: d || null });
         }
       }
     },
     validate: () => {
       if (formData.isSingle) return true;
+      const errEl = document.getElementById('err_marital');
       if (formData.gender === 'female') {
         const n = (document.getElementById('f_hname')||{}).value?.trim();
-        if (!n) { showErrEl('err_marital'); return false; }
+        const d = (document.getElementById('f_hdate')||{}).value?.trim();
+        if (!n) { errEl.textContent = 'اسم الزوج مطلوب'; errEl.classList.add('show'); return false; }
+        if (!d) { errEl.textContent = 'تاريخ الزواج مطلوب'; errEl.classList.add('show'); return false; }
       } else {
         const n = (document.getElementById('f_w1name')||{}).value?.trim();
-        if (!n) { showErrEl('err_marital'); return false; }
+        const d = (document.getElementById('f_w1date')||{}).value?.trim();
+        if (!n) { errEl.textContent = 'اسم الزوجة الأولى مطلوب'; errEl.classList.add('show'); return false; }
+        if (!d) { errEl.textContent = 'تاريخ الزواج من الزوجة الأولى مطلوب'; errEl.classList.add('show'); return false; }
       }
       return true;
     }
   });
 
-  // 8) معلومات إضافية (اختيارية كلها — فيها زر تخطي)
+  // 8) معلومات إضافية (اختيارية — فيها زر تخطي)
   steps.push({
     id: 'extra', title: 'معلومات إضافية',
     skippable: true,
     render: () => `
       <div class="step-question">معلومات إضافية (اختيارية)</div>
-      <div class="step-hint">يمكنك تخطي هذه الخطوة لو ما تريد تعبئتها الآن</div>
+      <div class="step-hint">يمكنك تخطي هذه الخطوة</div>
       <input class="wizard-input" id="f_edu" type="text" placeholder="الدراسة (مثال: بكالوريوس هندسة)" value="${formData.education}" style="margin-bottom:10px;">
       <input class="wizard-input" id="f_job" type="text" placeholder="العمل الحالي (مثال: تاجر، مزارع...)" value="${formData.currentJob}" style="margin-bottom:10px;">
       <textarea class="wizard-input" id="f_bio" placeholder="نبذة مختصرة عنك (اختياري)">${formData.bio}</textarea>
@@ -571,22 +533,16 @@ function renderStep() {
     </div>
   `;
 
-  // إعادة ربط بحث الأب
   if (step.id === 'father') setupFatherSearch();
 
-  // إعادة عرض معاينة الصورة لو موجودة
   if (step.id === 'photo' && selectedPhotoBase64) {
     const preview = document.getElementById('photoPreview');
-    if (preview) {
-      preview.src = 'data:image/jpeg;base64,' + selectedPhotoBase64;
-      preview.classList.add('show');
-    }
+    if (preview) { preview.src = 'data:image/jpeg;base64,' + selectedPhotoBase64; preview.classList.add('show'); }
   }
 
-  // تركيز تلقائي على أول حقل نص
   setTimeout(() => {
     const first = body.querySelector('input[type="text"], input[type="number"], input[type="tel"], textarea');
-    if (first) first.focus();
+    if (first && step.id !== 'father') first.focus();
   }, 100);
 }
 
@@ -617,7 +573,6 @@ function skipStep() {
   window.scrollTo(0, 0);
 }
 
-// ===== مساعدات UI =====
 function showErr(inputId, errId) {
   const el = document.getElementById(inputId);
   if (el) el.classList.add('err');
@@ -670,20 +625,24 @@ function toggleCheck(el, field) {
   }
 }
 
-// ===== بحث الأب =====
+// ===== بحث الأب (إلزامي من القائمة) =====
 function setupFatherSearch() {
   const input = document.getElementById('f_father');
   const results = document.getElementById('fatherResults');
   if (!input || !results) return;
 
+  // لو في أب محدد مسبقاً، أخفي حقل البحث
+  if (selectedFatherId) {
+    input.style.display = 'none';
+  }
+
   input.addEventListener('input', () => {
-    selectedFatherId = null;
     const q = input.value.trim();
     if (!q) { results.classList.remove('show'); results.innerHTML = ''; return; }
     const matches = allMembers.filter(m => m.name && m.name.includes(q)).slice(0, 15);
     results.innerHTML = '';
     if (matches.length === 0) {
-      results.innerHTML = '<div class="ac-empty">لا يوجد تطابق — اكتب الاسم كامل يدوياً</div>';
+      results.innerHTML = '<div class="ac-empty">لا يوجد تطابق — تواصل مع المسؤول</div>';
     } else {
       matches.forEach(m => {
         const d = buildDetailsLine(m);
@@ -691,9 +650,16 @@ function setupFatherSearch() {
         item.className = 'ac-item';
         item.innerHTML = `<div class="ac-name">${m.name} — <span class="${d.aliveClass}">${d.aliveLabel}</span></div><div class="ac-details">${d.text}</div>`;
         item.addEventListener('click', () => {
-          input.value = m.name;
           selectedFatherId = m.id;
+          selectedFatherName = m.name;
+          const det = buildDetailsLine(m);
+          selectedFatherDetail = det.text;
           results.classList.remove('show');
+          input.style.display = 'none';
+          const box = document.getElementById('fatherSelectedBox');
+          document.getElementById('fatherSelectedName').textContent = m.name;
+          document.getElementById('fatherSelectedDetail').textContent = det.text;
+          if (box) box.classList.add('show');
           clearErrs();
         });
         results.appendChild(item);
@@ -705,6 +671,16 @@ function setupFatherSearch() {
   document.addEventListener('click', (e) => {
     if (!e.target.closest('.autocomplete-wrap')) results.classList.remove('show');
   }, { once: false });
+}
+
+function clearFatherSelection() {
+  selectedFatherId = null;
+  selectedFatherName = '';
+  selectedFatherDetail = '';
+  const input = document.getElementById('f_father');
+  const box = document.getElementById('fatherSelectedBox');
+  if (input) { input.value = ''; input.style.display = 'block'; input.focus(); }
+  if (box) box.classList.remove('show');
 }
 
 // ===== الصورة =====
@@ -726,7 +702,6 @@ document.getElementById('photoInput').addEventListener('change', () => {
       canvas.getContext('2d').drawImage(img, 0, 0, width, height);
       const dataUrl = canvas.toDataURL('image/jpeg', 0.75);
       selectedPhotoBase64 = dataUrl.split(',')[1];
-
       const preview = document.getElementById('photoPreview');
       if (preview) { preview.src = dataUrl; preview.classList.add('show'); }
       const box = preview?.closest('.photo-box');
