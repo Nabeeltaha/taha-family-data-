@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-10T15:01:06.975674",
+  "lastUpdated": "2026-09-10T15:41:08.704045",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -6476,24 +6476,30 @@
     },
     {
       "id": "",
-      "parentId": "11",
-      "name": "أحمد",
-      "birthYear": "2020",
+      "parentId": "1784817578307307",
+      "name": "عماد الدين",
+      "birthYear": "1969",
       "deathYear": null,
       "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_514e9d73bc734f1e18eb27a609e02e2c.jpg"
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_89e10771d9d2f7424bea147895c2f697.jpg"
       ],
-      "education": null,
-      "currentJob": null,
+      "education": "شاعر و باحث حائز على دكتوراه الإبداع من الإتحاد العالمي للمؤلفين",
+      "currentJob": "شريك في دار المعرفة",
       "previousJobs": [],
       "positions": [],
       "bio": null,
       "isMartyr": false,
       "isFamous": false,
       "gender": "male",
-      "motherName": "لينا",
-      "isSingle": true,
-      "wives": [],
+      "motherName": "وقاء",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "رزان",
+          "marriageDate": null,
+          "linkedMemberId": null
+        }
+      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
