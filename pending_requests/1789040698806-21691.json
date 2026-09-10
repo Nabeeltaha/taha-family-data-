@@ -1,0 +1,31 @@
+{
+  "name": "وليد",
+  "gender": "male",
+  "birthYear": "1973",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "هاشم سليم",
+  "fatherId": "",
+  "motherName": "رقية حتاوي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "وجيها شيخ ظاهر",
+      "marriageDate": "1992"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "+963964358180",
+  "submittedAt": "2026-09-10T11:44:53.166Z",
+  "requestId": "1789040698806-21691",
+  "photoPath": "pending_photos/1789040698806-21691.jpg"
+}
