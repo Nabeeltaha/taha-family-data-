@@ -1,0 +1,29 @@
+{
+  "name": "رانيا",
+  "gender": "female",
+  "birthYear": "1983",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ابراهيم",
+  "fatherId": "1785537416480978",
+  "motherName": "بهيرة",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "خليل",
+    "marriageDate": "1998"
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T23:18:29.174Z",
+  "requestId": "1789082310057-43251",
+  "photoPath": null
+}
