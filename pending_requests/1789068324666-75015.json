@@ -1,0 +1,31 @@
+{
+  "name": "لقمان",
+  "gender": "male",
+  "birthYear": "1997",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "وليد",
+  "fatherId": "1784588557889493",
+  "motherName": "روضة الشحرور",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "روان كبريته",
+      "marriageDate": "٨/٢/٢٠٢٦"
+    }
+  ],
+  "husband": null,
+  "education": "بكالوريا",
+  "currentJob": "تاجر مواد صحية و كهربائية",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0983277247",
+  "submittedAt": "2026-09-10T19:25:21.056Z",
+  "requestId": "1789068324666-75015",
+  "photoPath": "pending_photos/1789068324666-75015.jpg"
+}
