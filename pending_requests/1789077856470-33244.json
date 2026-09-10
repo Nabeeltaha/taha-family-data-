@@ -1,0 +1,31 @@
+{
+  "name": "فهد",
+  "gender": "male",
+  "birthYear": "1986",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "زهير",
+  "fatherId": "24",
+  "motherName": "هدى",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "مريم بكار",
+      "marriageDate": "27/11/2010"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T22:04:16.150Z",
+  "requestId": "1789077856470-33244",
+  "photoPath": null
+}
