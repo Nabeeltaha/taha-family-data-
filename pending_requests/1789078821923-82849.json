@@ -1,0 +1,31 @@
+{
+  "name": "مصعب",
+  "gender": "male",
+  "birthYear": "1991",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "مصعب",
+  "fatherId": "1784588758240909",
+  "motherName": "روضه الشحرور",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ريم ندم",
+      "marriageDate": "1/2/2019"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T22:20:19.282Z",
+  "requestId": "1789078821923-82849",
+  "photoPath": "pending_photos/1789078821923-82849.jpg"
+}
