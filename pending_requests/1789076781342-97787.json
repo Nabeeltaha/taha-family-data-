@@ -1,0 +1,31 @@
+{
+  "name": "بشير",
+  "gender": "male",
+  "birthYear": "1998",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1789061345928818",
+  "motherName": "هناء الحنش",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "بشرى حوى",
+      "marriageDate": "2025"
+    }
+  ],
+  "husband": null,
+  "education": "معهد إعداد مدرسين",
+  "currentJob": "معلم",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T21:46:19.135Z",
+  "requestId": "1789076781342-97787",
+  "photoPath": "pending_photos/1789076781342-97787.jpg"
+}
