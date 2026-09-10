@@ -1,0 +1,31 @@
+{
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1995",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خلدون",
+  "fatherId": "1785003966012720",
+  "motherName": "ناريمان نعمان",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "انوار البرغوث",
+      "marriageDate": "٢٠١٦"
+    }
+  ],
+  "husband": null,
+  "education": "هندسة زراعية",
+  "currentJob": "معقب معاملات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0981561250",
+  "submittedAt": "2026-09-10T18:12:21.620Z",
+  "requestId": "1789063944393-48685",
+  "photoPath": "pending_photos/1789063944393-48685.jpg"
+}
