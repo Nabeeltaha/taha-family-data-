@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-10T21:00:33.887999",
+  "lastUpdated": "2026-09-10T21:31:53.583881",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -6662,6 +6662,126 @@
       "motherName": "تسنيم مجيد",
       "isSingle": true,
       "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789065058873495",
+      "parentId": "1789061345928818",
+      "name": "مازن",
+      "birthYear": "1992",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "هناء الحنش",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789065020538495",
+      "parentId": "1785405809682062",
+      "name": "بلال",
+      "birthYear": "1989",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_c262486934d269eb357cc33766cba31a.jpg"
+      ],
+      "education": "تاسع",
+      "currentJob": "تجارة ومتطوع بالجيش العربي السوري",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "قبل الثورة تاجر البسة \nوبثورة قائد الكتيبة الثالثة بلواء شهداء دوما",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "بشيرة الخولي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "دعاء الخولي",
+          "marriageDate": "2011",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789065042179694",
+      "parentId": "1785003966012720",
+      "name": "محمد",
+      "birthYear": "1995",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_9de5e323d68f69822c23f9ee558952b6.jpg"
+      ],
+      "education": "هندسة زراعية",
+      "currentJob": "معقب معاملات",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "ناريمان نعمان",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "انوار البرغوث",
+          "marriageDate": "٢٠١٦",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789065079031536",
+      "parentId": "1785752821299519",
+      "name": "وليد",
+      "birthYear": "1973",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_5c41d5fb99639e8beddb422904057e82.jpg"
+      ],
+      "education": null,
+      "currentJob": "اجبان و البان",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "رقية حتاوي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "وجيها شيخ ظاهر",
+          "marriageDate": "1993",
+          "linkedMemberId": null
+        }
+      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
