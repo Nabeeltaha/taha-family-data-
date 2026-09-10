@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-10T18:11:08.975635",
+  "lastUpdated": "2026-09-10T18:20:21.213381",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -6439,30 +6439,6 @@
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": true,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1789053006631560",
-      "parentId": "41",
-      "name": "هلا",
-      "birthYear": "2016",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "female",
-      "motherName": "ميساء",
-      "isSingle": true,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
     }
