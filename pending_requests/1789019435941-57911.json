@@ -1,0 +1,31 @@
+{
+  "name": "علاء",
+  "gender": "male",
+  "birthYear": "1984",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "احمد",
+  "fatherId": "",
+  "motherName": "هيام",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ايمان",
+      "marriageDate": "2014"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "عامل",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T05:49:53.088Z",
+  "requestId": "1789019435941-57911",
+  "photoPath": null
+}
