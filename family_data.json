@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-11T01:27:20.948037",
+  "lastUpdated": "2026-09-11T01:28:33.438426",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -7486,70 +7486,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789078290454388",
-      "parentId": "1789061345928818",
-      "name": "بشير",
-      "birthYear": "1998",
-      "deathYear": null,
-      "photos": [
-        "/data/user/0/com.example.taha_family_app/app_flutter/member_photos/from_request_1789076781342-97787.jpg"
-      ],
-      "education": "معهد إعداد مدرسين",
-      "currentJob": "معلم",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "هناء الحنش",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "بشرى حوى",
-          "marriageDate": "2025",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1789078305741378",
-      "parentId": "1789061382033555",
-      "name": "بشار",
-      "birthYear": "1977",
-      "deathYear": null,
-      "photos": [
-        "/data/user/0/com.example.taha_family_app/app_flutter/member_photos/from_request_1789076165188-55895.jpg"
-      ],
-      "education": "تاسع",
-      "currentJob": "نجار باطون",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "حياة",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "خولة",
-          "marriageDate": "٢٠٠٢",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789078318175933",
       "parentId": "1785537512470381",
       "name": "عمر",
@@ -7823,6 +7759,70 @@
       "motherName": "ايمان التوم",
       "isSingle": true,
       "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789078290454388",
+      "parentId": "1789061345928818",
+      "name": "بشير",
+      "birthYear": "1998",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_c621b2c3580f232e121a903567d9192c.jpg"
+      ],
+      "education": "معهد إعداد مدرسين",
+      "currentJob": "معلم",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "هناء الحنش",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "بشرى حوى",
+          "marriageDate": "2025",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789078305741378",
+      "parentId": "1789061382033555",
+      "name": "بشار",
+      "birthYear": "1977",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_d7ad9f0ff27ce3c8fa8290915b513ae8.jpg"
+      ],
+      "education": "تاسع",
+      "currentJob": "نجار باطون",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "حياة",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "خولة",
+          "marriageDate": "٢٠٠٢",
+          "linkedMemberId": null
+        }
+      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
