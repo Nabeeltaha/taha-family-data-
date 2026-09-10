@@ -1,0 +1,31 @@
+{
+  "name": "محمد علي",
+  "gender": "male",
+  "birthYear": "1965",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "مصطفى",
+  "fatherId": "1784813967585616",
+  "motherName": "عائشة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "إلهام الصيداوي",
+      "marriageDate": "1983"
+    }
+  ],
+  "husband": null,
+  "education": "حقوق",
+  "currentJob": "موظف إداري",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "محمد علي موظف بالمنظمة المركز العربي لدراسات المناطق الجافة والأراضي القاحلة/أكساد/",
+  "phone": "00963933386773",
+  "submittedAt": "2026-09-10T21:49:28.518Z",
+  "requestId": "1789076969304-14403",
+  "photoPath": null
+}
