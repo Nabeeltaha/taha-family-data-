@@ -1,0 +1,35 @@
+{
+  "name": "مصطفى",
+  "gender": "male",
+  "birthYear": "1913",
+  "isAlive": false,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "مصطفى",
+  "fatherId": "1784813625531141",
+  "motherName": "عائشة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "أمنة",
+      "marriageDate": "1948"
+    },
+    {
+      "name": "عائشة",
+      "marriageDate": "١٩٥١"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "فلاح",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "كان محب لجميع أفراد العائلة",
+  "phone": "",
+  "submittedAt": "2026-09-10T21:56:47.713Z",
+  "requestId": "1789077409037-55913",
+  "photoPath": null
+}
