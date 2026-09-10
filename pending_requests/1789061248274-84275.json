@@ -1,0 +1,31 @@
+{
+  "name": "خليل",
+  "gender": "male",
+  "birthYear": "1960",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "بشير",
+  "fatherId": "1785537512470381",
+  "motherName": "فضيلة الدالاتي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "هناء الحنش",
+      "marriageDate": "1989"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T17:27:27.424Z",
+  "requestId": "1789061248274-84275",
+  "photoPath": null
+}
