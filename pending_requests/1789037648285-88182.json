@@ -1,0 +1,31 @@
+{
+  "name": "عماد الدين",
+  "gender": "male",
+  "birthYear": "1969",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "د.م.صبحي طه",
+  "fatherId": "1784817578307307",
+  "motherName": "وقاء",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "رزان",
+      "marriageDate": null
+    }
+  ],
+  "husband": null,
+  "education": "شاعر و باحث حائز على دكتوراه الإبداع من الإتحاد العالمي للمؤلفين",
+  "currentJob": "شريك في دار المعرفة",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0096176166350",
+  "submittedAt": "2026-09-10T10:54:07.265Z",
+  "requestId": "1789037648285-88182",
+  "photoPath": "pending_photos/1789037648285-88182.jpg"
+}
