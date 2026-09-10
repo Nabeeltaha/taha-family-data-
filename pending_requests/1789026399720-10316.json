@@ -1,0 +1,31 @@
+{
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1983",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد _ متوفي 1993",
+  "fatherId": "",
+  "motherName": "اميرة الحنش",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "نهى صلاح سليك",
+      "marriageDate": null
+    }
+  ],
+  "husband": null,
+  "education": "بكلوريا",
+  "currentJob": "مجال السيارات صيانة وتجارة",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "مجاهد في سبيل الله في الثورة السورية\nومهجر في الشمال السوري",
+  "phone": "0969841831",
+  "submittedAt": "2026-09-10T07:45:50.061Z",
+  "requestId": "1789026399720-10316",
+  "photoPath": "pending_photos/1789026399720-10316.jpg"
+}
