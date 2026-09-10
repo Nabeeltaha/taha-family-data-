@@ -1,0 +1,31 @@
+{
+  "name": "بشار",
+  "gender": "male",
+  "birthYear": "1977",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "عمر",
+  "fatherId": "",
+  "motherName": "حياة يحيى",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "خولة ناجي",
+      "marriageDate": "2002"
+    }
+  ],
+  "husband": null,
+  "education": "ابتدائيه",
+  "currentJob": "عامل بناء باطنجي",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0948815200",
+  "submittedAt": "2026-09-10T05:09:43.069Z",
+  "requestId": "1789016984062-20654",
+  "photoPath": null
+}
