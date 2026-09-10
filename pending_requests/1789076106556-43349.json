@@ -1,0 +1,31 @@
+{
+  "name": "عمر",
+  "gender": "male",
+  "birthYear": "1950",
+  "isAlive": false,
+  "deathYear": "2014",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "بشير",
+  "fatherId": "1785537512470381",
+  "motherName": "حياة يحيى",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "زهرية الأجوة",
+      "marriageDate": "2008"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T21:35:05.687Z",
+  "requestId": "1789076106556-43349",
+  "photoPath": null
+}
