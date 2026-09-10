@@ -1,0 +1,31 @@
+{
+  "name": "حاتم",
+  "gender": "male",
+  "birthYear": "1973",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "عمر",
+  "fatherId": "1789061382033555",
+  "motherName": "زينب",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "امنه",
+      "marriageDate": "١٩٩٥"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T19:30:33.595Z",
+  "requestId": "1789068636340-20530",
+  "photoPath": "pending_photos/1789068636340-20530.jpg"
+}
