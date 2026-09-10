@@ -1,0 +1,31 @@
+{
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "2001",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "قاسم",
+  "fatherId": "",
+  "motherName": "فتحية",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "تقى",
+      "marriageDate": "٢٠٢٦ ٢٣ ٧"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T08:36:27.898Z",
+  "requestId": "1789029389812-10146",
+  "photoPath": "pending_photos/1789029389812-10146.jpg"
+}
