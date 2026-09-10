@@ -1,0 +1,39 @@
+{
+  "name": "عمر",
+  "gender": "male",
+  "birthYear": "1945",
+  "isAlive": false,
+  "deathYear": "2015",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "بشير",
+  "fatherId": "1785537512470381",
+  "motherName": "فضيلة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "زينب",
+      "marriageDate": "١٩٧١"
+    },
+    {
+      "name": "حياة",
+      "marriageDate": "١٩٧٦"
+    },
+    {
+      "name": "زهور",
+      "marriageDate": "٢٠١٠"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T17:17:41.574Z",
+  "requestId": "1789060691393-73876",
+  "photoPath": null
+}
