@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-10T23:41:21.303441",
+  "lastUpdated": "2026-09-10T23:58:07.707702",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -7186,6 +7186,180 @@
       "motherName": "زينب عيون",
       "isSingle": true,
       "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789073818827276",
+      "parentId": "1785752821299519",
+      "name": "احمد",
+      "birthYear": "1953",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": true,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "رقية حتاوي",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789073849223077",
+      "parentId": "1785537416480978",
+      "name": "ايمان",
+      "birthYear": "1978",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "بهيرة التلاوي",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "هشام الصمادي",
+        "marriageDate": "1994",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789073753316710",
+      "parentId": "1785405809682062",
+      "name": "عبد الرحمن محمد",
+      "birthYear": "1978",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_a9f5fba996e6bc42cb30f18be3fe51cd.jpg"
+      ],
+      "education": "تاسع",
+      "currentJob": "مقاول",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "اميرة الحنش",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "تهاني الحموري",
+          "marriageDate": "2003",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789073773113388",
+      "parentId": "1789065079031536",
+      "name": "عمران",
+      "birthYear": "1999",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_c19aeadcc61bf59d174794ae369b32af.jpg"
+      ],
+      "education": "معهد تقاني التجارة",
+      "currentJob": "فني ميكانيك",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "وجيها شيخ ظاهر",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789073799568197",
+      "parentId": "1784588557889493",
+      "name": "لقمان",
+      "birthYear": "1997",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_1b46690fc9f8efb4e2d72cc4f9bc67f8.jpg"
+      ],
+      "education": "بكالوريا",
+      "currentJob": "تاجر مواد صحية و كهربائية",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "روضة الشحرور",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "روان كبريته",
+          "marriageDate": "٨/٢/٢٠٢٦",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789073833399357",
+      "parentId": "1789061382033555",
+      "name": "حاتم",
+      "birthYear": "1973",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_8cbf211c928195407bfc1414a1d8d929.jpg"
+      ],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "زينب",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "امنه",
+          "marriageDate": "١٩٩٥",
+          "linkedMemberId": null
+        }
+      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
