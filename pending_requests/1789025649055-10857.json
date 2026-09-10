@@ -1,0 +1,31 @@
+{
+  "name": "إياد",
+  "gender": "male",
+  "birthYear": "1999",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "صبحي",
+  "fatherId": "1785179887084838",
+  "motherName": "مريم النجار",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "شيماء حديد",
+      "marriageDate": "2026"
+    }
+  ],
+  "husband": null,
+  "education": "تقنيات حاسوب",
+  "currentJob": "تقني",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T07:34:09.864Z",
+  "requestId": "1789025649055-10857",
+  "photoPath": "pending_photos/1789025649055-10857.jpg"
+}
