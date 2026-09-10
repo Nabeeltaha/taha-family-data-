@@ -1,0 +1,31 @@
+{
+  "name": "بلال",
+  "gender": "male",
+  "birthYear": "1989",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "نعمان",
+  "fatherId": "1785405809682062",
+  "motherName": "بشيرة الخولي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "دعاء الخولي",
+      "marriageDate": "2011"
+    }
+  ],
+  "husband": null,
+  "education": "تاسع",
+  "currentJob": "تجارة ومتطوع بالجيش العربي السوري",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "قبل الثورة تاجر البسة \nوبثورة قائد الكتيبة الثالثة بلواء شهداء دوما",
+  "phone": "0998417001",
+  "submittedAt": "2026-09-10T18:20:08.085Z",
+  "requestId": "1789064516107-70877",
+  "photoPath": "pending_photos/1789064516107-70877.jpg"
+}
