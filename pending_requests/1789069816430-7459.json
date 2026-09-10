@@ -1,0 +1,29 @@
+{
+  "name": "ايمان",
+  "gender": "female",
+  "birthYear": "1978",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ابراهيم",
+  "fatherId": "1785537416480978",
+  "motherName": "بهيرة التلاوي",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "هشام الصمادي",
+    "marriageDate": "1994"
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T19:50:15.091Z",
+  "requestId": "1789069816430-7459",
+  "photoPath": null
+}
