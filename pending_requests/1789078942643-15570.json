@@ -1,0 +1,31 @@
+{
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1864",
+  "isAlive": false,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1784813741888384",
+  "motherName": "مريم البويضاني",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "عائشة برخش",
+      "marriageDate": "١٩٠٠"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "فلاح",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "رحمه الله ،كان ملتزم دينيا",
+  "phone": "",
+  "submittedAt": "2026-09-10T22:22:21.246Z",
+  "requestId": "1789078942643-15570",
+  "photoPath": "pending_photos/1789078942643-15570.jpg"
+}
