@@ -1,0 +1,31 @@
+{
+  "name": "بشار",
+  "gender": "male",
+  "birthYear": "1977",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "عمر",
+  "fatherId": "1789061382033555",
+  "motherName": "حياة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "خولة",
+      "marriageDate": "٢٠٠٢"
+    }
+  ],
+  "husband": null,
+  "education": "تاسع",
+  "currentJob": "نجار باطون",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T21:35:56.797Z",
+  "requestId": "1789076165188-55895",
+  "photoPath": "pending_photos/1789076165188-55895.jpg"
+}
