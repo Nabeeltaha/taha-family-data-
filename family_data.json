@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-10T12:22:35.310669",
+  "lastUpdated": "2026-09-10T12:57:33.926570",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -6476,24 +6476,28 @@
     },
     {
       "id": "",
-      "parentId": "17",
-      "name": "حذيفه",
-      "birthYear": "2007",
+      "parentId": "24",
+      "name": "فهد",
+      "birthYear": "1986",
       "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_b988e54a3cb5257ae331638fdd210273.jpg"
-      ],
-      "education": "هندسة الطاقة الكهربائية",
-      "currentJob": "تجارة مستلزمات الأنارة العصرية والحديثة",
+      "photos": [],
+      "education": null,
+      "currentJob": null,
       "previousJobs": [],
       "positions": [],
       "bio": null,
       "isMartyr": false,
       "isFamous": false,
       "gender": "male",
-      "motherName": "نهى الدره",
-      "isSingle": true,
-      "wives": [],
+      "motherName": "هدى صلاح",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "مريم بكار",
+          "marriageDate": null,
+          "linkedMemberId": null
+        }
+      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
