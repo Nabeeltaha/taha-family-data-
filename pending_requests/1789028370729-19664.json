@@ -1,0 +1,31 @@
+{
+  "name": "محمود",
+  "gender": "male",
+  "birthYear": "1987",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد ",
+  "fatherId": "",
+  "motherName": "غاليه",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "هدى",
+      "marriageDate": "2009"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "بقال",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0980277113",
+  "submittedAt": "2026-09-10T08:19:26.761Z",
+  "requestId": "1789028370729-19664",
+  "photoPath": null
+}
