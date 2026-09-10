@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-10T15:45:52.479662",
+  "lastUpdated": "2026-09-10T16:20:33.068757",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -6444,30 +6444,54 @@
     },
     {
       "id": "",
-      "parentId": "1784817578307307",
-      "name": "عماد الدين",
-      "birthYear": "1969",
+      "parentId": "11",
+      "name": "محمد",
+      "birthYear": "2024",
       "deathYear": null,
       "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_89e10771d9d2f7424bea147895c2f697.jpg"
+        "/data/user/0/com.example.taha_family_app/app_flutter/member_photos/from_request_1789045969899-89408.jpg"
       ],
-      "education": "شاعر و باحث حائز على دكتوراه الإبداع من الإتحاد العالمي للمؤلفين",
-      "currentJob": "شريك في دار المعرفة",
+      "education": null,
+      "currentJob": null,
       "previousJobs": [],
       "positions": [],
       "bio": null,
       "isMartyr": false,
-      "isFamous": true,
+      "isFamous": false,
       "gender": "male",
-      "motherName": "وقاء",
+      "motherName": "لينا",
       "isSingle": false,
       "wives": [
         {
-          "name": "رزان",
-          "marriageDate": null,
+          "name": "للل",
+          "marriageDate": "2025",
           "linkedMemberId": null
         }
       ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789046406351772",
+      "parentId": "11",
+      "name": "احمد",
+      "birthYear": "2024",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": null,
+      "isSingle": true,
+      "wives": [],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
