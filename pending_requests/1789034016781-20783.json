@@ -1,0 +1,31 @@
+{
+  "name": "سمير عدنان طه",
+  "gender": "male",
+  "birthYear": "1976",
+  "isAlive": false,
+  "deathYear": "2014",
+  "isMartyr": true,
+  "isRevolutionMartyr": true,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "عدنان احمد طه",
+  "fatherId": "",
+  "motherName": "رفيقة برهوش",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "امال عمار",
+      "marriageDate": null
+    }
+  ],
+  "husband": null,
+  "education": "تاسع",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0954393847",
+  "submittedAt": "2026-09-10T09:53:34.958Z",
+  "requestId": "1789034016781-20783",
+  "photoPath": null
+}
