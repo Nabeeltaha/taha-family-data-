@@ -1,0 +1,31 @@
+{
+  "name": "محمود",
+  "gender": "male",
+  "birthYear": "1989",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "زهير",
+  "fatherId": "24",
+  "motherName": "هدى صلاح",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "تسنيم مجيد",
+      "marriageDate": null
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-10T08:29:06.475Z",
+  "requestId": "1789028948698-30538",
+  "photoPath": "pending_photos/1789028948698-30538.jpg"
+}
