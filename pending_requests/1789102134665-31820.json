@@ -1,0 +1,29 @@
+{
+  "name": "حنان",
+  "gender": "female",
+  "birthYear": "1995",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد علي",
+  "fatherId": "1789078270196039",
+  "motherName": "إلهام الصيداوي",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "سامر علوش",
+    "marriageDate": "٢٠٠٨"
+  },
+  "education": "تاسع",
+  "currentJob": "ربة منزل",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T04:48:53.982Z",
+  "requestId": "1789102134665-31820",
+  "photoPath": null
+}
