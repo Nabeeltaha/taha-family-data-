@@ -1,0 +1,31 @@
+{
+  "name": "عمر",
+  "gender": "male",
+  "birthYear": "2001",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "حاتم",
+  "fatherId": "1789073833399357",
+  "motherName": "امنه",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "يمنى طه",
+      "marriageDate": "2025"
+    }
+  ],
+  "husband": null,
+  "education": "حقوق",
+  "currentJob": "محامي",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0992320412",
+  "submittedAt": "2026-09-11T07:24:36.512Z",
+  "requestId": "1789111479129-31486",
+  "photoPath": "pending_photos/1789111479129-31486.jpg"
+}
