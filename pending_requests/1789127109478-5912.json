@@ -1,0 +1,31 @@
+{
+  "name": "خالد",
+  "gender": "male",
+  "birthYear": "1990",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "جمال",
+  "fatherId": "1789122573904672",
+  "motherName": "صبحية",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "سهام",
+      "marriageDate": "2015"
+    }
+  ],
+  "husband": null,
+  "education": "بكالوريوس",
+  "currentJob": "متعهد",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "متعهد ومقاول في أعمال البناء وأكساء \nحاليا مقيم بليبيا",
+  "phone": "0923564001",
+  "submittedAt": "2026-09-11T11:45:09.246Z",
+  "requestId": "1789127109478-5912",
+  "photoPath": null
+}
