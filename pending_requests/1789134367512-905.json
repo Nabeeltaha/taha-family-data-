@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "عيسى",
+  "gender": "male",
+  "birthYear": "1968",
+  "isAlive": false,
+  "deathYear": "",
+  "isMartyr": true,
+  "isRevolutionMartyr": true,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1785752610746444",
+  "motherName": "صبحيه",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "راىده",
+      "marriageDate": "1989"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T13:46:05.146Z",
+  "requestId": "1789134367512-905",
+  "photoPath": null
+}
