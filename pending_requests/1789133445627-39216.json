@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "ياسر",
+  "gender": "male",
+  "birthYear": "1973",
+  "isAlive": false,
+  "deathYear": "2013",
+  "isMartyr": true,
+  "isRevolutionMartyr": true,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1785752610746444",
+  "motherName": "صبحيه دياب",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "الهام",
+      "marriageDate": "1997"
+    }
+  ],
+  "husband": null,
+  "education": "ثانويه",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T13:30:43.393Z",
+  "requestId": "1789133445627-39216",
+  "photoPath": null
+}
