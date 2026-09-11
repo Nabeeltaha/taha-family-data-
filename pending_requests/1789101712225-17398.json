@@ -1,0 +1,31 @@
+{
+  "name": "سامر",
+  "gender": "male",
+  "birthYear": "1993",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد علي",
+  "fatherId": "1789078270196039",
+  "motherName": "إلهام الصيداوي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "لوتس دلوان",
+      "marriageDate": "٢٠١٤"
+    }
+  ],
+  "husband": null,
+  "education": "إجازة بالاقتصاد -فرع محاسبة",
+  "currentJob": "محاسب بشركة العش",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T04:41:50.705Z",
+  "requestId": "1789101712225-17398",
+  "photoPath": "pending_photos/1789101712225-17398.jpg"
+}
