@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1789122573904672",
+  "memberName": "جمال",
+  "name": "جمال",
+  "gender": "male",
+  "birthYear": "1966",
+  "isAlive": false,
+  "deathYear": "2012",
+  "isMartyr": true,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ياسين",
+  "fatherId": "1785188508374368",
+  "motherName": "وفيقة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "صبحية",
+      "marriageDate": "1989"
+    }
+  ],
+  "husband": null,
+  "education": "أعدادي",
+  "currentJob": "متعهد",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T13:31:28.371Z",
+  "requestId": "1789133488483-69937",
+  "photoPath": null
+}
