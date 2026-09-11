@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "خليل",
+  "gender": "male",
+  "birthYear": "1936",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمود",
+  "fatherId": "1785179813528717",
+  "motherName": "ام محمود",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "صبحيه",
+      "marriageDate": "1946"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T19:00:34.399Z",
+  "requestId": "1789153235970-86189",
+  "photoPath": "pending_photos/1789153235970-86189.jpg"
+}
