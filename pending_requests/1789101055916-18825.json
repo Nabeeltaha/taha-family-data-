@@ -1,0 +1,31 @@
+{
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1988",
+  "isAlive": false,
+  "deathYear": "",
+  "isMartyr": true,
+  "isRevolutionMartyr": true,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد علي",
+  "fatherId": "1789078270196039",
+  "motherName": "إلهام الصيداوي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "نداء النعسان",
+      "marriageDate": "٢٠٠٨"
+    }
+  ],
+  "husband": null,
+  "education": "شهادة الثانوية",
+  "currentJob": "محاسب -فلاح-صناعة قوالب",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "جاهد مع سرية الاسلام",
+  "phone": "",
+  "submittedAt": "2026-09-11T04:30:54.643Z",
+  "requestId": "1789101055916-18825",
+  "photoPath": "pending_photos/1789101055916-18825.jpg"
+}
