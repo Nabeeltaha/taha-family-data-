@@ -1,0 +1,31 @@
+{
+  "name": "سمير",
+  "gender": "male",
+  "birthYear": "1976",
+  "isAlive": false,
+  "deathYear": "",
+  "isMartyr": true,
+  "isRevolutionMartyr": true,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "عدنان",
+  "fatherId": "1789119381118595",
+  "motherName": "رفيقة برهوش",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "امال",
+      "marriageDate": "2000"
+    }
+  ],
+  "husband": null,
+  "education": "تاسع",
+  "currentJob": "مخرطة",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0954393847",
+  "submittedAt": "2026-09-11T10:44:08.876Z",
+  "requestId": "1789123453076-30665",
+  "photoPath": "pending_photos/1789123453076-30665.jpg"
+}
