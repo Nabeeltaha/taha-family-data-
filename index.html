@@ -174,10 +174,14 @@
   <div class="welcome-icon">🌳</div>
   <div class="welcome-title">أهلاً بك في شجرة عائلة طه</div>
   <div class="welcome-sub">
-    هذه الاستمارة تساعدنا على إضافة بياناتك لشجرة العائلة.<br>
-    ستستغرق دقيقتين فقط، والأسئلة بسيطة خطوة بخطوة.
+    اختر ما تريد فعله:
   </div>
-  <button class="start-btn" onclick="startWizard()">ابدأ الآن ←</button>
+  <button class="start-btn" onclick="startWizard('add')" style="margin-bottom:14px;">
+    ➕ إضافة اسمي للشجرة
+  </button>
+  <button class="start-btn" onclick="startWizard('update')" style="background:#4A7C59;">
+    ✏️ تحديث بياناتي وصورتي
+  </button>
 </div>
 
 <div id="wizardScreen">
@@ -194,7 +198,7 @@
 <div id="successScreen">
   <div class="success-icon">✅</div>
   <div class="success-title">تم الإرسال بنجاح!</div>
-  <div class="success-sub">شكراً لك، سيتم مراجعة بياناتك من قِبل المسؤول عن الشجرة وإضافتها قريباً.</div>
+  <div class="success-sub" id="successSub">شكراً لك، سيتم مراجعة بياناتك من قِبل المسؤول عن الشجرة وإضافتها قريباً.</div>
 </div>
 
 <input type="file" id="photoInput" accept="image/*" style="display:none;">
@@ -205,6 +209,9 @@ const FAMILY_DATA_URL = 'https://raw.githubusercontent.com/Nabeeltaha/taha-famil
 
 let allMembers = [];
 let selectedFatherId = null;
+let selectedMemberId = null;   // لطلب التحديث: معرف الفرد الموجود بالشجرة
+let selectedMemberName = '';
+let requestType = 'add';       // 'add' أو 'update'
 let selectedFatherName = '';
 let selectedFatherDetail = '';
 let selectedPhotoBase64 = null;
@@ -508,8 +515,9 @@ function getSteps() {
 let steps = [];
 let currentStep = 0;
 
-function startWizard() {
-  steps = getSteps();
+function startWizard(type) {
+  requestType = type || 'add';
+  steps = requestType === 'update' ? getUpdateSteps() : getSteps();
   currentStep = 0;
   document.getElementById('welcomeScreen').style.display = 'none';
   document.getElementById('wizardScreen').style.display = 'block';
@@ -537,6 +545,7 @@ function renderStep() {
   `;
 
   if (step.id === 'father') setupFatherSearch();
+  if (step.id === 'find_self') setupSelfSearch();
 
   if (step.id === 'photo' && selectedPhotoBase64) {
     const preview = document.getElementById('photoPreview');
@@ -724,6 +733,128 @@ document.getElementById('photoInput').addEventListener('change', () => {
   reader.readAsDataURL(file);
 });
 
+// ===== خطوات "تحديث بياناتي" =====
+function getUpdateSteps() {
+  const steps = [];
+
+  // 1) البحث عن نفسك بالشجرة
+  steps.push({
+    id: 'find_self', title: 'ابحث عن اسمك بالشجرة',
+    render: () => `
+      <div class="step-question">ابحث عن اسمك في قائمة أفراد العائلة</div>
+      <div class="step-hint">اكتب اسمك واختره من القائمة حتى نعرف من تريد تحديث بياناته</div>
+      <div class="autocomplete-wrap">
+        <input class="wizard-input" id="f_self" type="text" placeholder="ابدأ بالكتابة..." autocomplete="off">
+        <div class="autocomplete-results" id="selfResults"></div>
+      </div>
+      <div class="ac-selected-box ${selectedMemberId ? 'show' : ''}" id="selfSelectedBox">
+        <div class="ac-selected-name" id="selfSelectedName">${selectedMemberName}</div>
+        <button class="ac-change-btn" onclick="clearSelfSelection()">تغيير</button>
+      </div>
+      <div class="err-msg" id="err_self">يجب اختيار اسمك من القائمة</div>`,
+    collect: () => {
+      formData.memberId = selectedMemberId || '';
+      formData.memberName = selectedMemberName;
+    },
+    validate: () => {
+      if (!selectedMemberId) { showErrEl('err_self'); return false; }
+      return true;
+    }
+  });
+
+  // 2) الصورة (مهمة بهذا الوضع)
+  steps.push({
+    id: 'update_photo', title: 'صورتك الشخصية',
+    skippable: true,
+    render: () => `
+      <div class="step-question">أضف صورتك الشخصية</div>
+      <div class="step-hint">ستُضاف لملفك بالشجرة بعد موافقة المسؤول</div>
+      <div class="photo-box ${selectedPhotoBase64?'has-photo':''}" onclick="document.getElementById('photoInput').click()">
+        <img id="photoPreview" class="photo-preview ${selectedPhotoBase64?'show':''}" src="" alt="">
+        <div class="photo-box-icon" ${selectedPhotoBase64?'style="display:none"':''}>📷</div>
+        <div class="photo-box-text">${selectedPhotoBase64 ? 'تم اختيار الصورة — اضغط لتغييرها' : 'اضغط لاختيار صورة'}</div>
+        <div class="photo-size-note" id="photoSizeNote"></div>
+      </div>`,
+    collect: () => {},
+    validate: () => true
+  });
+
+  // 3) تعديلات إضافية (اختيارية)
+  steps.push({
+    id: 'update_extra', title: 'تعديلات إضافية',
+    skippable: true,
+    render: () => `
+      <div class="step-question">هل تريد تحديث أي معلومات؟ (اختياري)</div>
+      <div class="step-hint">اترك الحقل فارغاً لو ما تريد تغييره</div>
+      <input class="wizard-input" id="f_edu" type="text" placeholder="الدراسة" value="${formData.education}" style="margin-bottom:10px;">
+      <input class="wizard-input" id="f_job" type="text" placeholder="العمل الحالي" value="${formData.currentJob}" style="margin-bottom:10px;">
+      <textarea class="wizard-input" id="f_bio" placeholder="نبذة مختصرة عنك">${formData.bio}</textarea>
+      <input class="wizard-input" id="f_phone" type="tel" placeholder="رقم هاتفك للتواصل (اختياري)" value="${formData.phone}" style="margin-top:10px;">`,
+    collect: () => {
+      formData.education = (document.getElementById('f_edu')||{}).value?.trim()||'';
+      formData.currentJob = (document.getElementById('f_job')||{}).value?.trim()||'';
+      formData.bio = (document.getElementById('f_bio')||{}).value?.trim()||'';
+      formData.phone = (document.getElementById('f_phone')||{}).value?.trim()||'';
+    },
+    validate: () => true
+  });
+
+  return steps;
+}
+
+function setupSelfSearch() {
+  const input = document.getElementById('f_self');
+  const results = document.getElementById('selfResults');
+  if (!input || !results) return;
+
+  if (selectedMemberId) input.style.display = 'none';
+
+  input.addEventListener('input', () => {
+    const q = input.value.trim();
+    if (!q) { results.classList.remove('show'); results.innerHTML = ''; return; }
+    const matches = allMembers.filter(m => m.name && m.name.includes(q))
+      .sort((a, b) => (parseInt(b.birthYear)||0) - (parseInt(a.birthYear)||0))
+      .slice(0, 100);
+    results.innerHTML = '';
+    if (matches.length === 0) {
+      results.innerHTML = '<div class="ac-empty">لا يوجد تطابق</div>';
+    } else {
+      matches.forEach(m => {
+        const d = buildDetailsLine(m);
+        const item = document.createElement('div');
+        item.className = 'ac-item';
+        const detailLines = d.text.split('\n');
+        item.innerHTML = `<div class="ac-name">${m.name} — <span class="${d.aliveClass}">${d.aliveLabel}</span></div>${detailLines.map(l => `<div class="ac-details">${l}</div>`).join('')}`;
+        item.addEventListener('click', () => {
+          selectedMemberId = m.id;
+          selectedMemberName = m.name;
+          results.classList.remove('show');
+          input.style.display = 'none';
+          const box = document.getElementById('selfSelectedBox');
+          document.getElementById('selfSelectedName').textContent = m.name;
+          if (box) box.classList.add('show');
+          clearErrs();
+        });
+        results.appendChild(item);
+      });
+    }
+    results.classList.add('show');
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.autocomplete-wrap')) results.classList.remove('show');
+  }, { once: false });
+}
+
+function clearSelfSelection() {
+  selectedMemberId = null;
+  selectedMemberName = '';
+  const input = document.getElementById('f_self');
+  const box = document.getElementById('selfSelectedBox');
+  if (input) { input.value = ''; input.style.display = 'block'; input.focus(); }
+  if (box) box.classList.remove('show');
+}
+
 // ===== الإرسال =====
 async function submitForm() {
   const btn = document.getElementById('btnNext');
@@ -731,6 +862,9 @@ async function submitForm() {
 
   const payload = {
     action: 'submitRequest',
+    type: requestType,          // 'add' أو 'update'
+    memberId: requestType === 'update' ? (selectedMemberId || '') : undefined,
+    memberName: requestType === 'update' ? selectedMemberName : undefined,
     ...formData,
     submittedAt: new Date().toISOString(),
     photoBase64: selectedPhotoBase64 || undefined,
@@ -746,6 +880,12 @@ async function submitForm() {
     const result = await res.json();
     if (result.success) {
       document.getElementById('wizardScreen').style.display = 'none';
+      const successSub = document.getElementById('successSub');
+      if (successSub) {
+        successSub.textContent = requestType === 'update'
+          ? 'شكراً لك، سيتم مراجعة طلب التحديث وتطبيقه قريباً.'
+          : 'شكراً لك، سيتم مراجعة بياناتك من قِبل المسؤول عن الشجرة وإضافتها قريباً.';
+      }
       document.getElementById('successScreen').style.display = 'flex';
     } else {
       throw new Error(result.error || 'فشل');
