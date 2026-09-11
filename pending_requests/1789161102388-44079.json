@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "صبحي",
+  "gender": "male",
+  "birthYear": "1955",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد",
+  "fatherId": "1789118815225945",
+  "motherName": "فهميةالاسمر",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "غادة",
+      "marriageDate": "1980"
+    }
+  ],
+  "husband": null,
+  "education": "بكلوريا",
+  "currentJob": "ممرض",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0954393847",
+  "submittedAt": "2026-09-11T21:11:40.483Z",
+  "requestId": "1789161102388-44079",
+  "photoPath": null
+}
