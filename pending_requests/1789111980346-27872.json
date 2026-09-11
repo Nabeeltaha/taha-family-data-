@@ -1,0 +1,31 @@
+{
+  "name": "عمر",
+  "gender": "male",
+  "birthYear": "1999",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "نعمان",
+  "fatherId": "1785405809682062",
+  "motherName": "بشيرة الخوالي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "نوران الطبجي",
+      "marriageDate": "2023.12.1"
+    }
+  ],
+  "husband": null,
+  "education": "اعدادي",
+  "currentJob": "مكنيك سيارات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "احب سفر",
+  "phone": "0980846553",
+  "submittedAt": "2026-09-11T07:32:53.984Z",
+  "requestId": "1789111980346-27872",
+  "photoPath": "pending_photos/1789111980346-27872.jpg"
+}
