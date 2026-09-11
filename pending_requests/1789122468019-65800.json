@@ -1,0 +1,31 @@
+{
+  "name": "جمال تولد 1966",
+  "gender": "male",
+  "birthYear": "1966",
+  "isAlive": false,
+  "deathYear": "2012",
+  "isMartyr": true,
+  "isRevolutionMartyr": true,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ياسين",
+  "fatherId": "1785188508374368",
+  "motherName": "صبحية",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "سهام",
+      "marriageDate": "2015"
+    }
+  ],
+  "husband": null,
+  "education": "بكالوريوس",
+  "currentJob": "متعهد",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "مقيم في ليبيا",
+  "phone": "0923564001",
+  "submittedAt": "2026-09-11T10:27:47.842Z",
+  "requestId": "1789122468019-65800",
+  "photoPath": null
+}
