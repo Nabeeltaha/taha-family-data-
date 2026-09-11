@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1983",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1785405711693964",
+  "motherName": "اميرة الحنش",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "نهى سليك",
+      "marriageDate": "2007"
+    }
+  ],
+  "husband": "",
+  "education": "بكلوريا",
+  "currentJob": "مجاهد بوزارة الدفاع + تجارة سيارات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "قبل الثورة صيانة سبارات وتجارة \nوعندما بدأت الثورة التحقت بصفوف الثوار \nوعملت في صفوف كثيرة اخرها ضابط شؤون ادارية  في جيش الاسلام حتى هجرت في 2018 الى مدينة الباب كنت في صفوف الجيش الوطني ومصالح مدنية حتى الآن لم نضع السلاح حتى تطهير سوريا من الفلول",
+  "phone": "0969841831",
+  "submittedAt": "2026-09-11T12:44:54.449Z",
+  "requestId": "1789130745250-79890",
+  "photoPath": "pending_photos/1789130745250-79890.jpg"
+}
