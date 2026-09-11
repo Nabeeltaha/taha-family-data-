@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "يحيى",
+  "gender": "male",
+  "birthYear": "1982",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1785752610746444",
+  "motherName": "صبحيه",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "حسنا",
+      "marriageDate": "2008"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "حداد باطون",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T13:37:11.738Z",
+  "requestId": "1789133835688-32066",
+  "photoPath": null
+}
