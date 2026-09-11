@@ -971,7 +971,8 @@
     "hasPhoto": false,
     "fatherMatched": true,
     "type": "add",
-    "memberId": ""
+    "memberId": "",
+    "addedAt": "2026-09-11T17:30:41.531394"
   },
   {
     "requestId": "1789133488483-69937",
