@@ -1,0 +1,31 @@
+{
+  "name": "محمود",
+  "gender": "male",
+  "birthYear": "1964",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1785405711693964",
+  "motherName": "أميرة الحنش",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "منى معيكة",
+      "marriageDate": "1988"
+    }
+  ],
+  "husband": null,
+  "education": "سادس",
+  "currentJob": "معلم صحية",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "‏‪+963 934 602 707‬‏",
+  "submittedAt": "2026-09-11T12:16:38.910Z",
+  "requestId": "1789129000570-89559",
+  "photoPath": "pending_photos/1789129000570-89559.jpg"
+}
