@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1789103898245904",
+  "memberName": "ياسر",
+  "name": "ياسر",
+  "gender": "male",
+  "birthYear": "1987",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد علي",
+  "fatherId": "1789078270196039",
+  "motherName": "الهام الصيدواي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ثراء النسعان",
+      "marriageDate": "1995/8/24"
+    }
+  ],
+  "husband": null,
+  "education": "التاسع",
+  "currentJob": "صناعه قوالب حقن",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0967800500",
+  "submittedAt": "2026-09-11T20:38:21.007Z",
+  "requestId": "1789159109427-20428",
+  "photoPath": null
+}
