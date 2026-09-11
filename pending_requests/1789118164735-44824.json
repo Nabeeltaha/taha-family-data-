@@ -1,0 +1,31 @@
+{
+  "name": "مصعب",
+  "gender": "male",
+  "birthYear": "1991",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "وليد",
+  "fatherId": "1784588557889493",
+  "motherName": "رروضه الشحرور",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ريم ندم",
+      "marriageDate": "1/2/2019"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "تاجر مواد بناء وصحيه وكهرباء وصيانه عدد صناعيه",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0945295539",
+  "submittedAt": "2026-09-11T09:16:03.449Z",
+  "requestId": "1789118164735-44824",
+  "photoPath": "pending_photos/1789118164735-44824.jpg"
+}
