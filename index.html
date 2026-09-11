@@ -227,12 +227,15 @@ fetch(FAMILY_DATA_URL)
 function memberById(id) { return allMembers.find(m => m.id === id) || null; }
 
 function buildDetailsLine(m) {
+  const dead = m.deathYear && m.deathYear !== '';
+  const gf = m.parentId ? memberById(m.parentId) : null;
   const parts = [];
   parts.push(m.birthYear ? `مواليد ${m.birthYear}` : 'مواليد غير مسجّلة');
-  if (m.motherName) parts.push(`أمه: ${m.motherName}`);
-  const gf = m.parentId ? memberById(m.parentId) : null;
-  if (gf) parts.push(`جده: ${gf.name}`);
-  const dead = m.deathYear && m.deathYear !== '';
+  if (dead) parts.push(`وفاة ${m.deathYear}`);
+  if (gf) parts.push(`الوالد: ${gf.name}`);
+  const ggf = gf && gf.parentId ? memberById(gf.parentId) : null;
+  if (ggf) parts.push(`الجد: ${ggf.name}`);
+  if (m.motherName) parts.push(`الأم: ${m.motherName}`);
   return {
     text: parts.join(' • '),
     aliveLabel: dead ? 'متوفى' : 'على قيد الحياة',
