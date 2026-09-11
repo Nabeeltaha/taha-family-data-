@@ -182,9 +182,7 @@
   <button class="start-btn" onclick="startWizard('update')" style="background:#4A7C59;margin-bottom:14px;">
     ✏️ تحديث بياناتي وصورتي
   </button>
-  <button onclick="goHome()" style="background:none;border:2px solid #D7CCC8;color:#8D6E63;border-radius:14px;padding:12px 32px;font-size:15px;cursor:pointer;">
-    🏠 الرجوع للبداية
-  </button>
+
 </div>
 
 <div id="wizardScreen">
@@ -560,6 +558,7 @@ function renderStep() {
   document.getElementById('progressBar').style.width = `${Math.round((num / total) * 100)}%`;
 
   const isLast = currentStep === total - 1;
+  const showHomeBtn = step.id === 'father' || step.id === 'find_self';
   const body = document.getElementById('wizardBody');
   body.innerHTML = `
     ${step.render()}
@@ -568,6 +567,7 @@ function renderStep() {
       <button class="btn-next" id="btnNext" onclick="goNext()">${isLast ? 'إرسال البيانات ✓' : 'التالي ←'}</button>
       ${step.skippable ? '<button class="btn-skip" onclick="skipStep()">تخطي</button>' : ''}
     </div>
+    ${showHomeBtn ? '<div style="text-align:center;margin-top:8px;"><button onclick="goHome()" style="background:none;border:none;color:#A1887F;font-size:13px;cursor:pointer;text-decoration:underline;">🏠 الرجوع للبداية</button></div>' : ''}
   `;
 
   if (step.id === 'father') setupFatherSearch();
