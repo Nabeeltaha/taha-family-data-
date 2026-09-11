@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-11T08:23:07.617875",
+  "lastUpdated": "2026-09-11T08:31:19.859101",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -149,36 +149,6 @@
       "motherName": null,
       "isSingle": false,
       "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "32",
-      "parentId": "18",
-      "name": "باسل",
-      "birthYear": "1977",
-      "deathYear": null,
-      "photos": [],
-      "education": "مهندس معلوماتية",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "رجاء الصلاحي",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "ندى بدر",
-          "marriageDate": null,
-          "linkedMemberId": null
-        }
-      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
@@ -3028,36 +2998,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1785179851300335",
-      "parentId": "1785188508374368",
-      "name": "نذير طه",
-      "birthYear": "1959",
-      "deathYear": null,
-      "photos": [],
-      "education": "مهندس مدني",
-      "currentJob": "خبير تقييم عقاري محلف لدى المحاكم",
-      "previousJobs": [],
-      "positions": [],
-      "bio": "رئيس الدائرة الفنية في بلدية دوما 1986-1996\nأمين سر مجلس مدينة دوما 1992 - 1996",
-      "isMartyr": false,
-      "isFamous": true,
-      "gender": "male",
-      "motherName": "فاطمة أنيس",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "وفيقة عيون",
-          "marriageDate": "1987",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1785188257026316",
       "parentId": "1785179851300335",
       "name": "عبد الرحمن",
@@ -3079,66 +3019,6 @@
       "wives": [
         {
           "name": "يمنى الصيداوي",
-          "marriageDate": null,
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1785188193384450",
-      "parentId": "1785179851300335",
-      "name": "ياسر",
-      "birthYear": "1988",
-      "deathYear": null,
-      "photos": [],
-      "education": "مهندس مدني",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "وفيقة عيون",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "ردينة عيون",
-          "marriageDate": "٢٠١٦",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1785315981652270",
-      "parentId": "1785179851300335",
-      "name": "أحمد",
-      "birthYear": "1989",
-      "deathYear": null,
-      "photos": [],
-      "education": "مهندس معماري",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "وفيقة عيون",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "بتول جعرش",
           "marriageDate": null,
           "linkedMemberId": null
         }
@@ -5895,41 +5775,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "11",
-      "parentId": "10",
-      "name": "محمد نبيل",
-      "birthYear": "1972",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207618063_11.jpg"
-      ],
-      "education": "مهندس مدني",
-      "currentJob": "مكتب أعمال هندسية",
-      "previousJobs": [],
-      "positions": [
-        "رئيس المجلس المحلي لمدينة دوما 2018-2020",
-        "مدير قرى أطفال سورية SOS"
-      ],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": true,
-      "gender": "male",
-      "motherName": "حياة الصلاحي",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "لينا",
-          "marriageDate": "٢٠٠٥",
-          "linkedMemberId": "51"
-        }
-      ],
-      "isCreator": true,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1785439932315610",
       "parentId": "1785439008637917",
       "name": "سمير",
@@ -6534,38 +6379,6 @@
         {
           "name": "ناريمان نعمان",
           "marriageDate": "1992",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1789065042179694",
-      "parentId": "1785003966012720",
-      "name": "محمد فارس",
-      "birthYear": "1995",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_9de5e323d68f69822c23f9ee558952b6.jpg"
-      ],
-      "education": "هندسة زراعية",
-      "currentJob": "مهندس - معقب معاملات",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "ناريمان نعمان",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "انوار البرغوث",
-          "marriageDate": "٢٠١٦",
           "linkedMemberId": null
         }
       ],
@@ -7915,34 +7728,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1786096903185964",
-      "parentId": "1785003966012720",
-      "name": "تيماء",
-      "birthYear": "1997",
-      "deathYear": null,
-      "photos": [],
-      "education": "هندسة اتصالات",
-      "currentJob": "مهندسة",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "female",
-      "motherName": "ناريمان نعمان",
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": {
-        "name": "حمزة البريجاوي الحمصي",
-        "marriageDate": "2023",
-        "linkedMemberId": null
-      },
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789084680635755",
       "parentId": "1784588758240909",
       "name": "مصعب",
@@ -8215,6 +8000,221 @@
       "isRevolutionMujahid": false
     },
     {
+      "id": "32",
+      "parentId": "18",
+      "name": "باسل",
+      "birthYear": "1977",
+      "deathYear": null,
+      "photos": [],
+      "education": "مهندس معلوماتية",
+      "currentJob": "مهندس معلوماتية",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "رجاء الصلاحي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "ندى بدر",
+          "marriageDate": null,
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "11",
+      "parentId": "10",
+      "name": "محمد نبيل",
+      "birthYear": "1972",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207618063_11.jpg"
+      ],
+      "education": "مهندس مدني",
+      "currentJob": "مهندس مدني - مكتب أعمال هندسية",
+      "previousJobs": [],
+      "positions": [
+        "رئيس المجلس المحلي لمدينة دوما 2018-2020",
+        "مدير قرى أطفال سورية SOS"
+      ],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": "حياة الصلاحي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "لينا",
+          "marriageDate": "٢٠٠٥",
+          "linkedMemberId": "51"
+        }
+      ],
+      "isCreator": true,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789065042179694",
+      "parentId": "1785003966012720",
+      "name": "محمد فارس",
+      "birthYear": "1995",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_9de5e323d68f69822c23f9ee558952b6.jpg"
+      ],
+      "education": "هندسة زراعية",
+      "currentJob": "مهندس زراعي  - معقب معاملات",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "ناريمان نعمان",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "انوار البرغوث",
+          "marriageDate": "٢٠١٦",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785188193384450",
+      "parentId": "1785179851300335",
+      "name": "ياسر",
+      "birthYear": "1988",
+      "deathYear": null,
+      "photos": [],
+      "education": "مهندس مدني",
+      "currentJob": "مهندس مدني",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "وفيقة عيون",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "ردينة عيون",
+          "marriageDate": "٢٠١٦",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785315981652270",
+      "parentId": "1785179851300335",
+      "name": "أحمد",
+      "birthYear": "1989",
+      "deathYear": null,
+      "photos": [],
+      "education": "مهندس معماري",
+      "currentJob": "مهندس معماري",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "وفيقة عيون",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "بتول جعرش",
+          "marriageDate": null,
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1786096903185964",
+      "parentId": "1785003966012720",
+      "name": "تيماء",
+      "birthYear": "1997",
+      "deathYear": null,
+      "photos": [],
+      "education": "هندسة اتصالات",
+      "currentJob": "مهندسة اتصالات",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "ناريمان نعمان",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "حمزة البريجاوي الحمصي",
+        "marriageDate": "2023",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785179851300335",
+      "parentId": "1785188508374368",
+      "name": "نذير طه",
+      "birthYear": "1959",
+      "deathYear": null,
+      "photos": [],
+      "education": "مهندس مدني",
+      "currentJob": "مهندس مدني -خبير تقييم عقاري محلف لدى المحاكم",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "رئيس الدائرة الفنية في بلدية دوما 1986-1996\nأمين سر مجلس مدينة دوما 1992 - 1996",
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": "فاطمة أنيس",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "وفيقة عيون",
+          "marriageDate": "1987",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
       "id": "1789104044501329",
       "parentId": "1789078270196039",
       "name": "حسن",
@@ -8224,7 +8224,7 @@
         "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_1fa3245b94ac8b133176fc147270bb40.jpg"
       ],
       "education": "مهندس معلوماتية",
-      "currentJob": "يعمل في المعلومات",
+      "currentJob": null,
       "previousJobs": [],
       "positions": [],
       "bio": null,
