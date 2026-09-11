@@ -1,0 +1,29 @@
+{
+  "name": "يمنى",
+  "gender": "female",
+  "birthYear": "2005",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "بشار",
+  "fatherId": "1789078305741378",
+  "motherName": "خولة",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "عمر طه",
+    "marriageDate": "2025"
+  },
+  "education": "بكلوريا",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T09:42:11.783Z",
+  "requestId": "1789119732683-28024",
+  "photoPath": null
+}
