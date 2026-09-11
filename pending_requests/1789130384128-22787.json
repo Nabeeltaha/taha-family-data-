@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "مرزوق",
+  "gender": "male",
+  "birthYear": "1975",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1785752610746444",
+  "motherName": "صبحيه",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "رقيه",
+      "marriageDate": "2022"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T12:39:38.250Z",
+  "requestId": "1789130384128-22787",
+  "photoPath": null
+}
