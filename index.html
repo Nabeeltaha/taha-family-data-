@@ -760,10 +760,12 @@ document.getElementById('photoInput').addEventListener('change', () => {
 });
 
 // ===== خطوات "تحديث بياناتي" =====
+// نفس خطوات الإضافة تماماً بعد خطوة البحث عن النفس —
+// الأدمن يراجع كل شي ويقرر ما يطبق
 function getUpdateSteps() {
   const steps = [];
 
-  // 1) البحث عن نفسك بالشجرة
+  // 1) البحث عن نفسك بالشجرة (إلزامي)
   steps.push({
     id: 'find_self', title: 'ابحث عن اسمك بالشجرة',
     render: () => `
@@ -788,42 +790,9 @@ function getUpdateSteps() {
     }
   });
 
-  // 2) الصورة (مهمة بهذا الوضع)
-  steps.push({
-    id: 'update_photo', title: 'صورتك الشخصية',
-    skippable: true,
-    render: () => `
-      <div class="step-question">أضف صورتك الشخصية</div>
-      <div class="step-hint">ستُضاف لملفك بالشجرة بعد موافقة المسؤول</div>
-      <div class="photo-box ${selectedPhotoBase64?'has-photo':''}" onclick="document.getElementById('photoInput').click()">
-        <img id="photoPreview" class="photo-preview ${selectedPhotoBase64?'show':''}" src="" alt="">
-        <div class="photo-box-icon" ${selectedPhotoBase64?'style="display:none"':''}>📷</div>
-        <div class="photo-box-text">${selectedPhotoBase64 ? 'تم اختيار الصورة — اضغط لتغييرها' : 'اضغط لاختيار صورة'}</div>
-        <div class="photo-size-note" id="photoSizeNote"></div>
-      </div>`,
-    collect: () => {},
-    validate: () => true
-  });
-
-  // 3) تعديلات إضافية (اختيارية)
-  steps.push({
-    id: 'update_extra', title: 'تعديلات إضافية',
-    skippable: true,
-    render: () => `
-      <div class="step-question">هل تريد تحديث أي معلومات؟ (اختياري)</div>
-      <div class="step-hint">اترك الحقل فارغاً لو ما تريد تغييره</div>
-      <input class="wizard-input" id="f_edu" type="text" placeholder="الدراسة" value="${formData.education}" style="margin-bottom:10px;">
-      <input class="wizard-input" id="f_job" type="text" placeholder="العمل الحالي" value="${formData.currentJob}" style="margin-bottom:10px;">
-      <textarea class="wizard-input" id="f_bio" placeholder="نبذة مختصرة عنك">${formData.bio}</textarea>
-      <input class="wizard-input" id="f_phone" type="tel" placeholder="رقم هاتفك للتواصل (اختياري)" value="${formData.phone}" style="margin-top:10px;">`,
-    collect: () => {
-      formData.education = (document.getElementById('f_edu')||{}).value?.trim()||'';
-      formData.currentJob = (document.getElementById('f_job')||{}).value?.trim()||'';
-      formData.bio = (document.getElementById('f_bio')||{}).value?.trim()||'';
-      formData.phone = (document.getElementById('f_phone')||{}).value?.trim()||'';
-    },
-    validate: () => true
-  });
+  // 2-9) نفس خطوات الإضافة كاملة
+  const addSteps = getSteps();
+  addSteps.forEach(s => steps.push(s));
 
   return steps;
 }
