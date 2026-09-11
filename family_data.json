@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-11T12:28:56.306756",
+  "lastUpdated": "2026-09-11T12:37:51.131901",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -9086,6 +9086,124 @@
       "motherName": "تهاني الحموري",
       "isSingle": true,
       "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789119381118595",
+      "parentId": "1785316208056130",
+      "name": "عدنان",
+      "birthYear": "1952",
+      "deathYear": "2014",
+      "photos": [],
+      "education": "تاسع",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": true,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "فهمية",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "رفيقة برهوش",
+          "marriageDate": "1975",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": true,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789119409118732",
+      "parentId": "1784588557889493",
+      "name": "مؤمن",
+      "birthYear": "2006",
+      "deathYear": null,
+      "photos": [],
+      "education": "هندسة معلوماتيه",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "روضه الشحرور",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789119355239325",
+      "parentId": "1785179887084838",
+      "name": "صبحي",
+      "birthYear": "1958",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_8f7b2c132af8b77f6692a7ef6e318c01.jpg"
+      ],
+      "education": "هندسة زراعة",
+      "currentJob": "صيدلية زراعية",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "مريم خشفة",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "مريم النجار",
+          "marriageDate": "1986",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789119435358903",
+      "parentId": "1785179887084838",
+      "name": "إياد",
+      "birthYear": "1999",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_1b771854f7deb2d39d59a62a36acc91e.jpg"
+      ],
+      "education": "تقنيات حاسوب",
+      "currentJob": "تفني",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "مريم النجار",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "شيماء حديد",
+          "marriageDate": "2025",
+          "linkedMemberId": null
+        }
+      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
