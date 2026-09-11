@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "كمال",
+  "gender": "male",
+  "birthYear": "1990",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "عدنان",
+  "fatherId": "1789119381118595",
+  "motherName": "رفيقة برهوش",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "زبيدة",
+      "marriageDate": "2024"
+    }
+  ],
+  "husband": null,
+  "education": "سادس",
+  "currentJob": "خياط",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T12:58:07.191Z",
+  "requestId": "1789131491328-98401",
+  "photoPath": null
+}
