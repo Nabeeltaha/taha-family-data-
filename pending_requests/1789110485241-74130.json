@@ -1,0 +1,29 @@
+{
+  "name": "هدى",
+  "gender": "female",
+  "birthYear": "1990",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "نعمان",
+  "fatherId": "1785405809682062",
+  "motherName": "بشيرة الخوالي",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "عماد عبد الرزاق خبية ابو عمار",
+    "marriageDate": "2008"
+  },
+  "education": "تاسع",
+  "currentJob": "ربة منزل",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T07:08:01.830Z",
+  "requestId": "1789110485241-74130",
+  "photoPath": null
+}
