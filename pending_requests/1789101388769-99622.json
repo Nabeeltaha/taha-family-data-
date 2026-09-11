@@ -1,0 +1,29 @@
+{
+  "name": "نور",
+  "gender": "female",
+  "birthYear": "1990",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد علي",
+  "fatherId": "1789078270196039",
+  "motherName": "إلهام الصيداوي",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "عبد الرحمن الرحيباني",
+    "marriageDate": "٢٠٠٨"
+  },
+  "education": "اقتصاد -فرع.احصاء",
+  "currentJob": "ربة منزل",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T04:36:28.079Z",
+  "requestId": "1789101388769-99622",
+  "photoPath": null
+}
