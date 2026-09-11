@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-11T03:15:08.417938",
+  "lastUpdated": "2026-09-11T08:23:07.617875",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -8032,6 +8032,208 @@
           "linkedMemberId": null
         }
       ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789103962958548",
+      "parentId": "1789078270196039",
+      "name": "نور",
+      "birthYear": "1990",
+      "deathYear": null,
+      "photos": [],
+      "education": "اقتصاد -فرع.احصاء",
+      "currentJob": "ربة منزل",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "إلهام الصيداوي",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "عبد الرحمن الرحيباني",
+        "marriageDate": "٢٠٠٨",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789104027382404",
+      "parentId": "1789078270196039",
+      "name": "حنان",
+      "birthYear": "1995",
+      "deathYear": null,
+      "photos": [],
+      "education": "تاسع",
+      "currentJob": "ربة منزل",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "إلهام الصيداوي",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "سامر علوش",
+        "marriageDate": "٢٠٠٨",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789103898245904",
+      "parentId": "1789078270196039",
+      "name": "ياسر",
+      "birthYear": "1997",
+      "deathYear": null,
+      "photos": [],
+      "education": "تاسع",
+      "currentJob": "صناعة قوالب",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "جاهد مع جيش الإسلام واصيب وفقد عينه اليمنى",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "إلهام الصيداوي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "ثراء النعسان",
+          "marriageDate": "٢٠٠٨",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789103938505233",
+      "parentId": "1789078270196039",
+      "name": "محمد",
+      "birthYear": "1988",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_3a70a6dde27d4fcb4bab52f8a6f73dfe.jpg"
+      ],
+      "education": "شهادة الثانوية",
+      "currentJob": "محاسب -فلاح-صناعة قوالب",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "جاهد مع سرية الاسلام",
+      "isMartyr": true,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "إلهام الصيداوي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "نداء النعسان",
+          "marriageDate": "٢٠٠٨",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": true,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789103983307156",
+      "parentId": "1789078270196039",
+      "name": "سامر",
+      "birthYear": "1993",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_deae6496e517ab07418326c3ec81494b.jpg"
+      ],
+      "education": "إجازة بالاقتصاد -فرع محاسبة",
+      "currentJob": "محاسب بشركة العش",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "إلهام الصيداوي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "لوتس دلوان",
+          "marriageDate": "٢٠١٤",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789104004998124",
+      "parentId": "1789078254089048",
+      "name": "محمد خير",
+      "birthYear": "1956",
+      "deathYear": "2004",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_93085391ece4fda21f453a0604f13ad9.jpg"
+      ],
+      "education": "سادس",
+      "currentJob": "ميكانيك السيارات",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "سافر الى لبنان في عام ١٩٧٩ لم يعود",
+      "isMartyr": true,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "عائشة عبد العزيز",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789104044501329",
+      "parentId": "1789078270196039",
+      "name": "حسن",
+      "birthYear": "1999",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_1fa3245b94ac8b133176fc147270bb40.jpg"
+      ],
+      "education": "مهندس معلوماتية",
+      "currentJob": "يعمل في المعلومات",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "إلهام الصيداوي",
+      "isSingle": true,
+      "wives": [],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
