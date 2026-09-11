@@ -1,0 +1,29 @@
+{
+  "name": "شهناز",
+  "gender": "female",
+  "birthYear": "1960",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد فوزي",
+  "fatherId": "23",
+  "motherName": "مسره الفران",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "ديب بكار",
+    "marriageDate": "1978"
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T08:26:48.916Z",
+  "requestId": "1789115208418-89056",
+  "photoPath": null
+}
