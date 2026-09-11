@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "صالح",
+  "gender": "male",
+  "birthYear": "1980",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1785752610746444",
+  "motherName": "صبحيه",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "نور",
+      "marriageDate": "2018"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T13:33:37.412Z",
+  "requestId": "1789133619918-20066",
+  "photoPath": null
+}
