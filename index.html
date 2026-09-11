@@ -186,7 +186,10 @@
 
 <div id="wizardScreen">
   <div class="wizard-header">
-    <div class="wizard-step-label" id="stepLabel">الخطوة 1 من 9</div>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+      <button onclick="goHome()" style="background:rgba(255,255,255,0.2);border:none;color:white;border-radius:6px;padding:4px 10px;font-size:12px;cursor:pointer;">🏠 الرئيسية</button>
+      <div class="wizard-step-label" id="stepLabel" style="margin-bottom:0;">الخطوة 1 من 9</div>
+    </div>
     <div class="wizard-step-title" id="stepTitle"></div>
     <div class="progress-bar-wrap">
       <div class="progress-bar-fill" id="progressBar" style="width:11%"></div>
@@ -514,6 +517,26 @@ function getSteps() {
 
 let steps = [];
 let currentStep = 0;
+
+function goHome() {
+  // إعادة تعيين كل البيانات
+  selectedFatherId = null;
+  selectedFatherName = '';
+  selectedFatherDetail = '';
+  selectedMemberId = null;
+  selectedMemberName = '';
+  selectedPhotoBase64 = null;
+  Object.keys(formData).forEach(k => {
+    if (Array.isArray(formData[k])) formData[k] = [];
+    else if (typeof formData[k] === 'boolean') formData[k] = k === 'isAlive' ? true : (k === 'isSingle' ? true : false);
+    else formData[k] = '';
+  });
+  formData.isAlive = true;
+  formData.isSingle = true;
+  document.getElementById('wizardScreen').style.display = 'none';
+  document.getElementById('successScreen').style.display = 'none';
+  document.getElementById('welcomeScreen').style.display = 'flex';
+}
 
 function startWizard(type) {
   requestType = type || 'add';
