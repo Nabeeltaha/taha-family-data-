@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-11T17:55:24.218767",
+  "lastUpdated": "2026-09-11T19:09:36.386863",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -3043,38 +3043,6 @@
       "husband": null,
       "isRevolutionMartyr": false,
       "isMujahid": true,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1785405809682062",
-      "parentId": "1785405711693964",
-      "name": "نعمان",
-      "birthYear": "1962",
-      "deathYear": null,
-      "photos": [],
-      "education": "تاسع",
-      "currentJob": "مختار حي عناتر",
-      "previousJobs": [],
-      "positions": [
-        "مختار حي عناتر"
-      ],
-      "bio": "مختار حي عناتر",
-      "isMartyr": false,
-      "isFamous": true,
-      "gender": "male",
-      "motherName": "أمير الحنش",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "بشيرة الخولي",
-          "marriageDate": "1986",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
       "isRevolutionMujahid": false
     },
     {
@@ -8930,36 +8898,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789119381118595",
-      "parentId": "1785316208056130",
-      "name": "عدنان",
-      "birthYear": "1952",
-      "deathYear": "2014",
-      "photos": [],
-      "education": "تاسع",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": true,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "فهمية",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "رفيقة برهوش",
-          "marriageDate": "1975",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": true,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789119409118732",
       "parentId": "1784588557889493",
       "name": "مؤمن",
@@ -10407,6 +10345,150 @@
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789142878803337",
+      "parentId": "1789122573904672",
+      "name": "خالد",
+      "birthYear": "1990",
+      "deathYear": null,
+      "photos": [],
+      "education": "بكالوريوس",
+      "currentJob": "متعهد ومقاول",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "صبحية",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "سهام نسرين",
+          "marriageDate": "2015",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789142894004359",
+      "parentId": "1789122573904672",
+      "name": "عمر",
+      "birthYear": "1991",
+      "deathYear": "1999",
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "صبحية",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789142916878443",
+      "parentId": "1785438391867263",
+      "name": "محمد",
+      "birthYear": "2001",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": "معجنات",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "هند الدرة",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785405809682062",
+      "parentId": "1785405711693964",
+      "name": "نعمان",
+      "birthYear": "1962",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_bc858aae7b11bd45c7ca91442817074b.jpg"
+      ],
+      "education": "تاسع",
+      "currentJob": "مختار حي عناتر",
+      "previousJobs": [],
+      "positions": [
+        "مختار حي عناتر"
+      ],
+      "bio": "مختار حي عناتر",
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": "أمير الحنش",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "بشيرة الخولي",
+          "marriageDate": "1986",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789119381118595",
+      "parentId": "1785316208056130",
+      "name": "عدنان",
+      "birthYear": "1952",
+      "deathYear": "2014",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_249a031de0fc5b212c2146d10fccfe28.jpg"
+      ],
+      "education": "تاسع",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": true,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "فهمية",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "رفيقة برهوش",
+          "marriageDate": "1975",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": true,
       "isMujahid": false,
       "isRevolutionMujahid": false
     }
