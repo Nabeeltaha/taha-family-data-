@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-11T17:50:57.969989",
+  "lastUpdated": "2026-09-11T17:55:24.218767",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -6853,41 +6853,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789078254089048",
-      "parentId": "1784813625531141",
-      "name": "مصطفى",
-      "birthYear": "1913",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": "فلاح",
-      "previousJobs": [],
-      "positions": [],
-      "bio": "كان محب لجميع أفراد العائلة",
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "عائشة",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "أمنة",
-          "marriageDate": "1948",
-          "linkedMemberId": null
-        },
-        {
-          "name": "عائشة",
-          "marriageDate": "١٩٥١",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789078270196039",
       "parentId": "1784813967585616",
       "name": "محمد علي",
@@ -10407,6 +10372,41 @@
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": true,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789078254089048",
+      "parentId": "1784813625531141",
+      "name": "مصطفى",
+      "birthYear": "1913",
+      "deathYear": "1985",
+      "photos": [],
+      "education": null,
+      "currentJob": "فلاح",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "كان محب لجميع أفراد العائلة",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "عائشة",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "أمنة",
+          "marriageDate": "1948",
+          "linkedMemberId": null
+        },
+        {
+          "name": "عائشة",
+          "marriageDate": "١٩٥١",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
     }
