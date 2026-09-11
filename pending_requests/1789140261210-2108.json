@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "خالد",
+  "gender": "male",
+  "birthYear": "1990",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "جمال",
+  "fatherId": "1789122573904672",
+  "motherName": "صبحية",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "سهام نسرين",
+      "marriageDate": "2015"
+    }
+  ],
+  "husband": null,
+  "education": "بكالوريوس",
+  "currentJob": "متعهد ومقاول",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0923564001",
+  "submittedAt": "2026-09-11T15:24:20.920Z",
+  "requestId": "1789140261210-2108",
+  "photoPath": null
+}
