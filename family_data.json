@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-11T14:22:05.568708",
+  "lastUpdated": "2026-09-11T14:40:01.278998",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -2380,30 +2380,6 @@
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
-    },
-    {
-      "id": "1784588726537414",
-      "parentId": "1784588557889493",
-      "name": "محمد",
-      "birthYear": "1988",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": null,
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": true,
-      "isRevolutionMujahid": true
     },
     {
       "id": "1784653470826024",
@@ -9619,6 +9595,32 @@
       "isRevolutionMujahid": false
     },
     {
+      "id": "1789125560721628",
+      "parentId": "1789103938505233",
+      "name": "يزن",
+      "birthYear": "2013",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_33756d9d8d776e0b9a160c16b7015603.jpg"
+      ],
+      "education": "صف تاسع",
+      "currentJob": "طالب",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "يعمل بإصلاح الجوالات",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "نداء النعسان",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
       "id": "1789125534440050",
       "parentId": "1784588557889493",
       "name": "محمد",
@@ -9641,31 +9643,39 @@
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
+      "isMujahid": true,
+      "isRevolutionMujahid": true
     },
     {
-      "id": "1789125560721628",
-      "parentId": "1789103938505233",
-      "name": "يزن",
-      "birthYear": "2013",
+      "id": "1789126760569921",
+      "parentId": "1785405711693964",
+      "name": "عبد الناصر",
+      "birthYear": "1974",
       "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_33756d9d8d776e0b9a160c16b7015603.jpg"
-      ],
-      "education": "صف تاسع",
-      "currentJob": "طالب",
+      "photos": [],
+      "education": "تاسع",
+      "currentJob": "مقاول",
       "previousJobs": [],
       "positions": [],
-      "bio": "يعمل بإصلاح الجوالات",
+      "bio": "اصابة حرب في القدم و اليد",
       "isMartyr": false,
       "isFamous": false,
       "gender": "male",
-      "motherName": "نداء النعسان",
-      "isSingle": true,
-      "wives": [],
+      "motherName": "أميرة الحنش",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "رويدة بدران",
+          "marriageDate": "1997.8.28",
+          "linkedMemberId": null
+        }
+      ],
       "isCreator": false,
-      "husband": null,
+      "husband": {
+        "name": "موفق المصري",
+        "marriageDate": null,
+        "linkedMemberId": null
+      },
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
