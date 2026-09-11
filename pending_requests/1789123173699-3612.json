@@ -1,0 +1,31 @@
+{
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1983",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "عدنان",
+  "fatherId": "1789119381118595",
+  "motherName": "رفيقة برهوش",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "روان",
+      "marriageDate": "2020"
+    }
+  ],
+  "husband": null,
+  "education": "بكلوريا",
+  "currentJob": "محاسب",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0954393847",
+  "submittedAt": "2026-09-11T10:39:32.145Z",
+  "requestId": "1789123173699-3612",
+  "photoPath": "pending_photos/1789123173699-3612.jpg"
+}
