@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "منير",
+  "gender": "male",
+  "birthYear": "1960",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ياسين",
+  "fatherId": "1785188508374368",
+  "motherName": "فاطمة انيس",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ام محمود",
+      "marriageDate": "1987"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T20:53:14.922Z",
+  "requestId": "1789159996195-4346",
+  "photoPath": null
+}
