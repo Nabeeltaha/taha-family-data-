@@ -1,0 +1,29 @@
+{
+  "name": "ساره",
+  "gender": "female",
+  "birthYear": "2005",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "نعمان",
+  "fatherId": "1785405809682062",
+  "motherName": "بشيرة الخوالي",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "محمد جابر",
+    "marriageDate": "2024.10.23"
+  },
+  "education": "بكلوريا",
+  "currentJob": "ربة منزل",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T08:13:01.343Z",
+  "requestId": "1789114385738-93953",
+  "photoPath": null
+}
