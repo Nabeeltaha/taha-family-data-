@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-11T17:44:37.688083",
+  "lastUpdated": "2026-09-11T17:50:57.969989",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -8537,32 +8537,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789117492080327",
-      "parentId": "1789108435062250",
-      "name": "ميلاد",
-      "birthYear": "2007",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_5359f0054ba71e74a37da2cc576b4396.jpg"
-      ],
-      "education": "طالب بكالوريا علمي",
-      "currentJob": "معلم دهان منزلي",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "رنا بدران",
-      "isSingle": true,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789117544025712",
       "parentId": "1789108435062250",
       "name": "محمد",
@@ -9189,36 +9163,6 @@
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1789122573904672",
-      "parentId": "1785188508374368",
-      "name": "جمال",
-      "birthYear": "1966",
-      "deathYear": "2012",
-      "photos": [],
-      "education": "بكالوريوس",
-      "currentJob": "متعهد",
-      "previousJobs": [],
-      "positions": [],
-      "bio": "مقيم في ليبيا",
-      "isMartyr": true,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "وفيقة",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "سهام",
-          "marriageDate": "2015",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": true,
       "isMujahid": false,
       "isRevolutionMujahid": false
     },
@@ -10107,30 +10051,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789137542963464",
-      "parentId": "1785438532683984",
-      "name": "عمر",
-      "birthYear": "2004",
-      "deathYear": null,
-      "photos": [],
-      "education": "دبلوم",
-      "currentJob": "موظف",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "منيه",
-      "isSingle": true,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789137569629198",
       "parentId": "1785438532683984",
       "name": "عمر",
@@ -10299,38 +10219,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789136679126262",
-      "parentId": "1785405711693964",
-      "name": "محمود",
-      "birthYear": "1964",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_a333e2ab21ce7862fc3b4320a11b1f43.jpg"
-      ],
-      "education": "سادس",
-      "currentJob": "معلم صحية",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "أميرة الحنش",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "منى معيكة",
-          "marriageDate": "1988",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789136893572150",
       "parentId": "1789125241190748",
       "name": "فراس",
@@ -10431,6 +10319,94 @@
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789136679126262",
+      "parentId": "1785405711693964",
+      "name": "محمود",
+      "birthYear": "1964",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_a333e2ab21ce7862fc3b4320a11b1f43.jpg"
+      ],
+      "education": "سادس",
+      "currentJob": "حرفي  صحية",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "أميرة الحنش",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "منى معيكة",
+          "marriageDate": "1988",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789117492080327",
+      "parentId": "1789108435062250",
+      "name": "ميلاد",
+      "birthYear": "2007",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_5359f0054ba71e74a37da2cc576b4396.jpg"
+      ],
+      "education": "طالب بكالوريا علمي",
+      "currentJob": "حرفي  دهان منزلي",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "رنا بدران",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789122573904672",
+      "parentId": "1785188508374368",
+      "name": "جمال",
+      "birthYear": "1966",
+      "deathYear": "2012",
+      "photos": [],
+      "education": "أعدادي",
+      "currentJob": "متعهد",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": true,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "وفيقة",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "صبحية",
+          "marriageDate": "1989",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": true,
       "isMujahid": false,
       "isRevolutionMujahid": false
     }
