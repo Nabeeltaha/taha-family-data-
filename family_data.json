@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-11T15:07:09.811352",
+  "lastUpdated": "2026-09-11T16:41:50.944605",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -543,30 +543,6 @@
       "id": "1784813741888384",
       "parentId": "1784813625531141",
       "name": "محمد",
-      "birthYear": null,
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": null,
-      "motherName": null,
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1784813771092639",
-      "parentId": "1784813625531141",
-      "name": "ابراهيم",
       "birthYear": null,
       "deathYear": null,
       "photos": [],
@@ -6942,36 +6918,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789078318175933",
-      "parentId": "1785537512470381",
-      "name": "عمر",
-      "birthYear": "1950",
-      "deathYear": "2014",
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "حياة يحيى",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "زهرية الأجوة",
-          "marriageDate": "2008",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789079155111940",
       "parentId": "1785752847907079",
       "name": "أميرة",
@@ -9247,30 +9193,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789122156557920",
-      "parentId": "1789061345928818",
-      "name": "ماهر",
-      "birthYear": "1996",
-      "deathYear": null,
-      "photos": [],
-      "education": "جامعي",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "هناء",
-      "isSingle": true,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789122573904672",
       "parentId": "1785188508374368",
       "name": "جمال",
@@ -9479,38 +9401,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789125295424914",
-      "parentId": "1789119381118595",
-      "name": "سمير",
-      "birthYear": "1976",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_38be3daa5fd2172a24caf463fca2674e.jpg"
-      ],
-      "education": "تاسع",
-      "currentJob": "مخرطة",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": true,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "رفيقة برهوش",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "امال",
-          "marriageDate": "2000",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": true,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789125376035439",
       "parentId": "1789103898245904",
       "name": "سيلين",
@@ -9677,6 +9567,38 @@
         "linkedMemberId": null
       },
       "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789125295424914",
+      "parentId": "1789119381118595",
+      "name": "سمير",
+      "birthYear": "1976",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_38be3daa5fd2172a24caf463fca2674e.jpg"
+      ],
+      "education": "تاسع",
+      "currentJob": "مخرطة",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": true,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "رفيقة برهوش",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "امال",
+          "marriageDate": "2000",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": true,
       "isMujahid": false,
       "isRevolutionMujahid": false
     }
