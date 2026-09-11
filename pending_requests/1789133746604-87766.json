@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "محمود",
+  "gender": "male",
+  "birthYear": "1962",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ياسين",
+  "fatherId": "1785188508374368",
+  "motherName": "وفيقة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ام محمود",
+      "marriageDate": "1987"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "مجلس سيارات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T13:35:46.730Z",
+  "requestId": "1789133746604-87766",
+  "photoPath": null
+}
