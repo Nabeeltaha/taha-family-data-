@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-11T11:27:24.548362",
+  "lastUpdated": "2026-09-11T11:47:34.971106",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -6841,38 +6841,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789073753316710",
-      "parentId": "1785405809682062",
-      "name": "عبد الرحمن محمد",
-      "birthYear": "1978",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_a9f5fba996e6bc42cb30f18be3fe51cd.jpg"
-      ],
-      "education": "تاسع",
-      "currentJob": "مقاول",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "اميرة الحنش",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "تهاني الحموري",
-          "marriageDate": "2003",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789073773113388",
       "parentId": "1789065079031536",
       "name": "عمران",
@@ -8662,6 +8630,118 @@
       "isFamous": false,
       "gender": "male",
       "motherName": "دعاء الخولي",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789073753316710",
+      "parentId": "1785405711693964",
+      "name": "عبد الرحمن محمد",
+      "birthYear": "1978",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_a9f5fba996e6bc42cb30f18be3fe51cd.jpg"
+      ],
+      "education": "تاسع",
+      "currentJob": "مقاول",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "اميرة الحنش",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "تهاني الحموري",
+          "marriageDate": "2003",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789116271160240",
+      "parentId": "23",
+      "name": "شهناز",
+      "birthYear": "1960",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "مسره الفران",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "ديب بكار",
+        "marriageDate": "1978",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789116304065840",
+      "parentId": "1789073753316710",
+      "name": "هشام",
+      "birthYear": "2005",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_581747ff6f547ebfae9115de419e8679.jpg"
+      ],
+      "education": "بكالوريا",
+      "currentJob": "شركة انترنيت",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "العمل في شركة لومينوس للانترنيت",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "تهاني الحموري",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789116336735903",
+      "parentId": "1789114955079289",
+      "name": "بكر",
+      "birthYear": "2024",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_2eaf6a41f001fcce597da679ced9d868.jpg"
+      ],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "نوران الطبجي",
       "isSingle": true,
       "wives": [],
       "isCreator": false,
