@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "عارف",
+  "gender": "male",
+  "birthYear": "1971",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ياسين",
+  "fatherId": "1785188508374368",
+  "motherName": "وفيقة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ام احمد",
+      "marriageDate": "1996"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "مجلس سيارات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T13:37:31.391Z",
+  "requestId": "1789133851305-85987",
+  "photoPath": null
+}
