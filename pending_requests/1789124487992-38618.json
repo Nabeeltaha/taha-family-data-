@@ -1,0 +1,31 @@
+{
+  "name": "عدنان",
+  "gender": "male",
+  "birthYear": "1952",
+  "isAlive": false,
+  "deathYear": "",
+  "isMartyr": true,
+  "isRevolutionMartyr": true,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "عدنان",
+  "fatherId": "1789119381118595",
+  "motherName": "فهمية",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "رفيقة برهوش",
+      "marriageDate": "1974"
+    }
+  ],
+  "husband": null,
+  "education": "تاسع",
+  "currentJob": "حداد",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0954393847",
+  "submittedAt": "2026-09-11T11:01:26.646Z",
+  "requestId": "1789124487992-38618",
+  "photoPath": "pending_photos/1789124487992-38618.jpg"
+}
