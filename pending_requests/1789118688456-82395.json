@@ -1,0 +1,31 @@
+{
+  "name": "أحمد",
+  "gender": "male",
+  "birthYear": "1922",
+  "isAlive": false,
+  "deathYear": "1999",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد",
+  "fatherId": "1785316208056130",
+  "motherName": "عائشة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "فهمية",
+      "marriageDate": "1946"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T09:24:47.120Z",
+  "requestId": "1789118688456-82395",
+  "photoPath": null
+}
