@@ -642,7 +642,14 @@ function setupFatherSearch() {
   input.addEventListener('input', () => {
     const q = input.value.trim();
     if (!q) { results.classList.remove('show'); results.innerHTML = ''; return; }
-    const matches = allMembers.filter(m => m.name && m.name.includes(q)).slice(0, 100);
+    const matches = allMembers
+      .filter(m => m.name && m.name.includes(q))
+      .sort((a, b) => {
+        const ay = parseInt(a.birthYear) || 0;
+        const by = parseInt(b.birthYear) || 0;
+        return by - ay; // الأحدث مواليداً أولاً
+      })
+      .slice(0, 100);
     results.innerHTML = '';
     if (matches.length === 0) {
       results.innerHTML = '<div class="ac-empty">لا يوجد تطابق — تواصل مع المسؤول</div>';
