@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "اسماعيل",
+  "gender": "male",
+  "birthYear": "1970",
+  "isAlive": false,
+  "deathYear": "",
+  "isMartyr": true,
+  "isRevolutionMartyr": true,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1785752610746444",
+  "motherName": "صبحيه",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ملك",
+      "marriageDate": "1993"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T13:40:29.533Z",
+  "requestId": "1789134031970-47848",
+  "photoPath": null
+}
