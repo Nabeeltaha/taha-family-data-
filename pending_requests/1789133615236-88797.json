@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "بشير",
+  "gender": "male",
+  "birthYear": "1956",
+  "isAlive": false,
+  "deathYear": "2011",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ياسين",
+  "fatherId": "1785188508374368",
+  "motherName": "وفيقة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ام بشير",
+      "marriageDate": "1980"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "حداد",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T13:33:35.376Z",
+  "requestId": "1789133615236-88797",
+  "photoPath": null
+}
