@@ -1,0 +1,31 @@
+{
+  "name": "صبحي",
+  "gender": "male",
+  "birthYear": "1958",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "صبحي",
+  "fatherId": "1785179887084838",
+  "motherName": "مريم خشفة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "مريم النجار",
+      "marriageDate": "1986"
+    }
+  ],
+  "husband": null,
+  "education": "هندسة زراعة",
+  "currentJob": "صيدلية زراعية",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T09:33:18.073Z",
+  "requestId": "1789119200103-62387",
+  "photoPath": "pending_photos/1789119200103-62387.jpg"
+}
