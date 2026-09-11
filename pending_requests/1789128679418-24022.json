@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "خالد",
+  "gender": "male",
+  "birthYear": "1977",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1785752610746444",
+  "motherName": "صبحيه",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "فاتن قطيفاني",
+      "marriageDate": "2001"
+    }
+  ],
+  "husband": null,
+  "education": "ابتدائي",
+  "currentJob": "معمل مخللات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "00218916770790",
+  "submittedAt": "2026-09-11T12:11:15.946Z",
+  "requestId": "1789128679418-24022",
+  "photoPath": null
+}
