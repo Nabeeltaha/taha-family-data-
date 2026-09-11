@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "11",
+  "memberName": "محمد نبيل",
+  "name": "محمد نبيلو",
+  "gender": "male",
+  "birthYear": "1972",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد طه",
+  "fatherId": "10",
+  "motherName": "حياةالصلاحي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "لينا طه",
+      "marriageDate": "2005"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-11T12:27:15.406Z",
+  "requestId": "1789129635193-58340",
+  "photoPath": null
+}
