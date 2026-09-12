@@ -1750,7 +1750,8 @@
     "hasPhoto": true,
     "fatherMatched": true,
     "type": "update",
-    "memberId": "1789104004998124"
+    "memberId": "1789104004998124",
+    "addedAt": "2026-09-12T22:18:04.404433"
   },
   {
     "requestId": "1789239776449-53900",
