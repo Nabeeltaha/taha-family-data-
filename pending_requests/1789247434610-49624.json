@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1785072137714556",
+  "memberName": "عمر",
+  "name": "عمر",
+  "gender": "male",
+  "birthYear": "1985",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد علي",
+  "fatherId": "1785004060762512",
+  "motherName": "رفيقة الدرة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "يمان الصلاحي",
+      "marriageDate": "٢٠١١"
+    }
+  ],
+  "husband": null,
+  "education": "تاسع",
+  "currentJob": "تاجر خرداوات مواد بناء",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0944435496",
+  "submittedAt": "2026-09-12T21:10:31.033Z",
+  "requestId": "1789247434610-49624",
+  "photoPath": "pending_photos/1789247434610-49624.jpg"
+}
