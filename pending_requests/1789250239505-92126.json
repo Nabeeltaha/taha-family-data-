@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1789137430741041",
+  "memberName": "عارف",
+  "name": "عارف",
+  "gender": "male",
+  "birthYear": "1970",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ياسين",
+  "fatherId": "1785188508374368",
+  "motherName": "فاطمة أنيس",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ام احمد",
+      "marriageDate": "١٩٩٦"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "حداد سيارات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-12T21:57:18.091Z",
+  "requestId": "1789250239505-92126",
+  "photoPath": null
+}
