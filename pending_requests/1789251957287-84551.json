@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "راما",
+  "gender": "female",
+  "birthYear": "2002",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "عماد",
+  "fatherId": "41",
+  "motherName": "ميساء طه",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "توفيق",
+    "marriageDate": "2024"
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-12T22:25:57.044Z",
+  "requestId": "1789251957287-84551",
+  "photoPath": null
+}
