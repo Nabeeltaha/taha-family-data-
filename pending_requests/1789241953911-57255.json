@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "أحمد",
+  "gender": "male",
+  "birthYear": "1977",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمود",
+  "fatherId": "1789240753182372",
+  "motherName": "زهرية",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "امنة",
+      "marriageDate": "1999"
+    }
+  ],
+  "husband": null,
+  "education": "تاسع",
+  "currentJob": "معلم دهان",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-12T19:39:12.858Z",
+  "requestId": "1789241953911-57255",
+  "photoPath": null
+}
