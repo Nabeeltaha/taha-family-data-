@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "إنعام",
+  "gender": "female",
+  "birthYear": "1948",
+  "isAlive": false,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "بشير",
+  "fatherId": "1785537512470381",
+  "motherName": "فضيلة الدالاتي",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "الدالاتي",
+    "marriageDate": "."
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-12T16:44:20.325Z",
+  "requestId": "1789231460872-25651",
+  "photoPath": null
+}
