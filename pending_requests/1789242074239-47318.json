@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "رياض",
+  "gender": "male",
+  "birthYear": "1981",
+  "isAlive": false,
+  "deathYear": "",
+  "isMartyr": true,
+  "isRevolutionMartyr": true,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمود",
+  "fatherId": "1789240753182372",
+  "motherName": "زهرية",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "اماني",
+      "marriageDate": "2007"
+    }
+  ],
+  "husband": null,
+  "education": "خريج تجارة واقتصاد",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0954393847",
+  "submittedAt": "2026-09-12T19:41:09.271Z",
+  "requestId": "1789242074239-47318",
+  "photoPath": null
+}
