@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1789103898245904",
+  "memberName": "ياسر",
+  "name": "ياسر",
+  "gender": "male",
+  "birthYear": "1987",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد علي",
+  "fatherId": "1789078270196039",
+  "motherName": "الهام الصيداوي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ثراء النعسان",
+      "marriageDate": "2011"
+    }
+  ],
+  "husband": null,
+  "education": "سادس",
+  "currentJob": "صناعة القوالب البلاستيك",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "مجاهد في جيش الاسلام",
+  "phone": "0967800500",
+  "submittedAt": "2026-09-12T17:15:59.303Z",
+  "requestId": "1789233361181-39609",
+  "photoPath": "pending_photos/1789233361181-39609.jpg"
+}
