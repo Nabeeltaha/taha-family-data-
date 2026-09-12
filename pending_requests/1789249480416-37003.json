@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "نور",
+  "gender": "female",
+  "birthYear": "1990",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ابراهيم",
+  "fatherId": "1785537416480978",
+  "motherName": "بهيرة التلاوي",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "زياد بقدونس",
+    "marriageDate": "2008"
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-12T21:44:39.606Z",
+  "requestId": "1789249480416-37003",
+  "photoPath": null
+}
