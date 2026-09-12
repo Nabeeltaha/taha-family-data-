@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "الشهيد مصطفى طه",
+  "gender": "male",
+  "birthYear": "1948",
+  "isAlive": false,
+  "deathYear": "2013",
+  "isMartyr": true,
+  "isRevolutionMartyr": true,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "طه",
+  "fatherId": "1785537167016628",
+  "motherName": "هدية التلاوي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "سناء طه",
+      "marriageDate": "١٩٧٣"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-12T20:34:42.889Z",
+  "requestId": "1789245283239-58472",
+  "photoPath": null
+}
