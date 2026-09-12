@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-12T11:52:20.968047",
+  "lastUpdated": "2026-09-12T12:00:35.026452",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -9862,32 +9862,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789117492080327",
-      "parentId": "1789108435062250",
-      "name": "ميلاد",
-      "birthYear": "2007",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_5359f0054ba71e74a37da2cc576b4396.jpg"
-      ],
-      "education": "طالب بكالوريا علمي",
-      "currentJob": "حرفي  دهان منزلي",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "رنا بدران",
-      "isSingle": true,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789078254089048",
       "parentId": "1784813625531141",
       "name": "مصطفى",
@@ -10407,32 +10381,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789117544025712",
-      "parentId": "1789108435062250",
-      "name": "محمد",
-      "birthYear": "2009",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_19cb59931f30bbf04b0bf0149a946f60.jpg"
-      ],
-      "education": "بكالوريا علمي٢٠٢٦",
-      "currentJob": "طالب علم",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "رنا بدران",
-      "isSingle": true,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1784813857562569",
       "parentId": "1784813741888384",
       "name": "أحمد",
@@ -10916,6 +10864,58 @@
       "isFamous": false,
       "gender": "male",
       "motherName": "هدية طه",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789117544025712",
+      "parentId": "1789108435062250",
+      "name": "محمد",
+      "birthYear": "2008",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_19cb59931f30bbf04b0bf0149a946f60.jpg"
+      ],
+      "education": "بكالوريا علمي٢٠٢٦",
+      "currentJob": "طالب",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "حرفي صناعة منظفات",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "رنا بدران",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789117492080327",
+      "parentId": "1789108435062250",
+      "name": "ميلاد",
+      "birthYear": "2009",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_5359f0054ba71e74a37da2cc576b4396.jpg"
+      ],
+      "education": "طالب بكالوريا علمي",
+      "currentJob": "حرفي  دهان منزلي",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "رنا بدران",
       "isSingle": true,
       "wives": [],
       "isCreator": false,
