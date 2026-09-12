@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-12T23:05:41.272460",
+  "lastUpdated": "2026-09-13T00:16:09.389165",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -5644,39 +5644,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1785072137714556",
-      "parentId": "1785004060762512",
-      "name": "عمر",
-      "birthYear": "1985",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_096ba916eac447be11c9a1286e1f75f7.jpg",
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_aabf67e97260af7bd6e243e25b2878df.jpg"
-      ],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "رفيقة الدرة",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "يمان الصلاحي",
-          "marriageDate": "2011",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1785072204862456",
       "parentId": "1785004060762512",
       "name": "محمود",
@@ -7991,38 +7958,6 @@
       "motherName": "دعاء الخولي",
       "isSingle": true,
       "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1789073753316710",
-      "parentId": "1785405711693964",
-      "name": "عبد الرحمن محمد",
-      "birthYear": "1978",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_a9f5fba996e6bc42cb30f18be3fe51cd.jpg"
-      ],
-      "education": "تاسع",
-      "currentJob": "مقاول",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "اميرة الحنش",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "تهاني الحموري",
-          "marriageDate": "2003",
-          "linkedMemberId": null
-        }
-      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
@@ -11352,6 +11287,149 @@
       "motherName": "غادة",
       "isSingle": true,
       "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789247462179756",
+      "parentId": "1789125241190748",
+      "name": "لميس",
+      "birthYear": "2008",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "نور",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789247506359733",
+      "parentId": "1789125241190748",
+      "name": "ليلاس",
+      "birthYear": "2023",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "روان",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789247565973746",
+      "parentId": "1785537167016628",
+      "name": "مصطفى",
+      "birthYear": "1948",
+      "deathYear": "2013",
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": true,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "هدية التلاوي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "سناء طه",
+          "marriageDate": "١٩٧٣",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": true,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785072137714556",
+      "parentId": "1785004060762512",
+      "name": "عمر",
+      "birthYear": "1985",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_096ba916eac447be11c9a1286e1f75f7.jpg",
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_aabf67e97260af7bd6e243e25b2878df.jpg"
+      ],
+      "education": "تاسع",
+      "currentJob": "تاجر خرداوات - مواد بناء",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "رفيقة الدرة",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "يمان الصلاحي",
+          "marriageDate": "2011",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789073753316710",
+      "parentId": "1785405711693964",
+      "name": "عبد الرحمن",
+      "birthYear": "1978",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_a9f5fba996e6bc42cb30f18be3fe51cd.jpg"
+      ],
+      "education": "تاسع",
+      "currentJob": "مقاول",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "نجار قبل الثورة وفي الثورة تنسيقية مدينة دوما ورئيس قسم التسليح في لواء شهداء دوما وبعدها تسليح جيش الأمة",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "اميرة الحنش",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "تهاني الحموري",
+          "marriageDate": "2003",
+          "linkedMemberId": null
+        }
+      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
