@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1789108547919350",
+  "memberName": "زهير",
+  "name": "زهير",
+  "gender": "male",
+  "birthYear": "1958",
+  "isAlive": false,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد فوزي",
+  "fatherId": "23",
+  "motherName": "مسره الفران",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "هدى صلاح",
+      "marriageDate": "1985"
+    }
+  ],
+  "husband": null,
+  "education": "مؤذن وخادم جامع سليق",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-12T18:02:16.094Z",
+  "requestId": "1789236137618-30807",
+  "photoPath": "pending_photos/1789236137618-30807.jpg"
+}
