@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "عارف",
+  "gender": "male",
+  "birthYear": "1970",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ياسين",
+  "fatherId": "1785188508374368",
+  "motherName": "فاطمة انيس",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "اسيمه",
+      "marriageDate": "1996"
+    }
+  ],
+  "husband": "",
+  "education": "",
+  "currentJob": "حداد سيارات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-12T21:37:09.580Z",
+  "requestId": "1789249032026-90278",
+  "photoPath": null
+}
