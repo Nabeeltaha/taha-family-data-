@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1789073753316710",
+  "memberName": "عبد الرحمن محمد",
+  "name": "عبد الرحمن",
+  "gender": "male",
+  "birthYear": "1978",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1785405711693964",
+  "motherName": "اميرة الحنش",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "تهاني الحموري",
+      "marriageDate": "2003"
+    }
+  ],
+  "husband": null,
+  "education": "تاسع",
+  "currentJob": "مقاول",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "نجار قبل الثورة وفي الثورة تنسيقية مدينة دوما ورئيس قسم التسليح في لواء شهداء دوما وبعدها تسليح جيش الأمة",
+  "phone": "0994736354",
+  "submittedAt": "2026-09-12T20:44:46.179Z",
+  "requestId": "1789245887947-13601",
+  "photoPath": "pending_photos/1789245887947-13601.jpg"
+}
