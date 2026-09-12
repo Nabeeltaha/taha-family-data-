@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "سهام",
+  "gender": "female",
+  "birthYear": "1964",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "بشير",
+  "fatherId": "1785537512470381",
+  "motherName": "فضيلة",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "عبد الغني الخنشور",
+    "marriageDate": "."
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-12T17:01:20.977Z",
+  "requestId": "1789232481761-62165",
+  "photoPath": null
+}
