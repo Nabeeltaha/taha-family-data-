@@ -1800,7 +1800,8 @@
     "hasPhoto": false,
     "fatherMatched": true,
     "type": "add",
-    "memberId": ""
+    "memberId": "",
+    "addedAt": "2026-09-12T22:45:35.781768"
   },
   {
     "requestId": "1789242280577-24380",
