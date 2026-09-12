@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1789078270196039",
+  "memberName": "محمد علي",
+  "name": "محمد علي",
+  "gender": "male",
+  "birthYear": "1965",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "مصطفى",
+  "fatherId": "1789078254089048",
+  "motherName": "عائشة عبد العزيز",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "الهام الصيداوي",
+      "marriageDate": "1983"
+    }
+  ],
+  "husband": null,
+  "education": "حقوق",
+  "currentJob": "موظف اداري (اكساد)",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0933386773",
+  "submittedAt": "2026-09-12T17:46:28.574Z",
+  "requestId": "1789235190812-21949",
+  "photoPath": "pending_photos/1789235190812-21949.jpg"
+}
