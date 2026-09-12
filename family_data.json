@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-12T22:21:45.847069",
+  "lastUpdated": "2026-09-12T22:46:39.635238",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -11205,6 +11205,96 @@
         {
           "name": "ام احمد",
           "marriageDate": "2020",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789242310854328",
+      "parentId": "1789240753182372",
+      "name": "أحمد",
+      "birthYear": "1977",
+      "deathYear": null,
+      "photos": [],
+      "education": "تاسع",
+      "currentJob": "معلم دهان",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "زهرية",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "امنة",
+          "marriageDate": "1999",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789242333319097",
+      "parentId": "1789240753182372",
+      "name": "رياض",
+      "birthYear": "1981",
+      "deathYear": null,
+      "photos": [],
+      "education": "خريج تجارة واقتصاد",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": true,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "زهرية",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "اماني",
+          "marriageDate": "2007",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": true,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789242372893684",
+      "parentId": "1789240753182372",
+      "name": "غسان",
+      "birthYear": "1994",
+      "deathYear": null,
+      "photos": [],
+      "education": "سادس",
+      "currentJob": "حرفي حلاق رجالي",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "زهرية",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "هبي",
+          "marriageDate": "2016",
           "linkedMemberId": null
         }
       ],
