@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1789103983307156",
+  "memberName": "سامر",
+  "name": "سامر",
+  "gender": "male",
+  "birthYear": "1993",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد علي",
+  "fatherId": "1789078270196039",
+  "motherName": "الهام الصيداوي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "لوتس",
+      "marriageDate": "2014"
+    }
+  ],
+  "husband": null,
+  "education": "تجارة و اقتصاد",
+  "currentJob": "محاسب في شركة العش",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0991928064",
+  "submittedAt": "2026-09-12T17:36:16.049Z",
+  "requestId": "1789234576957-63657",
+  "photoPath": "pending_photos/1789234576957-63657.jpg"
+}
