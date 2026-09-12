@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "يسرى",
+  "gender": "female",
+  "birthYear": "1940",
+  "isAlive": false,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "بشير",
+  "fatherId": "1785537512470381",
+  "motherName": "فضيلة",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "الشيفوني",
+    "marriageDate": "."
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-12T17:03:58.211Z",
+  "requestId": "1789232638771-78917",
+  "photoPath": null
+}
