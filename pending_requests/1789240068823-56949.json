@@ -1,0 +1,36 @@
+{
+  "type": "add",
+  "name": "محمود",
+  "gender": "male",
+  "birthYear": "1949",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد",
+  "fatherId": "1785316208056130",
+  "motherName": "فهمية الاسمر",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "زهرية الحموري",
+      "marriageDate": "1970"
+    },
+    {
+      "name": "ام احمد",
+      "marriageDate": "2020"
+    }
+  ],
+  "husband": null,
+  "education": "تاسع",
+  "currentJob": "نجار باطون",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0954393847",
+  "submittedAt": "2026-09-12T19:07:45.502Z",
+  "requestId": "1789240068823-56949",
+  "photoPath": null
+}
