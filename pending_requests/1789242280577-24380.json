@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "غسان",
+  "gender": "male",
+  "birthYear": "1994",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمود",
+  "fatherId": "1789240753182372",
+  "motherName": "زهرية",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "هبي",
+      "marriageDate": "2016"
+    }
+  ],
+  "husband": null,
+  "education": "سادس",
+  "currentJob": "حلاق رجالي",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0954393847",
+  "submittedAt": "2026-09-12T19:44:30.278Z",
+  "requestId": "1789242280577-24380",
+  "photoPath": null
+}
