@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-12T08:28:41.493537",
+  "lastUpdated": "2026-09-12T08:34:09.905689",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -9384,36 +9384,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789137071695977",
-      "parentId": "1785188508374368",
-      "name": "بشير",
-      "birthYear": "1956",
-      "deathYear": "2011",
-      "photos": [],
-      "education": null,
-      "currentJob": "حداد",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "وفيقة",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "ام بشير",
-          "marriageDate": "1980",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789137096892518",
       "parentId": "1785752610746444",
       "name": "صالح",
@@ -9494,36 +9464,6 @@
         {
           "name": "حسنا",
           "marriageDate": "2008",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1789137430741041",
-      "parentId": "1785188508374368",
-      "name": "عارف",
-      "birthYear": "1971",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": "مجلس سيارات",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "وفيقة",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "ام احمد",
-          "marriageDate": "1996",
           "linkedMemberId": null
         }
       ],
@@ -10637,36 +10577,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789162309273036",
-      "parentId": "1785188508374368",
-      "name": "عارف",
-      "birthYear": "1971",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": "حرفي  سيارات",
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "فاطمة انيس",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "ام احمد",
-          "marriageDate": "1994",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789162324775339",
       "parentId": "1785188508374368",
       "name": "بشير",
@@ -10882,6 +10792,36 @@
       "motherName": "صبيحة",
       "isSingle": true,
       "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789137430741041",
+      "parentId": "1785188508374368",
+      "name": "عارف",
+      "birthYear": "1971",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": "حرفي مجلس سيارات",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "وفيقة",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "فاطمة انيس",
+          "marriageDate": "1996",
+          "linkedMemberId": null
+        }
+      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
