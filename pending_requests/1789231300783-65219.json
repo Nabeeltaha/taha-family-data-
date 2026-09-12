@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1785537512470381",
+  "memberName": "بشير",
+  "name": "بشير",
+  "gender": "male",
+  "birthYear": "1912",
+  "isAlive": false,
+  "deathYear": "1979",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد",
+  "fatherId": "1784986973010001",
+  "motherName": "ميمونة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "فضيلة الدالاتي",
+      "marriageDate": "."
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-12T16:41:39.005Z",
+  "requestId": "1789231300783-65219",
+  "photoPath": null
+}
