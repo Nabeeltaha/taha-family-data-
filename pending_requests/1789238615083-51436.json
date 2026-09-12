@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "ماجد",
+  "gender": "male",
+  "birthYear": "1973",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ياسين",
+  "fatherId": "1785188508374368",
+  "motherName": "فاطمه أنيس",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "رنا بدران",
+      "marriageDate": "٢٠٠٧"
+    }
+  ],
+  "husband": null,
+  "education": "خريج معهد متوسط هندسي",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-12T18:43:34.766Z",
+  "requestId": "1789238615083-51436",
+  "photoPath": null
+}
