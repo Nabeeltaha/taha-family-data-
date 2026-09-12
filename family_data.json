@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-12T21:31:49.234081",
+  "lastUpdated": "2026-09-12T22:21:45.847069",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -7293,32 +7293,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789104004998124",
-      "parentId": "1789078254089048",
-      "name": "محمد خير",
-      "birthYear": "1956",
-      "deathYear": "2004",
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_93085391ece4fda21f453a0604f13ad9.jpg"
-      ],
-      "education": "سادس",
-      "currentJob": "ميكانيك السيارات",
-      "previousJobs": [],
-      "positions": [],
-      "bio": "سافر الى لبنان في عام ١٩٧٩ لم يعود",
-      "isMartyr": true,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "عائشة عبد العزيز",
-      "isSingle": true,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "32",
       "parentId": "18",
       "name": "باسل",
@@ -10181,36 +10155,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789162360890631",
-      "parentId": "1785188508374368",
-      "name": "منير",
-      "birthYear": "1960",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "فاطمة انيس",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "ام محمود",
-          "marriageDate": "1987",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789061402801559",
       "parentId": "24",
       "name": "محمود",
@@ -10631,34 +10575,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789235315899478",
-      "parentId": "1785537512470381",
-      "name": "إلهام",
-      "birthYear": "1957",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "female",
-      "motherName": "فضيلة",
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": {
-        "name": "التلاوي",
-        "marriageDate": ".",
-        "linkedMemberId": null
-      },
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789125348794935",
       "parentId": "1789103898245904",
       "name": "محمد",
@@ -10976,38 +10892,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789108547919350",
-      "parentId": "1789078242288065",
-      "name": "زهير",
-      "birthYear": "1958",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_14bb96835cb232a5093036a8d999505d.jpg"
-      ],
-      "education": "مؤذن وخادم جامع سليق",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "مسره الفران",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "هدى صلاح",
-          "marriageDate": "1985",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789125474575805",
       "parentId": "1789103983307156",
       "name": "إيلين",
@@ -11174,6 +11058,153 @@
         {
           "name": "ثراء النعسان",
           "marriageDate": "2011",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789108547919350",
+      "parentId": "1789078242288065",
+      "name": "زهير",
+      "birthYear": "1958",
+      "deathYear": "2015",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_14bb96835cb232a5093036a8d999505d.jpg"
+      ],
+      "education": "مؤذن وخادم جامع سليق",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "مريم بكار",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "هدى صلاح",
+          "marriageDate": "1985",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789104004998124",
+      "parentId": "1789078254089048",
+      "name": "محمد خير",
+      "birthYear": "1956",
+      "deathYear": "2004",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_93085391ece4fda21f453a0604f13ad9.jpg"
+      ],
+      "education": "سادس ابتدائي",
+      "currentJob": "ميكانيك السيارات",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "سافر الى لبنان في عام ١٩٧٩ لم يعود",
+      "isMartyr": true,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "عائشة عبد العزيز",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789240705554109",
+      "parentId": "1785316208056130",
+      "name": "تيسير",
+      "birthYear": "1958",
+      "deathYear": null,
+      "photos": [],
+      "education": "تاسع",
+      "currentJob": "مزارع",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "فهمية الاسمر",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789240723359238",
+      "parentId": "1785316208056130",
+      "name": "صبحي",
+      "birthYear": "1956",
+      "deathYear": null,
+      "photos": [],
+      "education": "بكلوريا",
+      "currentJob": "ممرض",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "فهمية الاسمر",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "غادة",
+          "marriageDate": "1981",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789240753182372",
+      "parentId": "1785316208056130",
+      "name": "محمود",
+      "birthYear": "1949",
+      "deathYear": null,
+      "photos": [],
+      "education": "تاسع",
+      "currentJob": "نجار باطون",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "فهمية الاسمر",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "زهرية الحموري",
+          "marriageDate": "1970",
+          "linkedMemberId": null
+        },
+        {
+          "name": "ام احمد",
+          "marriageDate": "2020",
           "linkedMemberId": null
         }
       ],
