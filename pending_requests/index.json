@@ -1688,7 +1688,8 @@
     "hasPhoto": false,
     "fatherMatched": true,
     "type": "add",
-    "memberId": ""
+    "memberId": "",
+    "addedAt": "2026-09-12T21:21:13.398364"
   },
   {
     "requestId": "1789236463328-29428",
