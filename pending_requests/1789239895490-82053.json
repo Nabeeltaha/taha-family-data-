@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "صبحي",
+  "gender": "male",
+  "birthYear": "1956",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد",
+  "fatherId": "1785316208056130",
+  "motherName": "فهمية الاسمر",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "غادة",
+      "marriageDate": "1981"
+    }
+  ],
+  "husband": null,
+  "education": "بكلوريا",
+  "currentJob": "ممرض",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0954393847",
+  "submittedAt": "2026-09-12T19:04:43.909Z",
+  "requestId": "1789239895490-82053",
+  "photoPath": null
+}
