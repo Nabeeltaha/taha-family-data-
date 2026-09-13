@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-13T21:57:18.100360",
+  "lastUpdated": "2026-09-13T22:32:01.215129",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -11967,6 +11967,360 @@
         {
           "name": "أمية بدران",
           "marriageDate": "1972",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789327469325460",
+      "parentId": "1789314093261622",
+      "name": "علاء",
+      "birthYear": "1984",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": "حرفي  نجار باطون",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "هيام مجيد",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "إيمان طفور",
+          "marriageDate": "2014",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789327530179130",
+      "parentId": "1789288145299010",
+      "name": "نجوى",
+      "birthYear": "1984",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "أمية بدران",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "عبد الشكور الفانوس",
+        "marriageDate": "2002",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789327581342131",
+      "parentId": "1785179068041728",
+      "name": "أحمد",
+      "birthYear": "1902",
+      "deathYear": "1976",
+      "photos": [],
+      "education": "امي",
+      "currentJob": "عامل",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "رحمه الله",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "فاطمة حتاوي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": ".",
+          "marriageDate": "1952",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789327598339624",
+      "parentId": "1789288145299010",
+      "name": "يونس",
+      "birthYear": "1990",
+      "deathYear": null,
+      "photos": [],
+      "education": "بكالوريوس هندسة مدنية",
+      "currentJob": "مهندس",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "أميه بدران",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "نور الساعور",
+          "marriageDate": "٢٠١٦",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789327693200908",
+      "parentId": "1785405711693964",
+      "name": "بشيرة",
+      "birthYear": "1968",
+      "deathYear": null,
+      "photos": [],
+      "education": "اعدادي",
+      "currentJob": "ربة منزل",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "أميرة الحنش",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "عيد الفتاح سرايري",
+        "marriageDate": "2007",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789327708920031",
+      "parentId": "1789288145299010",
+      "name": "أنس",
+      "birthYear": "1992",
+      "deathYear": null,
+      "photos": [],
+      "education": "بكالوريا",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "أمية بدران",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "ريم بكداش",
+          "marriageDate": "٢٠٢٥",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789327729862143",
+      "parentId": "1789288145299010",
+      "name": "رضوان",
+      "birthYear": "1997",
+      "deathYear": null,
+      "photos": [],
+      "education": "بكالوريا",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "أمية بدران",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "راما خبيه",
+          "marriageDate": "٢٠٢٦",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789327747228744",
+      "parentId": "1785405711693964",
+      "name": "منى",
+      "birthYear": "1972",
+      "deathYear": null,
+      "photos": [],
+      "education": "امي",
+      "currentJob": "امي",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "رية منزل",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "أمير الحنش",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "عارف صمود",
+        "marriageDate": "1987",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789327772286618",
+      "parentId": "1785405711693964",
+      "name": "سميرة",
+      "birthYear": "1969",
+      "deathYear": null,
+      "photos": [],
+      "education": "تاسع",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "أميرة الحنش",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "فايز جاموس",
+        "marriageDate": "1984",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789327811725327",
+      "parentId": "1785405711693964",
+      "name": "ناديا",
+      "birthYear": "1965",
+      "deathYear": null,
+      "photos": [],
+      "education": "امي",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "أمير الحنش",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "موفق المصري",
+        "marriageDate": "1985",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789327624762672",
+      "parentId": "1789288145299010",
+      "name": "محمد",
+      "birthYear": "1981",
+      "deathYear": "2012",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_4a25f16b8e44248f84876a1526e39046.jpg"
+      ],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": true,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "أمية بدران",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "منال الأجوة",
+          "marriageDate": "2007",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": true,
+      "isMujahid": true,
+      "isRevolutionMujahid": true
+    },
+    {
+      "id": "1789327657974284",
+      "parentId": "1785405711693964",
+      "name": "محمد",
+      "birthYear": "1983",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_0169f6f88a9d62848e85d4b85818748e.jpg"
+      ],
+      "education": "بكلوريا",
+      "currentJob": "صيانة السيارات",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "أمير الحنش",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "نهى سليك",
+          "marriageDate": "2007",
           "linkedMemberId": null
         }
       ],
