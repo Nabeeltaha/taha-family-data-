@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-13T11:38:34.770437",
+  "lastUpdated": "2026-09-13T11:45:36.213179",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -7108,38 +7108,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789084747429528",
-      "parentId": "1784813741888384",
-      "name": "محمد",
-      "birthYear": "1864",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_80c2997100a66b17ac7e6f53671c2768.jpg"
-      ],
-      "education": null,
-      "currentJob": "فلاح",
-      "previousJobs": [],
-      "positions": [],
-      "bio": "رحمه الله ،كان ملتزم دينيا",
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "مريم البويضاني",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "عائشة برخش",
-          "marriageDate": "١٩٠٠",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789085657804915",
       "parentId": "1785405809682062",
       "name": "محمد",
@@ -11689,6 +11657,38 @@
         {
           "name": "هدى صلاح",
           "marriageDate": "1985",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789084747429528",
+      "parentId": "1784813741888384",
+      "name": "محمد",
+      "birthYear": "1864",
+      "deathYear": "1950",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_80c2997100a66b17ac7e6f53671c2768.jpg"
+      ],
+      "education": null,
+      "currentJob": "فلاح",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "رحمه الله ،كان ملتزم دينيا",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "مريم البويضاني",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "عائشة برخش",
+          "marriageDate": "١٩٠٠",
           "linkedMemberId": null
         }
       ],
