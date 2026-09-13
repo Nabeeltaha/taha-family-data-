@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "تسنيم",
+  "gender": "female",
+  "birthYear": "2008",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1789327657974284",
+  "motherName": "نهى سليك",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "محمد مدور",
+    "marriageDate": "2024"
+  },
+  "education": "بكلوريا",
+  "currentJob": "ربة منزل",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T20:07:14.315Z",
+  "requestId": "1789330036296-28337",
+  "photoPath": null
+}
