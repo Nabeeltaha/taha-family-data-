@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1981",
+  "isAlive": false,
+  "deathYear": "2012",
+  "isMartyr": true,
+  "isRevolutionMartyr": true,
+  "isMujahid": true,
+  "isRevolutionMujahid": true,
+  "fatherName": "خليل",
+  "fatherId": "1789288145299010",
+  "motherName": "أمية بدران",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "منال الأجوة",
+      "marriageDate": "2007"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T19:14:09.518Z",
+  "requestId": "1789326851675-28964",
+  "photoPath": "pending_photos/1789326851675-28964.jpg"
+}
