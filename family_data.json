@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-13T18:28:34.761671",
+  "lastUpdated": "2026-09-13T18:55:17.574741",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -11824,6 +11824,96 @@
           "linkedMemberId": null
         }
       ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789314093261622",
+      "parentId": "1785179634860577",
+      "name": "أحمد",
+      "birthYear": "1952",
+      "deathYear": "2026",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_631888aecfff90cb8a79f32c34d5759c.jpg"
+      ],
+      "education": null,
+      "currentJob": "حرفي نجار باطون",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "هدية الصمادي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "هيام مجيد",
+          "marriageDate": "1980",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789314237442135",
+      "parentId": "1789314093261622",
+      "name": "عمران",
+      "birthYear": "1994",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_8096cf3e8364fa77107be6530680a407.jpg"
+      ],
+      "education": null,
+      "currentJob": "حرفي كهربائي منزلي",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "هيام مجيد",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "رؤى المشعوت",
+          "marriageDate": "2005",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789314295854968",
+      "parentId": "1789314237442135",
+      "name": "محمود",
+      "birthYear": "2026",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_b2e053e735b621db4f438790799d6188.jpg"
+      ],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "رؤى المشعوت",
+      "isSingle": true,
+      "wives": [],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
