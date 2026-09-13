@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "أحمد",
+  "gender": "male",
+  "birthYear": "1974",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1789288145299010",
+  "motherName": "أمية بدران",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "منال صلاح",
+      "marriageDate": "2004"
+    }
+  ],
+  "husband": null,
+  "education": "هندسة تدفئة و تكييف",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T08:50:23.686Z",
+  "requestId": "1789289424366-84842",
+  "photoPath": null
+}
