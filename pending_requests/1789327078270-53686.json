@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "بشيرة",
+  "gender": "female",
+  "birthYear": "1968",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1785405711693964",
+  "motherName": "أميرة الحنش",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "عيد الفتاح سرايري",
+    "marriageDate": "2007"
+  },
+  "education": "اعدادي",
+  "currentJob": "ربة منزل",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T19:17:56.109Z",
+  "requestId": "1789327078270-53686",
+  "photoPath": null
+}
