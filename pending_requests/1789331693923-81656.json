@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1987",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "نعمان",
+  "fatherId": "1785405809682062",
+  "motherName": "بشيرة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "غفران",
+      "marriageDate": "2019"
+    }
+  ],
+  "husband": "",
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "00966540094396",
+  "submittedAt": "2026-09-13T20:34:53.529Z",
+  "requestId": "1789331693923-81656",
+  "photoPath": null
+}
