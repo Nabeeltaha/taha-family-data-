@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "جمال",
+  "gender": "male",
+  "birthYear": "1975",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1789288145299010",
+  "motherName": "امية بدران",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "فاطمة صلاح",
+      "marriageDate": "٢٠٠٥"
+    }
+  ],
+  "husband": null,
+  "education": "معهد متوسط",
+  "currentJob": "طوبوغرافي",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T14:37:44.592Z",
+  "requestId": "1789310264634-10271",
+  "photoPath": null
+}
