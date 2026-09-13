@@ -1990,7 +1990,8 @@
     "hasPhoto": true,
     "fatherMatched": true,
     "type": "update",
-    "memberId": "1789108435062250"
+    "memberId": "1789108435062250",
+    "addedAt": "2026-09-13T10:25:00.212591"
   },
   {
     "requestId": "1789275381197-72522",
