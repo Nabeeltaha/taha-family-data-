@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "خليل",
+  "gender": "male",
+  "birthYear": "1942",
+  "isAlive": false,
+  "deathYear": "2017",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد",
+  "fatherId": "1784813857562569",
+  "motherName": "فاطمة بدران",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "أمية بدران",
+      "marriageDate": "1972"
+    }
+  ],
+  "husband": null,
+  "education": "مساحة ( طبوغرافيا)",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T08:21:02.709Z",
+  "requestId": "1789287663315-76283",
+  "photoPath": null
+}
