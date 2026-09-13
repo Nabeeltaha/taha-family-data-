@@ -1,0 +1,32 @@
+{
+  "type": "update",
+  "memberId": "1789265518276422",
+  "memberName": "راما",
+  "name": "راما",
+  "gender": "female",
+  "birthYear": "2002",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "عماد",
+  "fatherId": "41",
+  "motherName": "ميساء طه",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "توفيق السطلة",
+    "marriageDate": "2024"
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T09:13:21.156Z",
+  "requestId": "1789290801447-96527",
+  "photoPath": null
+}
