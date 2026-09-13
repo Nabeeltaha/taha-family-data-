@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "رضوان",
+  "gender": "male",
+  "birthYear": "1997",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1789288145299010",
+  "motherName": "أمية بدران",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "راما خبيه",
+      "marriageDate": "٢٠٢٦"
+    }
+  ],
+  "husband": null,
+  "education": "بكالوريا",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T19:21:44.460Z",
+  "requestId": "1789327306168-45870",
+  "photoPath": null
+}
