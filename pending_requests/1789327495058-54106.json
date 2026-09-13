@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "منى",
+  "gender": "female",
+  "birthYear": "1972",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1785405711693964",
+  "motherName": "أمير الحنش",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "عارف صمود",
+    "marriageDate": "1987"
+  },
+  "education": "امي",
+  "currentJob": "امي",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "رية منزل",
+  "phone": "",
+  "submittedAt": "2026-09-13T19:24:50.815Z",
+  "requestId": "1789327495058-54106",
+  "photoPath": null
+}
