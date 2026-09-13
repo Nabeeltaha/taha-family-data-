@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "غفران",
+  "gender": "female",
+  "birthYear": "1995",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "مصطفى",
+  "fatherId": "1789247565973746",
+  "motherName": "سناءطه",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "بشار المكبتل",
+    "marriageDate": "٢٠١١"
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T21:50:21.739Z",
+  "requestId": "1789336222078-86123",
+  "photoPath": null
+}
