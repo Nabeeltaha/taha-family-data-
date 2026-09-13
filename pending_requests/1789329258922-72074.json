@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1785405711693964",
+  "memberName": "محمد",
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1983",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1785405711693964",
+  "motherName": "اميرة الحنش",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "نهى سليك",
+      "marriageDate": "2007"
+    }
+  ],
+  "husband": null,
+  "education": "بكلوريا",
+  "currentJob": "صيانة وتجارة سيارات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "قبل الثورة اعمل في صيانة السيارات الديزل الحديثة وعندما بدأت الثورة كنت من اوائل من التحق في صفوفها والتحقت في صفوف المجاهدين \nكتيبة الزبير وبعدها ضابط شؤون ادارية في كتيبة طلحة وعملت ضابط شؤون ادارية في الهيئة الشرعية وهجرت 2018 الى مدينة الباب في الشمال السوري كنت ضمن صفوف الجيش الوطني واحمل وثيقته وعملت في صيانة السيارات وتجارتها والآن ضمن وزارة الدفاع الى جانب صيانة وتجارةالسيارات \nوكان كل ذالك بتوفيق من الله ومنة",
+  "phone": "0969841831",
+  "submittedAt": "2026-09-13T19:53:28.338Z",
+  "requestId": "1789329258922-72074",
+  "photoPath": null
+}
