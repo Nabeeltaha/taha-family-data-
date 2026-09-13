@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "أحمد",
+  "gender": "male",
+  "birthYear": "1925",
+  "isAlive": false,
+  "deathYear": "1976",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "سعيد",
+  "fatherId": "1785179068041728",
+  "motherName": "فاطمة حتاوي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "مفقودة",
+      "marriageDate": "1953"
+    }
+  ],
+  "husband": "",
+  "education": "امي",
+  "currentJob": "عامل",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "الله يرحمه",
+  "phone": "",
+  "submittedAt": "2026-09-13T18:55:02.524Z",
+  "requestId": "1789325705370-62078",
+  "photoPath": null
+}
