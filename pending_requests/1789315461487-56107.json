@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "علاء",
+  "gender": "male",
+  "birthYear": "1983",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد",
+  "fatherId": "1789314093261622",
+  "motherName": "هيام مجيد",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "إيمان طفور",
+      "marriageDate": "2013"
+    }
+  ],
+  "husband": "",
+  "education": "",
+  "currentJob": "حرفي نجار باطون",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T16:04:20.932Z",
+  "requestId": "1789315461487-56107",
+  "photoPath": null
+}
