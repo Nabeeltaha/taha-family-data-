@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "ناديا",
+  "gender": "female",
+  "birthYear": "1965",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1785405711693964",
+  "motherName": "أمير الحنش",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "موفق المصري",
+    "marriageDate": "1985"
+  },
+  "education": "امي",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T19:29:36.135Z",
+  "requestId": "1789327778202-77718",
+  "photoPath": null
+}
