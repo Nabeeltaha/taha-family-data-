@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "نجوى",
+  "gender": "female",
+  "birthYear": "1984",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1789288145299010",
+  "motherName": "أمية بدران",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "عبد الشكور الفانوس",
+    "marriageDate": "2002"
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T19:07:17.463Z",
+  "requestId": "1789326439757-89787",
+  "photoPath": null
+}
