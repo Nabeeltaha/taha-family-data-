@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-13T16:42:11.926702",
+  "lastUpdated": "2026-09-13T18:28:34.761671",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -11794,6 +11794,36 @@
       "motherName": "منال صلاح",
       "isSingle": true,
       "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789313292117588",
+      "parentId": "1789288145299010",
+      "name": "جمال",
+      "birthYear": "1975",
+      "deathYear": null,
+      "photos": [],
+      "education": "معهد متوسط",
+      "currentJob": "طوبوغرافي",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "امية بدران",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "فاطمة صلاح",
+          "marriageDate": "٢٠٠٥",
+          "linkedMemberId": null
+        }
+      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
