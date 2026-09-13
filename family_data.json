@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-13T22:32:01.215129",
+  "lastUpdated": "2026-09-13T22:36:00.148511",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -12326,6 +12326,34 @@
       ],
       "isCreator": false,
       "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789328142431006",
+      "parentId": "1785405970965299",
+      "name": "أسماء",
+      "birthYear": "1997",
+      "deathYear": null,
+      "photos": [],
+      "education": "تاسع",
+      "currentJob": "رية منزل",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "ندى المفلس",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "اياد القابوني",
+        "marriageDate": "2022",
+        "linkedMemberId": null
+      },
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
