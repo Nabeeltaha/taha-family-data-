@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "ضياء",
+  "gender": "male",
+  "birthYear": "1979",
+  "isAlive": false,
+  "deathYear": "2015",
+  "isMartyr": true,
+  "isRevolutionMartyr": true,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1789288145299010",
+  "motherName": "أمية بدران",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "رجاء الخنشور",
+      "marriageDate": "٢٠٠٨"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T19:43:06.963Z",
+  "requestId": "1789328587827-73145",
+  "photoPath": null
+}
