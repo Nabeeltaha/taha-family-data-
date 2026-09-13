@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1953",
+  "isAlive": false,
+  "deathYear": "2006",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد",
+  "fatherId": "1789327581342131",
+  "motherName": "مفقود",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "غالية",
+      "marriageDate": "1997"
+    }
+  ],
+  "husband": null,
+  "education": "لايوجد بيانات كافية",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T21:42:09.566Z",
+  "requestId": "1789335730786-4903",
+  "photoPath": null
+}
