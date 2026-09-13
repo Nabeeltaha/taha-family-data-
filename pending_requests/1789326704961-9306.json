@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "يونس",
+  "gender": "male",
+  "birthYear": "1990",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1789288145299010",
+  "motherName": "أميه بدران",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "نور الساعور",
+      "marriageDate": "٢٠١٦"
+    }
+  ],
+  "husband": null,
+  "education": "بكالوريوس هندسة مدنية",
+  "currentJob": "مهندس",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0997263736",
+  "submittedAt": "2026-09-13T19:11:44.019Z",
+  "requestId": "1789326704961-9306",
+  "photoPath": null
+}
