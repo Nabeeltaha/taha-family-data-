@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "غدير",
+  "gender": "female",
+  "birthYear": "1985",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "مصطفى",
+  "fatherId": "1789247565973746",
+  "motherName": "سناء طه",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "خالد خلبوص",
+    "marriageDate": "٢٠١٤"
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T21:47:58.796Z",
+  "requestId": "1789336079134-38853",
+  "photoPath": null
+}
