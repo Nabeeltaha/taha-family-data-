@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "أنس",
+  "gender": "male",
+  "birthYear": "1992",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1789288145299010",
+  "motherName": "أمية بدران",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ريم بكداش",
+      "marriageDate": "٢٠٢٥"
+    }
+  ],
+  "husband": null,
+  "education": "بكالوريا",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T19:20:20.922Z",
+  "requestId": "1789327221795-50116",
+  "photoPath": null
+}
