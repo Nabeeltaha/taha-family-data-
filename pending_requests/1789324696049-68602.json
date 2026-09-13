@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1789288145299010",
+  "memberName": "خليل",
+  "name": "خليل",
+  "gender": "male",
+  "birthYear": "1942",
+  "isAlive": false,
+  "deathYear": "2025",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد",
+  "fatherId": "1784813857562569",
+  "motherName": "فاطمة بدران",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "أمية بدران",
+      "marriageDate": "1972"
+    }
+  ],
+  "husband": null,
+  "education": "مساحة ( طبوغرافيا)",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "كان معارضا لنظام الاسد وحكم الأسد من بعده\nلوحق عام 1968\nاعتقل في عام 1991 بسبب رفض مشاركة سورية في العدوان على العراق\nاعتقل في عام 2011 اثر انطلاق الثورة السورية",
+  "phone": "",
+  "submittedAt": "2026-09-13T18:38:13.776Z",
+  "requestId": "1789324696049-68602",
+  "photoPath": "pending_photos/1789324696049-68602.jpg"
+}
