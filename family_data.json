@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-13T11:45:36.213179",
+  "lastUpdated": "2026-09-13T13:02:16.877261",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -11463,34 +11463,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789265518276422",
-      "parentId": "41",
-      "name": "راما",
-      "birthYear": "2002",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "female",
-      "motherName": "ميساء طه",
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": {
-        "name": "توفيق",
-        "marriageDate": "2024",
-        "linkedMemberId": null
-      },
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789265533723134",
       "parentId": "1785537416480978",
       "name": "نور",
@@ -11694,6 +11666,64 @@
       ],
       "isCreator": false,
       "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789293689948778",
+      "parentId": "1789288145299010",
+      "name": "أحمد",
+      "birthYear": "1974",
+      "deathYear": null,
+      "photos": [],
+      "education": "هندسة تدفئة و تكييف",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "أمية بدران",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "منال صلاح",
+          "marriageDate": "2004",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789265518276422",
+      "parentId": "41",
+      "name": "راما",
+      "birthYear": "2002",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "ميساء طه",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "توفيق السطلة",
+        "marriageDate": "2024",
+        "linkedMemberId": null
+      },
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
