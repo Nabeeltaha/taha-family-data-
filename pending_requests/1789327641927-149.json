@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "سميرة",
+  "gender": "female",
+  "birthYear": "1969",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1785405711693964",
+  "motherName": "أميرة الحنش",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "فايز جاموس",
+    "marriageDate": "1984"
+  },
+  "education": "تاسع",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T19:27:20.434Z",
+  "requestId": "1789327641927-149",
+  "photoPath": null
+}
