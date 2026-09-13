@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1983",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1785405711693964",
+  "motherName": "أمير الحنش",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "نهى سليك",
+      "marriageDate": "2007"
+    }
+  ],
+  "husband": null,
+  "education": "بكلوريا",
+  "currentJob": "صيانة السيارات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0969841831",
+  "submittedAt": "2026-09-13T19:14:21.752Z",
+  "requestId": "1789326864196-60928",
+  "photoPath": "pending_photos/1789326864196-60928.jpg"
+}
