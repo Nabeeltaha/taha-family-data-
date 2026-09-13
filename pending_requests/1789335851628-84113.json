@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "عمار",
+  "gender": "male",
+  "birthYear": "1974",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "مصطفى",
+  "fatherId": "1789247565973746",
+  "motherName": "سناء طه",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "وفاء الدرة",
+      "marriageDate": "٢٠٠٣"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T21:44:11.301Z",
+  "requestId": "1789335851628-84113",
+  "photoPath": null
+}
