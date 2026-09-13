@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-13T19:25:58.781341",
+  "lastUpdated": "2026-09-13T21:57:18.100360",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -11699,36 +11699,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789288145299010",
-      "parentId": "1784813857562569",
-      "name": "خليل",
-      "birthYear": "1942",
-      "deathYear": "2025",
-      "photos": [],
-      "education": "مساحة ( طبوغرافيا)",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "فاطمة بدران",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "أمية بدران",
-          "marriageDate": "1972",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789306882977334",
       "parentId": "1789293689948778",
       "name": "تقى",
@@ -11938,6 +11908,68 @@
       "motherName": "هيام مجيد",
       "isSingle": true,
       "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789325790399912",
+      "parentId": "1789288145299010",
+      "name": "عدنان",
+      "birthYear": "1977",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "أمية بدران",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "سلوى مياسا",
+          "marriageDate": "2002",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789288145299010",
+      "parentId": "1784813857562569",
+      "name": "خليل",
+      "birthYear": "1942",
+      "deathYear": "2025",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_0726ec4fa85f4461d5fb636e98cc8648.jpg"
+      ],
+      "education": "مساحة ( طبوغرافيا)",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": "كان معارضا لنظام الاسد وحكم الأسد من بعده\nلوحق عام 1968\nاعتقل في عام 1991 بسبب رفض مشاركة سورية في العدوان على العراق\nاعتقل في عام 2011 اثر انطلاق الثورة السورية",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "فاطمة بدران",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "أمية بدران",
+          "marriageDate": "1972",
+          "linkedMemberId": null
+        }
+      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
