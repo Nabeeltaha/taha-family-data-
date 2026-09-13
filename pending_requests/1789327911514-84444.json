@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "أسماء",
+  "gender": "female",
+  "birthYear": "1997",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "أحمد راتب",
+  "fatherId": "1785405970965299",
+  "motherName": "ندى المفلس",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "اياد القابوني",
+    "marriageDate": "2022"
+  },
+  "education": "تاسع",
+  "currentJob": "رية منزل",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-13T19:31:49.440Z",
+  "requestId": "1789327911514-84444",
+  "photoPath": null
+}
