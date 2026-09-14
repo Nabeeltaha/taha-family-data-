@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "أكرم",
+  "gender": "male",
+  "birthYear": "1993",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمود",
+  "fatherId": "1789136679126262",
+  "motherName": "منى معيكة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ندى",
+      "marriageDate": "14/7/2017"
+    }
+  ],
+  "husband": null,
+  "education": "خريج معهد تقاني للحاسوب",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0981501902",
+  "submittedAt": "2026-09-14T21:40:26.529Z",
+  "requestId": "1789422027039-64308",
+  "photoPath": null
+}
