@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "إيناس",
+  "gender": "female",
+  "birthYear": "1995",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ابراهيم",
+  "fatherId": "1785537416480978",
+  "motherName": "بهيرة التلاوي",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "سمير عوامة",
+    "marriageDate": "2015"
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-14T14:21:01.155Z",
+  "requestId": "1789395663332-36908",
+  "photoPath": null
+}
