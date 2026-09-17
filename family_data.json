@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-16T16:44:52.537972",
+  "lastUpdated": "2026-09-17T10:51:54.116359",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -7787,38 +7787,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789115000588639",
-      "parentId": "1789073833399357",
-      "name": "عمر",
-      "birthYear": "2001",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_35c089b437734cb1526432d44190c5d0.jpg"
-      ],
-      "education": "حقوق",
-      "currentJob": "محامي",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "امنه",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "يمنى طه",
-          "marriageDate": "2025",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789115024955975",
       "parentId": "1785405809682062",
       "name": "عمر",
@@ -13186,6 +13154,38 @@
       "motherName": "غفران المليح",
       "isSingle": true,
       "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789115000588639",
+      "parentId": "1789073833399357",
+      "name": "عمر",
+      "birthYear": "2001",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_35c089b437734cb1526432d44190c5d0.jpg"
+      ],
+      "education": "حقوق",
+      "currentJob": "استاذ  محامي",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "امنه",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "يمنى",
+          "marriageDate": "2025",
+          "linkedMemberId": "1789120642351609"
+        }
+      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
