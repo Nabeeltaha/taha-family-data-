@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "براءة",
+  "gender": "female",
+  "birthYear": "1999",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "عبد الناصر",
+  "fatherId": "1789126760569921",
+  "motherName": "رويدة بدران",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "محمد المشعود",
+    "marriageDate": "2016"
+  },
+  "education": "اعدادي",
+  "currentJob": "ربة منزل",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-17T19:18:47.145Z",
+  "requestId": "1789672728448-14950",
+  "photoPath": null
+}
