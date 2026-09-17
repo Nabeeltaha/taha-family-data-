@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "غيداء",
+  "gender": "female",
+  "birthYear": "1993",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ابراهيم",
+  "fatherId": "1785537416480978",
+  "motherName": "بهيرة التلاوي",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "أنس المدور",
+    "marriageDate": "٢٠١٦"
+  },
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-17T18:20:31.073Z",
+  "requestId": "1789669231732-22210",
+  "photoPath": null
+}
