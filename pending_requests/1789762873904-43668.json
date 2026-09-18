@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "اسماء",
+  "gender": "female",
+  "birthYear": "2002",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "علي",
+  "fatherId": "1784588653193114",
+  "motherName": "راميا عيون",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "سامر ندم",
+    "marriageDate": "2022"
+  },
+  "education": "شريعة",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-18T20:21:13.614Z",
+  "requestId": "1789762873904-43668",
+  "photoPath": null
+}
