@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-18T23:48:31.182041",
+  "lastUpdated": "2026-09-18T23:50:28.889166",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -4702,36 +4702,6 @@
         {
           "name": ".",
           "marriageDate": null,
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "21",
-      "parentId": "20",
-      "name": "محمد",
-      "birthYear": "1975",
-      "deathYear": null,
-      "photos": [],
-      "education": "د مهندس  كلية  الهندسة الكهربائية جامعة دمشق",
-      "currentJob": "معاون مدير منطقة الغوطة الشرقية",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": true,
-      "gender": "male",
-      "motherName": "د. رغداء رستم",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "هالة جحى",
-          "marriageDate": "١٩٩٨",
           "linkedMemberId": null
         }
       ],
@@ -13499,6 +13469,38 @@
         {
           "name": "مؤمنة سريول",
           "marriageDate": "1997",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "21",
+      "parentId": "20",
+      "name": "محمد",
+      "birthYear": "1975",
+      "deathYear": null,
+      "photos": [],
+      "education": "د مهندس  كلية  الهندسة الكهربائية جامعة دمشق",
+      "currentJob": "مهندس",
+      "previousJobs": [],
+      "positions": [
+        "معاون مدير منطقة الغوطة الشرقية"
+      ],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": "د. رغداء رستم",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "هالة جحى",
+          "marriageDate": "١٩٩٨",
           "linkedMemberId": null
         }
       ],
