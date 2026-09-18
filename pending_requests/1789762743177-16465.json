@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "رنيم",
+  "gender": "female",
+  "birthYear": "1999",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "علي",
+  "fatherId": "1784588653193114",
+  "motherName": "راميا عيون",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "المهندس عماد الدين دلوان",
+    "marriageDate": "2018"
+  },
+  "education": "تنميةاطفال",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-18T20:19:02.837Z",
+  "requestId": "1789762743177-16465",
+  "photoPath": null
+}
