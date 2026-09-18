@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1784588627654266",
+  "memberName": "ابراهيم",
+  "name": "ابراهيم",
+  "gender": "male",
+  "birthYear": "1967",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "مصطفى",
+  "fatherId": "49",
+  "motherName": "وصال طه",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "مؤمنة سريول",
+      "marriageDate": "1997"
+    }
+  ],
+  "husband": null,
+  "education": "هندسة كهرباء جامعة دمشق",
+  "currentJob": "مهندس",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "م إبراهيم مصطفى خالد طه\nالام \nموظف في الهيئه العامه للاستشعار عن بعد من عام ١٩٩٣ لغايه ٢٠٢٦\nشغل المناصب التاليه\nرئيس دائرة التجهيزات الحاسوبية وملحقاتها ١٩٩٤ لغايه. ٢٠٠٥\nريئس دائرة التجهيزات والمباني ٢٠٠٥ لغايه ٢٠١٧\nمدير الشؤون الفنيه ٢٠١٨ لغايه ٢٠٢٥\nشارك بمؤتمر المركز الجهوي لدول شمال أفريقيا بتونس\nشارك بدوره تدريبيه بلغات البرمجه بالهند\nمشاركه بجميع الندوات التي تقام في سوريا",
+  "phone": "",
+  "submittedAt": "2026-09-18T18:39:03.092Z",
+  "requestId": "1789756745746-30298",
+  "photoPath": "pending_photos/1789756745746-30298.jpg"
+}
