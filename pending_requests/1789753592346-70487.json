@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1932",
+  "isAlive": false,
+  "deathYear": "1993",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "هاشم",
+  "fatherId": "1785752821299519",
+  "motherName": "رقية الختاوب",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "حياة سعدا",
+      "marriageDate": "1975"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-18T17:46:31.361Z",
+  "requestId": "1789753592346-70487",
+  "photoPath": null
+}
