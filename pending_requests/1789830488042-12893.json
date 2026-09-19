@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "هشام",
+  "gender": "male",
+  "birthYear": "1978",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1789783086068667",
+  "motherName": "حياة سعدا",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "رحاب دعاس",
+      "marriageDate": "2004"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-19T15:08:06.959Z",
+  "requestId": "1789830488042-12893",
+  "photoPath": null
+}
