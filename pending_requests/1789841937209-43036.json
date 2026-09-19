@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "صالح",
+  "gender": "male",
+  "birthYear": "1944",
+  "isAlive": false,
+  "deathYear": "2013",
+  "isMartyr": true,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "سعيد",
+  "fatherId": "1784814019340736",
+  "motherName": "امنة الأجوة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "اميرة معيكة",
+      "marriageDate": "1982"
+    }
+  ],
+  "husband": null,
+  "education": "سادس",
+  "currentJob": "موظف بحوث زراعية",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0995096113",
+  "submittedAt": "2026-09-19T18:18:56.565Z",
+  "requestId": "1789841937209-43036",
+  "photoPath": null
+}
