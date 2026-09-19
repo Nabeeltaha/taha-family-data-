@@ -1,0 +1,32 @@
+{
+  "type": "update",
+  "memberId": "1789783350102714",
+  "memberName": "رنيم",
+  "name": "رنيم",
+  "gender": "female",
+  "birthYear": "1999",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "علي",
+  "fatherId": "1784588653193114",
+  "motherName": "راميا عيون",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "المهندس: عماد الدين دلوان",
+    "marriageDate": "2017"
+  },
+  "education": "جامعة ارزروم التركية-كلية التربية تخصص تنمية الطفل",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-09-19T09:02:32.284Z",
+  "requestId": "1789808552713-42811",
+  "photoPath": null
+}
