@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1988",
+  "isAlive": false,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد علي",
+  "fatherId": "1789078270196039",
+  "motherName": "إلهام الصيداوي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "نداء النعسان",
+      "marriageDate": "٢٠١١"
+    }
+  ],
+  "husband": null,
+  "education": "الشهادة الثانوية",
+  "currentJob": "فلاح- صناعة القوالب والتصاميم الجاهزه -نجار باطون",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "في بداية الثورة كنت مجاهدا في لواء الإسلام كتيبة الزبير بن العوام",
+  "phone": "",
+  "submittedAt": "2026-09-21T19:45:25.263Z",
+  "requestId": "1790019926851-24986",
+  "photoPath": null
+}
