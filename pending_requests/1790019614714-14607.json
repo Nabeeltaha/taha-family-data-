@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "ياسر",
+  "gender": "male",
+  "birthYear": "1987",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد علي",
+  "fatherId": "1789078270196039",
+  "motherName": "إلهام الصيداوي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ثراء النعسان",
+      "marriageDate": "٢٠١١"
+    }
+  ],
+  "husband": null,
+  "education": "سادس",
+  "currentJob": "صناعة القوالب والتصاميم",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "خلال الثورة عملت مجاهداً في جيش الإسلام فقدت عيني بالإضافة أصبتي في يدي ورجلي بالشظايا",
+  "phone": "09639500800",
+  "submittedAt": "2026-09-21T19:40:12.748Z",
+  "requestId": "1790019614714-14607",
+  "photoPath": null
+}
