@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "سامر",
+  "gender": "male",
+  "birthYear": "1993",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد علي",
+  "fatherId": "1789078270196039",
+  "motherName": "إلهام الصيداوي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "لوتس",
+      "marriageDate": "٢٠١٤"
+    }
+  ],
+  "husband": null,
+  "education": "تجارة واقتصاد",
+  "currentJob": "محاسب",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "عملت خلال الثورة مجاهداً في جيش الإسلام ومرافق للشيخ محمد زهران علوش.\nبعد معركة الله غالب انتقلت الى الاتحاد الإسلامي/شباب الهدى/أصبت في يدي وليس لدي مفصل في يدي اليسرى",
+  "phone": "",
+  "submittedAt": "2026-09-21T19:33:14.902Z",
+  "requestId": "1790019198154-87311",
+  "photoPath": null
+}
