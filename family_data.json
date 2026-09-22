@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-22T16:51:43.460125",
+  "lastUpdated": "2026-09-22T20:06:49.499928",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -13507,36 +13507,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789783154429316",
-      "parentId": "1785752821299519",
-      "name": "محمد",
-      "birthYear": "1932",
-      "deathYear": "1993",
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "رقية الختاوب",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "حياة سعدا",
-          "marriageDate": "1975",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789680916087278",
       "parentId": "1789136679126262",
       "name": "أكرم",
@@ -13809,96 +13779,6 @@
         {
           "name": "إلهام الصيداوي",
           "marriageDate": "١٩٨٣",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1790085047595548",
-      "parentId": "1789078270196039",
-      "name": "سامر",
-      "birthYear": "1993",
-      "deathYear": null,
-      "photos": [],
-      "education": "تجارة واقتصاد",
-      "currentJob": "محاسب",
-      "previousJobs": [],
-      "positions": [],
-      "bio": "عملت خلال الثورة مجاهداً في جيش الإسلام ومرافق للشيخ محمد زهران علوش.\nبعد معركة الله غالب انتقلت الى الاتحاد الإسلامي/شباب الهدى/أصبت في يدي وليس لدي مفصل في يدي اليسرى",
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "إلهام الصيداوي",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "لوتس",
-          "marriageDate": "٢٠١٤",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1790085060343362",
-      "parentId": "1789078270196039",
-      "name": "ياسر",
-      "birthYear": "1987",
-      "deathYear": null,
-      "photos": [],
-      "education": "سادس",
-      "currentJob": "صناعة القوالب والتصاميم",
-      "previousJobs": [],
-      "positions": [],
-      "bio": "خلال الثورة عملت مجاهداً في جيش الإسلام فقدت عيني بالإضافة أصبتي في يدي ورجلي بالشظايا",
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "إلهام الصيداوي",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "ثراء النعسان",
-          "marriageDate": "٢٠١١",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1790085074641323",
-      "parentId": "1789078270196039",
-      "name": "محمد",
-      "birthYear": "1988",
-      "deathYear": null,
-      "photos": [],
-      "education": "الشهادة الثانوية",
-      "currentJob": "فلاح- صناعة القوالب والتصاميم الجاهزه -نجار باطون",
-      "previousJobs": [],
-      "positions": [],
-      "bio": "في بداية الثورة كنت مجاهدا في لواء الإسلام كتيبة الزبير بن العوام",
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "إلهام الصيداوي",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "نداء النعسان",
-          "marriageDate": "٢٠١١",
           "linkedMemberId": null
         }
       ],
