@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "أحمد راتب",
+  "gender": "male",
+  "birthYear": "1970",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "محمد",
+  "fatherId": "1785405711693964",
+  "motherName": "أميرة",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ندى المفلس",
+      "marriageDate": "١٩٩٤"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "تاجر",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0959462835",
+  "submittedAt": "2026-09-25T16:52:54.778Z",
+  "requestId": "1790355180438-33792",
+  "photoPath": "pending_photos/1790355180438-33792.jpg"
+}
