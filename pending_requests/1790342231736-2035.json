@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1789293689948778",
+  "memberName": "أحمد",
+  "name": "أحمد",
+  "gender": "male",
+  "birthYear": "1974",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "خليل",
+  "fatherId": "1789288145299010",
+  "motherName": "أمية بدران",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "منال صلاح",
+      "marriageDate": "2004"
+    }
+  ],
+  "husband": null,
+  "education": "بكالوريوس هندسة",
+  "currentJob": "مهندس تدفئة و تكييف",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "أحد مؤسسي المجلس المحلي لمدينة دوما 2012 أثناء الثورة",
+  "phone": "",
+  "submittedAt": "2026-09-25T13:17:06.237Z",
+  "requestId": "1790342231736-2035",
+  "photoPath": "pending_photos/1790342231736-2035.jpg"
+}
