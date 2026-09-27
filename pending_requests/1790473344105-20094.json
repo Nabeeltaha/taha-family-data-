@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "محمد",
+  "gender": "male",
+  "birthYear": "1988",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "منير",
+  "fatherId": "1789137462786894",
+  "motherName": "ام محمود",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ام منير",
+      "marriageDate": "2016"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "البناء والمقاولات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "محمد ابن منير طه \nتولد 1988 حارة الجوره \nالاقامه السابقه  دوما حي عبد الرؤوف \nالاقامه الحاليه المانيا الجنوب \nوما بين 2012 و2023  الاقامه في ليبيا طرابلس",
+  "phone": "",
+  "submittedAt": "2026-09-27T01:42:24.373Z",
+  "requestId": "1790473344105-20094",
+  "photoPath": "pending_photos/1790473344105-20094.jpg"
+}
