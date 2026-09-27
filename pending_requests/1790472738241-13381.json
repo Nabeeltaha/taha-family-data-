@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "بلال",
+  "gender": "male",
+  "birthYear": "1993",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "منير",
+  "fatherId": "1789137462786894",
+  "motherName": "ام محمود",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ام عمار",
+      "marriageDate": "2020"
+    }
+  ],
+  "husband": null,
+  "education": "Elektro-Mechatroniker",
+  "currentJob": "سكب المعدن بالشمع المفقود",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "بلال منير طه  \nتولد دوما حي عبد الرؤوف \nالاقامه السابقه دوما حي عبد الرؤوف \nالاقامه الحاليه المانيا الجنوب",
+  "phone": "004915211217969",
+  "submittedAt": "2026-09-27T01:32:18.510Z",
+  "requestId": "1790472738241-13381",
+  "photoPath": "pending_photos/1790472738241-13381.jpg"
+}
