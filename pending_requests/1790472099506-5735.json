@@ -1,0 +1,34 @@
+{
+  "type": "update",
+  "memberId": "1789137462786894",
+  "memberName": "منير",
+  "name": "منير",
+  "gender": "male",
+  "birthYear": "1962",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "ياسين",
+  "fatherId": "1785188508374368",
+  "motherName": "فاطمه",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ام محمود",
+      "marriageDate": "1987"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "السيارات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "الحاج منير ياسين طه \nمولود بحارة الجوره \nمتزوج  وعندي  11 من البنات  والبنين \nالعمل بمجال السيارات \nالاقامه السابقه حي عبد الرؤوف \nالاقامه الحاليه حي السنديانه",
+  "phone": "",
+  "submittedAt": "2026-09-27T01:21:39.874Z",
+  "requestId": "1790472099506-5735",
+  "photoPath": "pending_photos/1790472099506-5735.jpg"
+}
