@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "محمود",
+  "gender": "male",
+  "birthYear": "1992",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "منير",
+  "fatherId": "1789137462786894",
+  "motherName": "ام محمود",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "ام ماجد",
+      "marriageDate": "2018"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "البناء والمقاولات",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "محمود ابن منير طه \nتولد 1992 حي عبد الرؤوف   \nالاقامه السابقه  حي عبد الرؤوف  \nالاقامه الحاليه تركيا اسطنبول \nمن عام 2011 الى عام 2018  مجاهد في سبيل الله  بمدينة دوما",
+  "phone": "",
+  "submittedAt": "2026-09-27T01:50:19.604Z",
+  "requestId": "1790473819374-32318",
+  "photoPath": "pending_photos/1790473819374-32318.jpg"
+}
