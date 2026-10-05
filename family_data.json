@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-10-05T21:29:01.589939",
+  "lastUpdated": "2026-10-05T21:52:28.149944",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -14566,36 +14566,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1791223756181311",
-      "parentId": "1791221161908861",
-      "name": "خليل",
-      "birthYear": "1971",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "آمنة الخنشور",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "زينب",
-          "marriageDate": "1995",
-          "linkedMemberId": "1791223895040773"
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1791223895040773",
       "parentId": "1791223813964513",
       "name": "زينب",
@@ -14619,6 +14589,70 @@
         "marriageDate": "1995",
         "linkedMemberId": "1791223756181311"
       },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1791225981707255",
+      "parentId": "1791221161908861",
+      "name": "خالد",
+      "birthYear": "1975",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_8f0810d574240773ee1dcd66ec58234f.jpg"
+      ],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "آمنة الخنشور",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "حنان الساعور",
+          "marriageDate": "2003",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1791223756181311",
+      "parentId": "1791221161908861",
+      "name": "خليل",
+      "birthYear": "1971",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_93aeb2ed913f3bf44a220f00db82b03a.jpg"
+      ],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "آمنة الخنشور",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "زينب",
+          "marriageDate": "1995",
+          "linkedMemberId": "1791223895040773"
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
