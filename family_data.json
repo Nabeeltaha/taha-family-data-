@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-09-28T09:43:15.929970",
+  "lastUpdated": "2026-10-05T14:24:29.382876",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -10048,36 +10048,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1785537512470381",
-      "parentId": "1784986973010001",
-      "name": "بشير",
-      "birthYear": "1912",
-      "deathYear": "1979",
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "ميمونة",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "فضيلة الدالاتي",
-          "marriageDate": ".",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789136645211776",
       "parentId": "1789122573904672",
       "name": "عبد الله",
@@ -12442,36 +12412,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789417840258987",
-      "parentId": "49",
-      "name": "عمر",
-      "birthYear": "1963",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "وصال طه",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "هنادي",
-          "marriageDate": "1995",
-          "linkedMemberId": "1784815736356929"
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789108435062250",
       "parentId": "1785188508374368",
       "name": "ماجد",
@@ -14087,38 +14027,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1790511653211715",
-      "parentId": "1789137462786894",
-      "name": "محمود",
-      "birthYear": "1992",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_2df1f1e4370598ed23464ecbcb80014b.jpg"
-      ],
-      "education": null,
-      "currentJob": "البناء والمقاولات",
-      "previousJobs": [],
-      "positions": [],
-      "bio": "محمود ابن منير طه \nتولد 1992 حي عبد الرؤوف   \nالاقامه السابقه  حي عبد الرؤوف  \nالاقامه الحاليه تركيا اسطنبول \nمن عام 2011 الى عام 2018  مجاهد في سبيل الله  بمدينة دوما",
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "سوسن البويضاني",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "نور قطان",
-          "marriageDate": "2018",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1790511470090932",
       "parentId": "1789137462786894",
       "name": "بلال",
@@ -14376,6 +14284,196 @@
       "isRevolutionMartyr": false,
       "isMujahid": true,
       "isRevolutionMujahid": true
+    },
+    {
+      "id": "1789417840258987",
+      "parentId": "49",
+      "name": "عمر",
+      "birthYear": "1963",
+      "deathYear": null,
+      "photos": [],
+      "education": "كلية العلوم بجامعة دمشق",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": "▪︎ عمل في مجال التطوير  الكيميائي \nخلال الثورة والحصار \n▪︎طوَّر منظومة توليد عبر الطاقة الشمسية متنقلة لتخفيف العبىء على اهل الغوطة الشرقية",
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": "وصال طه",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "هنادي",
+          "marriageDate": "1995",
+          "linkedMemberId": "1784815736356929"
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1791199263911151",
+      "parentId": "1789137462786894",
+      "name": "ايمن",
+      "birthYear": "2000",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": "شيف طباخ ولحام قصاب",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "سوسن",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1791199276860551",
+      "parentId": "1789137462786894",
+      "name": "ميساء",
+      "birthYear": "2004",
+      "deathYear": null,
+      "photos": [],
+      "education": "صيدلة",
+      "currentJob": "صيدلانية",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "خريجة صيدلة عام 2027",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "سوسن البويضاني",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1791199306029929",
+      "parentId": "1790511653211715",
+      "name": "شام",
+      "birthYear": "2021",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "نور القطان",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1791199320394948",
+      "parentId": "1790511653211715",
+      "name": "ايلين",
+      "birthYear": "2019",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "نور القطان",
+      "isSingle": true,
+      "wives": [],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1790511653211715",
+      "parentId": "1789137462786894",
+      "name": "محمود",
+      "birthYear": "1992",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_2df1f1e4370598ed23464ecbcb80014b.jpg"
+      ],
+      "education": null,
+      "currentJob": "البناء والمقاولات",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "محمود ابن منير طه \nتولد 1992 حي عبد الرؤوف   \nالاقامه السابقه  حي عبد الرؤوف  \nالاقامه الحاليه تركيا اسطنبول \nمن عام 2011 الى عام 2018  مجاهد في سبيل الله  بمدينة دوما",
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "سوسن البويضاني",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "نور قطان",
+          "marriageDate": "2018",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785537512470381",
+      "parentId": "1784986973010001",
+      "name": "بشير",
+      "birthYear": "1912",
+      "deathYear": "1979",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_e1a6bb90d0303f4825c80680bb7b4129.jpg"
+      ],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "ميمونة",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "فضيلة الدالاتي",
+          "marriageDate": ".",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
     }
   ]
 }
