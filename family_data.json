@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-10-05T14:24:29.382876",
+  "lastUpdated": "2026-10-05T14:25:35.652309",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -14286,36 +14286,6 @@
       "isRevolutionMujahid": true
     },
     {
-      "id": "1789417840258987",
-      "parentId": "49",
-      "name": "عمر",
-      "birthYear": "1963",
-      "deathYear": null,
-      "photos": [],
-      "education": "كلية العلوم بجامعة دمشق",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": "▪︎ عمل في مجال التطوير  الكيميائي \nخلال الثورة والحصار \n▪︎طوَّر منظومة توليد عبر الطاقة الشمسية متنقلة لتخفيف العبىء على اهل الغوطة الشرقية",
-      "isMartyr": false,
-      "isFamous": true,
-      "gender": "male",
-      "motherName": "وصال طه",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "هنادي",
-          "marriageDate": "1995",
-          "linkedMemberId": "1784815736356929"
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1791199263911151",
       "parentId": "1789137462786894",
       "name": "ايمن",
@@ -14467,6 +14437,36 @@
           "name": "فضيلة الدالاتي",
           "marriageDate": ".",
           "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789417840258987",
+      "parentId": "49",
+      "name": "عمر",
+      "birthYear": "1963",
+      "deathYear": null,
+      "photos": [],
+      "education": "كلية العلوم بجامعة دمشق",
+      "currentJob": "استاذ",
+      "previousJobs": [],
+      "positions": [],
+      "bio": "▪︎ عمل في مجال التطوير  الكيميائي \nخلال الثورة والحصار \n▪︎طوَّر منظومة توليد عبر الطاقة الشمسية متنقلة لتخفيف العبىء على اهل الغوطة الشرقية",
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": "وصال طه",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "هنادي",
+          "marriageDate": "1995",
+          "linkedMemberId": "1784815736356929"
         }
       ],
       "isCreator": false,
