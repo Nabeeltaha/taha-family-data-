@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-10-05T21:52:28.149944",
+  "lastUpdated": "2026-10-06T06:13:19.588676",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -3949,36 +3949,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "31",
-      "parentId": "18",
-      "name": "مازن",
-      "birthYear": "1974",
-      "deathYear": null,
-      "photos": [],
-      "education": "مخبري",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "رجاء الصلاحي",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "لمى طه",
-          "marriageDate": "٢٠٠٦",
-          "linkedMemberId": "1784551464155069"
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1785494489054842",
       "parentId": "39",
       "name": "فاتنة",
@@ -4058,34 +4028,6 @@
       "husband": null,
       "isRevolutionMartyr": false,
       "isMujahid": true,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1785494680713527",
-      "parentId": "39",
-      "name": "هدى",
-      "birthYear": "1966",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "female",
-      "motherName": "مريم الحوري",
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": {
-        "name": "تيسير طه",
-        "marriageDate": "١٩٨٧",
-        "linkedMemberId": null
-      },
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
       "isRevolutionMujahid": false
     },
     {
@@ -4251,129 +4193,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1785537572687186",
-      "parentId": "1785537512470381",
-      "name": "تيسير",
-      "birthYear": "1954",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "فضيلة الدالاتي",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "هدى",
-          "marriageDate": "١٩٨٥",
-          "linkedMemberId": "1785494680713527"
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1785537874465024",
-      "parentId": "1785537416480978",
-      "name": "ميساء",
-      "birthYear": "1976",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "female",
-      "motherName": "بهيرة التلاوي",
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": {
-        "name": "عماد",
-        "marriageDate": "١٩٩٢",
-        "linkedMemberId": "41"
-      },
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "41",
-      "parentId": "39",
-      "name": "عماد",
-      "birthYear": "1969",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": null,
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "ميساء",
-          "marriageDate": "١٩٩٣",
-          "linkedMemberId": "1785537874465024"
-        },
-        {
-          "name": "هناء حيرب",
-          "marriageDate": null,
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1784815801414361",
-      "parentId": "1784815676126690",
-      "name": "خليل",
-      "birthYear": "1970",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": null,
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "ايمان",
-          "marriageDate": "١٩٩١",
-          "linkedMemberId": "1784815875504794"
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1785752691630967",
       "parentId": "1785752610746444",
       "name": "قاسم",
@@ -4399,34 +4218,6 @@
       ],
       "isCreator": false,
       "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1785752735276955",
-      "parentId": "1785752691630967",
-      "name": "لينا",
-      "birthYear": "1996",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "female",
-      "motherName": ".",
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": {
-        "name": "بلال طه",
-        "marriageDate": "٢٠١٠",
-        "linkedMemberId": null
-      },
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
@@ -5253,36 +5044,6 @@
       "motherName": "لينا آدم",
       "isSingle": true,
       "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1785752898533779",
-      "parentId": "1785752847907079",
-      "name": "بلال",
-      "birthYear": "1989",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": null,
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "لينا",
-          "marriageDate": "٢٠١٠",
-          "linkedMemberId": "1785752735276955"
-        }
-      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
@@ -6899,41 +6660,6 @@
         }
       ],
       "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "11",
-      "parentId": "10",
-      "name": "محمد نبيل",
-      "birthYear": "1972",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207618063_11.jpg"
-      ],
-      "education": "مهندس مدني",
-      "currentJob": "مهندس مدني - مكتب أعمال هندسية",
-      "previousJobs": [],
-      "positions": [
-        "رئيس المجلس المحلي لمدينة دوما 2018-2020",
-        "مدير قرى أطفال سورية SOS"
-      ],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": true,
-      "gender": "male",
-      "motherName": "حياة الصلاحي",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "لينا",
-          "marriageDate": "٢٠٠٥",
-          "linkedMemberId": "51"
-        }
-      ],
-      "isCreator": true,
       "husband": null,
       "isRevolutionMartyr": false,
       "isMujahid": false,
@@ -14653,6 +14379,280 @@
       ],
       "isCreator": false,
       "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785494680713527",
+      "parentId": "39",
+      "name": "هدى",
+      "birthYear": "1966",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "مريم الحوري",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "تيسير طه",
+        "marriageDate": "1985",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785537572687186",
+      "parentId": "1785537512470381",
+      "name": "تيسير",
+      "birthYear": "1954",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "فضيلة الدالاتي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "هدى",
+          "marriageDate": "1985",
+          "linkedMemberId": "1785494680713527"
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1784815801414361",
+      "parentId": "1784815676126690",
+      "name": "خليل",
+      "birthYear": "1970",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": null,
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "ايمان",
+          "marriageDate": "1991",
+          "linkedMemberId": "1784815875504794"
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785537874465024",
+      "parentId": "1785537416480978",
+      "name": "ميساء",
+      "birthYear": "1976",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "بهيرة التلاوي",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "عماد",
+        "marriageDate": "1992",
+        "linkedMemberId": "41"
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "41",
+      "parentId": "39",
+      "name": "عماد",
+      "birthYear": "1969",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": null,
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "ميساء",
+          "marriageDate": "1992",
+          "linkedMemberId": "1785537874465024"
+        },
+        {
+          "name": "هناء حيرب",
+          "marriageDate": null,
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "11",
+      "parentId": "10",
+      "name": "محمد نبيل",
+      "birthYear": "1972",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/synced_1784207618063_11.jpg"
+      ],
+      "education": "مهندس مدني",
+      "currentJob": "مهندس مدني - مكتب أعمال هندسية",
+      "previousJobs": [],
+      "positions": [
+        "رئيس المجلس المحلي لمدينة دوما 2018-2020",
+        "مدير قرى أطفال سورية SOS"
+      ],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": "حياة الصلاحي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "لينا",
+          "marriageDate": "2005",
+          "linkedMemberId": "51"
+        }
+      ],
+      "isCreator": true,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "31",
+      "parentId": "18",
+      "name": "مازن",
+      "birthYear": "1974",
+      "deathYear": null,
+      "photos": [],
+      "education": "مخبري",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "رجاء الصلاحي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "لمى طه",
+          "marriageDate": "2006",
+          "linkedMemberId": "1784551464155069"
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785752898533779",
+      "parentId": "1785752847907079",
+      "name": "بلال",
+      "birthYear": "1989",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": null,
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "لينا",
+          "marriageDate": "2010",
+          "linkedMemberId": "1785752735276955"
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1785752735276955",
+      "parentId": "1785752691630967",
+      "name": "لينا",
+      "birthYear": "1996",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": ".",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "بلال طه",
+        "marriageDate": "2010",
+        "linkedMemberId": null
+      },
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
