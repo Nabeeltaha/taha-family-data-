@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "عبدالرحمن",
+  "gender": "male",
+  "birthYear": "1994",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "تيسير",
+  "fatherId": "1785537572687186",
+  "motherName": "هدى",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "إيمان",
+      "marriageDate": "2025"
+    }
+  ],
+  "husband": null,
+  "education": "كيميائي",
+  "currentJob": "كيميائي",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "+966590664440",
+  "submittedAt": "2026-10-08T18:09:42.250Z",
+  "requestId": "1791482983904-82331",
+  "photoPath": null
+}
