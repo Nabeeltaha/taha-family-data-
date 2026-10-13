@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-10-09T02:01:34.914212",
+  "lastUpdated": "2026-10-13T12:09:17.565662",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -10912,36 +10912,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789325790399912",
-      "parentId": "1789288145299010",
-      "name": "عدنان",
-      "birthYear": "1977",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "أمية بدران",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "سلوى مياسا",
-          "marriageDate": "2002",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789288145299010",
       "parentId": "1784813857562569",
       "name": "خليل",
@@ -14686,6 +14656,40 @@
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789325790399912",
+      "parentId": "1789288145299010",
+      "name": "عدنان",
+      "birthYear": "1977",
+      "deathYear": null,
+      "photos": [],
+      "education": "معهد متوسط مساحة",
+      "currentJob": "شركة ضمانك أطلس",
+      "previousJobs": [],
+      "positions": [
+        "عضو مكتب التنفيذي بمجلس مدينة دوما",
+        "أمين سر مجلس الصلح في دوما",
+        "عضو هيئة العدالة الانتقالية"
+      ],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": "أمية بدران",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "سلوى مياسا",
+          "marriageDate": "2002",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": true,
+      "isRevolutionMujahid": true
     }
   ]
 }
