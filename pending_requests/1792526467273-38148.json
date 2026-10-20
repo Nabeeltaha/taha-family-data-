@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "عدنان",
+  "gender": "male",
+  "birthYear": "1968",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "هاشم",
+  "fatherId": "1785752821299519",
+  "motherName": "رقية الحتاوي",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "سميرة صبحية",
+      "marriageDate": "١٩٩٠"
+    }
+  ],
+  "husband": null,
+  "education": "",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "0935440581",
+  "submittedAt": "2026-10-20T20:01:05.307Z",
+  "requestId": "1792526467273-38148",
+  "photoPath": null
+}
