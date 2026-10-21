@@ -1,0 +1,32 @@
+{
+  "type": "add",
+  "name": "عدنان",
+  "gender": "male",
+  "birthYear": "1968",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "عدنان",
+  "fatherId": "1789119381118595",
+  "motherName": "هاشم",
+  "isSingle": false,
+  "wives": [
+    {
+      "name": "سميرة",
+      "marriageDate": "1990"
+    }
+  ],
+  "husband": "",
+  "education": "",
+  "currentJob": "لا عمل",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-10-21T16:28:12.012Z",
+  "requestId": "1792600092926-12570",
+  "photoPath": null
+}
