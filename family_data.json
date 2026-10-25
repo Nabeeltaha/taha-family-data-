@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-10-13T12:09:17.565662",
+  "lastUpdated": "2026-10-25T14:57:19.445909",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -9718,34 +9718,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789237614083009",
-      "parentId": "1785537512470381",
-      "name": "إلهام",
-      "birthYear": "1957",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "female",
-      "motherName": "فضيلة",
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": {
-        "name": "التلاوي",
-        "marriageDate": ".",
-        "linkedMemberId": null
-      },
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789237631054487",
       "parentId": "1785537512470381",
       "name": "يسرى",
@@ -14690,6 +14662,34 @@
       "isRevolutionMartyr": false,
       "isMujahid": true,
       "isRevolutionMujahid": true
+    },
+    {
+      "id": "1789237614083009",
+      "parentId": "1785537512470381",
+      "name": "إلهام",
+      "birthYear": "1957",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "فضيلة",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "هاشم تلاوي",
+        "marriageDate": "1986",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
     }
   ]
 }
