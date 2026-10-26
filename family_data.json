@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-10-27T00:57:52.966186",
+  "lastUpdated": "2026-10-27T01:03:19.153156",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -14643,7 +14643,7 @@
       "id": "1784819413586920",
       "parentId": "12",
       "name": "حياة",
-      "birthYear": "1925",
+      "birthYear": "1924",
       "deathYear": "2008",
       "photos": [],
       "education": null,
@@ -14654,13 +14654,13 @@
       "isMartyr": false,
       "isFamous": false,
       "gender": "female",
-      "motherName": null,
+      "motherName": "ام صلاح عزو",
       "isSingle": false,
       "wives": [],
       "isCreator": false,
       "husband": {
-        "name": "الدرة",
-        "marriageDate": null,
+        "name": "مصطفى حليمة",
+        "marriageDate": "1935",
         "linkedMemberId": null
       },
       "isRevolutionMartyr": false,
