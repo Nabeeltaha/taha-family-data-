@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-10-27T00:48:44.462451",
+  "lastUpdated": "2026-10-27T00:57:52.966186",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -1015,34 +1015,6 @@
       "wives": [],
       "isCreator": false,
       "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1784819413586920",
-      "parentId": "12",
-      "name": "حياة",
-      "birthYear": "1925",
-      "deathYear": "1990",
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "female",
-      "motherName": null,
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": {
-        "name": "الدرة",
-        "marriageDate": null,
-        "linkedMemberId": null
-      },
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
@@ -14663,6 +14635,34 @@
       ],
       "isCreator": false,
       "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1784819413586920",
+      "parentId": "12",
+      "name": "حياة",
+      "birthYear": "1925",
+      "deathYear": "2008",
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": null,
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "الدرة",
+        "marriageDate": null,
+        "linkedMemberId": null
+      },
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
