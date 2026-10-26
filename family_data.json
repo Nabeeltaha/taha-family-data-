@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-10-25T14:57:19.445909",
+  "lastUpdated": "2026-10-27T00:48:44.462451",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -11,30 +11,6 @@
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_91781689a04266287d76147e9d1d323a.jpg"
   ],
   "members": [
-    {
-      "id": "24",
-      "parentId": "23",
-      "name": "زهير",
-      "birthYear": "1958",
-      "deathYear": "2014",
-      "photos": [],
-      "education": "تاسع",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": null,
-      "motherName": null,
-      "isSingle": false,
-      "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
     {
       "id": "35",
       "parentId": "11",
@@ -6040,36 +6016,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789078242288065",
-      "parentId": "24",
-      "name": "فهد",
-      "birthYear": "1986",
-      "deathYear": null,
-      "photos": [],
-      "education": null,
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "هدى",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "مريم بكار",
-          "marriageDate": "27/11/2010",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789079155111940",
       "parentId": "1785752847907079",
       "name": "أميرة",
@@ -9177,38 +9123,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789061402801559",
-      "parentId": "24",
-      "name": "محمود",
-      "birthYear": "1989",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_e5aa22e68b5486b2297f3855f0be2b9b.jpg"
-      ],
-      "education": null,
-      "currentJob": "تاجر سيارات",
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "هدى صلاح",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "تسنيم مجيد",
-          "marriageDate": "2015",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1785405711693964",
       "parentId": "1784813857562569",
       "name": "محمد",
@@ -10569,38 +10483,6 @@
       "motherName": "أسيمه",
       "isSingle": true,
       "wives": [],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
-      "id": "1789108547919350",
-      "parentId": "1789078242288065",
-      "name": "زهير",
-      "birthYear": "1958",
-      "deathYear": "2015",
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_14bb96835cb232a5093036a8d999505d.jpg"
-      ],
-      "education": "مؤذن وخادم جامع سليق",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": null,
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "مسرة الفران",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "هدى صلاح",
-          "marriageDate": "1985",
-          "linkedMemberId": null
-        }
-      ],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
@@ -14687,6 +14569,100 @@
         "marriageDate": "1986",
         "linkedMemberId": null
       },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789108547919350",
+      "parentId": "23",
+      "name": "زهير",
+      "birthYear": "1958",
+      "deathYear": "2015",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_14bb96835cb232a5093036a8d999505d.jpg"
+      ],
+      "education": "مؤذن وخادم جامع سليق",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "مسرة الفران",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "هدى صلاح",
+          "marriageDate": "1985",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789078242288065",
+      "parentId": "1789108547919350",
+      "name": "فهد",
+      "birthYear": "1986",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "هدى",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "مريم بكار",
+          "marriageDate": "27/11/2010",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789061402801559",
+      "parentId": "1789108547919350",
+      "name": "محمود",
+      "birthYear": "1989",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_e5aa22e68b5486b2297f3855f0be2b9b.jpg"
+      ],
+      "education": null,
+      "currentJob": "تاجر سيارات",
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "هدى صلاح",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "تسنيم مجيد",
+          "marriageDate": "2015",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
