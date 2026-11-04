@@ -1,0 +1,30 @@
+{
+  "type": "add",
+  "name": "صباح",
+  "gender": "female",
+  "birthYear": "1963",
+  "isAlive": true,
+  "deathYear": "",
+  "isMartyr": false,
+  "isRevolutionMartyr": false,
+  "isMujahid": false,
+  "isRevolutionMujahid": false,
+  "fatherName": "هاشم",
+  "fatherId": "1785752821299519",
+  "motherName": "رقية خالد الحتاوي",
+  "isSingle": false,
+  "wives": [],
+  "husband": {
+    "name": "صبري جمعة",
+    "marriageDate": "1978"
+  },
+  "education": "بتدي",
+  "currentJob": "",
+  "previousJobs": [],
+  "positions": [],
+  "bio": "",
+  "phone": "",
+  "submittedAt": "2026-11-04T17:32:02.011Z",
+  "requestId": "1793813522739-80626",
+  "photoPath": null
+}
