@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-10-27T01:06:31.657051",
+  "lastUpdated": "2026-11-05T13:54:50.157638",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -14689,6 +14689,34 @@
       "husband": {
         "name": "ابو يونس الدرة",
         "marriageDate": "1936",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1793876037916183",
+      "parentId": "14",
+      "name": "فوزية",
+      "birthYear": "1929",
+      "deathYear": "2016",
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "مريم الزنجي",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "صلاح البربري",
+        "marriageDate": "1945",
         "linkedMemberId": null
       },
       "isRevolutionMartyr": false,
