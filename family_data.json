@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-11-05T13:54:50.157638",
+  "lastUpdated": "2026-11-06T20:49:29.851325",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -10738,38 +10738,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789288145299010",
-      "parentId": "1784813857562569",
-      "name": "خليل",
-      "birthYear": "1942",
-      "deathYear": "2025",
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_0726ec4fa85f4461d5fb636e98cc8648.jpg"
-      ],
-      "education": "مساحة ( طبوغرافيا)",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": "كان معارضا لنظام الاسد وحكم الأسد من بعده\nلوحق عام 1968\nاعتقل في عام 1991 بسبب رفض مشاركة سورية في العدوان على العراق\nاعتقل في عام 2011 اثر انطلاق الثورة السورية",
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "فاطمة بدران",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "أمية بدران",
-          "marriageDate": "1972",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789327469325460",
       "parentId": "1789314093261622",
       "name": "علاء",
@@ -14719,6 +14687,40 @@
         "marriageDate": "1945",
         "linkedMemberId": null
       },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789288145299010",
+      "parentId": "1784813857562569",
+      "name": "خليل",
+      "birthYear": "1942",
+      "deathYear": "2025",
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_0726ec4fa85f4461d5fb636e98cc8648.jpg"
+      ],
+      "education": "مساحة ( طبوغرافيا)",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [
+        "رئيس دائرة المساحة بالمصالح العقارية"
+      ],
+      "bio": "كان معارضا لنظام الاسد وحكم الأسد من بعده\nلوحق عام  1968 \nعضو قيادي في حزب الاتحاد الاشتراكي المعارض\nاعتقل في عام 1991 بسبب رفض مشاركة سورية في العدوان على العراق\nاعتقل في عام 2011 اثر انطلاق الثورة السورية",
+      "isMartyr": false,
+      "isFamous": true,
+      "gender": "male",
+      "motherName": "فاطمة بدران",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "أمية بدران",
+          "marriageDate": "1972",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
       "isRevolutionMartyr": false,
       "isMujahid": false,
       "isRevolutionMujahid": false
