@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-11-14T00:12:40.152983",
+  "lastUpdated": "2026-11-14T00:21:01.524357",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -14791,14 +14791,18 @@
       "name": "بسام",
       "birthYear": "1983",
       "deathYear": null,
-      "photos": [],
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_ca683bdd3002640e49f89a1ab82f7bc6.jpg"
+      ],
       "education": null,
       "currentJob": null,
       "previousJobs": [],
-      "positions": [],
+      "positions": [
+        "معاون مدير منطقة الغوطة الشرقية"
+      ],
       "bio": null,
       "isMartyr": false,
-      "isFamous": false,
+      "isFamous": true,
       "gender": "male",
       "motherName": "فوزية كحلوس",
       "isSingle": false,
