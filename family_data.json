@@ -1,6 +1,6 @@
 {
   "version": 81,
-  "lastUpdated": "2026-11-14T00:21:01.524357",
+  "lastUpdated": "2026-11-16T09:51:50.240863",
   "history": "لمحة تاريخية عن عائلة طه في مدينة دوما - سوريا : \nوبكل فخر واعتزاز  تتميز عائلة طه بالعراقة والكرم والتاريخ الجهادي ضدد الظلم  منذ عدة أجيال، اشتهر أبناؤها بالعمل في التعليم والزراعة والتجارة، ولها حضور واضح في خدمة المجتمع المحلي عبر المساجد والمرافق العامة.",
   "historyPhotos": [
     "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/history_photo_f12c7f52a9fc68d36457968f2aacd5af.jpg",
@@ -11848,38 +11848,6 @@
       "isRevolutionMujahid": false
     },
     {
-      "id": "1789108435062250",
-      "parentId": "1785188508374368",
-      "name": "ماجد",
-      "birthYear": "1973",
-      "deathYear": null,
-      "photos": [
-        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_a8618461fb0fb52724facdab5d69c95f.jpg"
-      ],
-      "education": "خريج معهد متوسط هندسي",
-      "currentJob": null,
-      "previousJobs": [],
-      "positions": [],
-      "bio": "شركه المناره",
-      "isMartyr": false,
-      "isFamous": false,
-      "gender": "male",
-      "motherName": "فاطمه أنيس",
-      "isSingle": false,
-      "wives": [
-        {
-          "name": "رنا بدران",
-          "marriageDate": "٢٠٠٧",
-          "linkedMemberId": null
-        }
-      ],
-      "isCreator": false,
-      "husband": null,
-      "isRevolutionMartyr": false,
-      "isMujahid": false,
-      "isRevolutionMujahid": false
-    },
-    {
       "id": "1789566103346709",
       "parentId": "1789085657804915",
       "name": "كنان",
@@ -14813,6 +14781,122 @@
           "linkedMemberId": "1794604131960329"
         }
       ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1794811615794939",
+      "parentId": "1785752821299519",
+      "name": "صباح",
+      "birthYear": "1963",
+      "deathYear": null,
+      "photos": [],
+      "education": "بتدي",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "رقية خالد الحتاوي",
+      "isSingle": false,
+      "wives": [],
+      "isCreator": false,
+      "husband": {
+        "name": "صبري جمعة",
+        "marriageDate": "1978",
+        "linkedMemberId": null
+      },
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1794811660109693",
+      "parentId": "1785752821299519",
+      "name": "عدنان",
+      "birthYear": "1968",
+      "deathYear": null,
+      "photos": [],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "رقية الحتاوي",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "سميرة صبحية",
+          "marriageDate": "١٩٩٠",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1789108435062250",
+      "parentId": "1785188508374368",
+      "name": "ماجد",
+      "birthYear": "1973",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_807d73ffa2e0fb4788028601e36379ec.jpg"
+      ],
+      "education": "خريج معهد متوسط هندسي",
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "male",
+      "motherName": "فاطمة أنيس",
+      "isSingle": false,
+      "wives": [
+        {
+          "name": "رنا بدران",
+          "marriageDate": "٢٠٠٧",
+          "linkedMemberId": null
+        }
+      ],
+      "isCreator": false,
+      "husband": null,
+      "isRevolutionMartyr": false,
+      "isMujahid": false,
+      "isRevolutionMujahid": false
+    },
+    {
+      "id": "1794811633621736",
+      "parentId": "1789084680635755",
+      "name": "روِيم",
+      "birthYear": "2026",
+      "deathYear": null,
+      "photos": [
+        "https://cdn.jsdelivr.net/gh/Nabeeltaha/taha-family-data-@main/photos/photo_93da808c3ca9d041a57b0db79cf3970d.jpg"
+      ],
+      "education": null,
+      "currentJob": null,
+      "previousJobs": [],
+      "positions": [],
+      "bio": null,
+      "isMartyr": false,
+      "isFamous": false,
+      "gender": "female",
+      "motherName": "ريم ندم",
+      "isSingle": true,
+      "wives": [],
       "isCreator": false,
       "husband": null,
       "isRevolutionMartyr": false,
